@@ -6,7 +6,9 @@ Aquí se define la **idea central** del videojuego. Esta sección funciona como 
 
 ## Concepto central
 
-**El videojuego trata sobre:**
+**El videojuego trata sobre:**  Un futuro, en donde grandes companias como Nuddle, Bookworm, etc tienen el control general del mundo, un sistema en donde se usa a gente de clase baja/media como herramientas para hacer crecer el bolsillo de gente clase alta.
+
+Nuestros protagonistas ya tuvieron suficiente, y su objetivo es tomar el control de las oficinas centrales de diferentes companias y destruirlas desde dentro para poder abrir puertas a un futuro mas prometedor para su gente.
 
 > Explica la fantasía principal que el jugador debe experimentar.
 
@@ -24,11 +26,7 @@ Completa:
 > [!question] Pregunta clave
 > ¿Qué fantasía estamos permitiendo cumplir al jugador?
 
-Ejemplos:
-- Sentirse como un explorador.
-- Sentirse como un estratega.
-- Sentirse como un superviviente.
-- Sentirse como un héroe.
+Sentirse como un rebelde o un revolucionario.
 
 ## Propuesta de valor
 
@@ -38,7 +36,7 @@ Ejemplos:
 
 Lista las características que definen la experiencia.
 
-1. 
+1. Infinito
 2. 
 3. 
 4. 
@@ -54,5 +52,6 @@ Lista las características que definen la experiencia.
 
 > Esta sección es especialmente importante para evitar que el proyecto crezca sin control.
 
-
+Un juego de peleas plataformero para combate entre jugadores
+Un juego 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Ficha del Proyecto]] · [[03 - Público y Plataforma]] →

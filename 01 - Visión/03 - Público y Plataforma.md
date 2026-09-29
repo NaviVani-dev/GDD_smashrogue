@@ -6,46 +6,48 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 ## Público objetivo
 
-**Edad aproximada:**
+**Edad aproximada:** 10 años en adelante
 
-**Experiencia esperada:**  
+**Experiencia esperada:**  Casual y avanzada
 > Casual, intermedia, avanzada.
 
-**Intereses relevantes:**
+**Intereses relevantes:** Jugadores regulares de juegos de peleas de plataformas
 
-**Conocimientos previos necesarios:**
+**Conocimientos previos necesarios:** Ninguno
 
 ## Plataforma
 
-| Elemento | Decisión |
-|---|---|
-| Plataforma principal | |
-| Plataformas secundarias | |
-| Método de entrada | Teclado / Mouse / Control / Pantalla táctil |
-| Resolución objetivo | |
-| Relación de aspecto | |
-| Rendimiento objetivo | FPS |
-| Conexión requerida | Sí / No |
+| Elemento                | Decisión                           |
+| ----------------------- | ---------------------------------- |
+| Plataforma principal    | PC (Windows, Linux)                |
+| Plataformas secundarias | Xbox, PlayStation, Nintendo Switch |
+| Método de entrada       | Teclado / Control                  |
+| Resolución objetivo     | 1920x1080                          |
+| Relación de aspecto     | 16:9                               |
+| Rendimiento objetivo    | 60 FPS                             |
+| Conexión requerida      | No                                 |
 
 ## Restricciones de plataforma
 
 Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribución o conectividad.
 
+
 ## Sesión de juego
 
-**Duración esperada de una sesión:**
+**Duración esperada de una sesión:** 20 mins
 
-**Duración total estimada del juego:**
+**Duración total estimada del juego:** 
 
 ## Modelo de distribución
 
 > Gratuito, pago único, educativo, prototipo académico, etc.
-
+Pago único (Lanzamiento final)
+Prototipo académico (Entrega de proyecto)
 ## Consideraciones
 
-- [ ] Controles adaptados a la plataforma
-- [ ] Interfaz legible
-- [ ] Rendimiento considerado
+- [x] Controles adaptados a la plataforma
+- [x] Interfaz legible
+- [x] Rendimiento considerado
 - [ ] Resoluciones consideradas
 - [ ] Guardado compatible
 

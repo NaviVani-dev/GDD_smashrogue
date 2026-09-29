@@ -6,41 +6,41 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo | Información |
-|---|---|
-| **Nombre del proyecto** | <!-- Nombre oficial o nombre temporal --> |
-| **Nombre clave** | <!-- Identificador interno si existe --> |
-| **Versión del GDD** | 0.1.0 |
-| **Estado del proyecto** | Concepto / Preproducción / Producción / Pruebas / Publicado |
-| **Equipo** | <!-- Integrantes --> |
-| **Responsable del proyecto** | <!-- Persona responsable --> |
-| **Fecha de inicio** | <!-- AAAA-MM-DD --> |
-| **Última actualización** | <!-- AAAA-MM-DD --> |
-| **Repositorio** | <!-- Enlace --> |
+| Campo                        | Información                                                                                                                                           |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre del proyecto**      | <!-- Nombre oficial o nombre temporal -->                                                                                                             |
+| **Nombre clave**             | RogueSmash                                                                                                                                            |
+| **Versión del GDD**          | 0.1.0                                                                                                                                                 |
+| **Estado del proyecto**      | Concepto                                                                                                                                              |
+| **Equipo**                   | Anthony David Duarte Naal<br>Hernandez Mex Ariel Roberto<br>Maldonado Tun Carlos Daniel<br>Hector Ulises Barreda Ojeda<br>Mendoza Sanchez Axel Gibran |
+| **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                                             |
+| **Fecha de inicio**          | 2026-09-25                                                                                                                                            |
+| **Última actualización**     | <!-- AAAA-MM-DD -->                                                                                                                                   |
+| **Repositorio**              | <!-- Enlace -->                                                                                                                                       |
 
 ## Identidad del videojuego
 
-**Género principal:**  
+**Género principal:**  Acción
 > Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
 
-**Subgéneros:**  
+**Subgéneros:**  Hack and Slash, Plataformas 2D
 > Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
-**Plataforma objetivo:**  
+**Plataforma objetivo:**  PC, Xbox, PlayStation, Nintendo Switch, Steam Deck
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
-**Modo de juego:**  
+**Modo de juego:**  Un jugador
 > Consulta [[05 - Modos de Juego]].
 
-**Perspectiva:**  
+**Perspectiva:**  2.5D
 > Consulta [[04 - Perspectivas y Cámaras]].
-
+<!-- AAAA-MM-DD -->
 **Clasificaciones y etiquetas adicionales:**  
 > Consulta [[06 - Clasificaciones y Etiquetas]].
 
-**Tecnología principal:**  
+**Tecnología principal:**  Unity
 > Motor, lenguaje y herramientas principales.
 
 ## Elevator Pitch
@@ -48,11 +48,11 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 > [!example] ¿Qué es?
 > Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
 
-**Respuesta:**
+**Respuesta:** Combate contra multiples oleadas de enemigos infinitamente al estilo Smash Bros.
 
 ## Estado actual
 
-- [ ] Concepto definido
+- [x] Concepto definido
 - [ ] Alcance inicial definido
 - [ ] Mecánica principal definida
 - [ ] Prototipo funcional
@@ -64,6 +64,6 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Criterio de éxito del proyecto
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
-
+El juego contiene al menos dos personajes jugables con diferentes tipos de movimientos, el gameplay es infinito y escalable, brindando una experiencia unica en cada partida de juego.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →
