@@ -6,29 +6,28 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 ## Plantilla
 
-### Nombre
+### Nombre: Bebida Energética
 
-**Tipo:**
+**Tipo: Objeto Consumible / Curación**
 
-**Descripción:**
+**Descripción: Una lata de bebida ultra azucarada que la corporación da a sus Guardias Débiles para que aguanten los turnos dobles**
 
-**Función:**
+**Función: Restaura un 30% de la salud máxima del personaje**
 
-**Cómo se obtiene:**
+**Cómo se obtiene: Al derrotar Guardias Débiles**
 
-**Cómo se utiliza:**
+**Cómo se utiliza: Se consume automáticamente al recogerla del suelo pasando por encima de ella**
 
-**Cantidad máxima:**
+**Cantidad máxima: No acumulable en inventario**
 
-**Valor:**
+**Valor: N/A (no se vende)**
 
-**Rareza:**
+**Rareza: Común**
 
 **Restricciones:**
 
 **Interacciones:**
 
-**Representación visual:**
-
+**Representación visual: Una lata de aluminio abollada con colores neón brillantes**
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →
