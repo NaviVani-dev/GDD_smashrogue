@@ -38,7 +38,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ## Personajes
 
-### Protagonista
+### Protagonistas
 
 #### Niko
 
@@ -72,6 +72,38 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Referencias visuales:** *(Por definir.)*
 
+#### Mateo Cruz
+
+**Rol:** Protagonista.
+
+**Función jugable:** Personaje jugable especializado en **taekwondo**. Utiliza el alcance de sus piernas para establecer un «muro invisible» a media distancia. Sus puños sirven como apoyo rápido para desestabilizar o alejar a enemigos demasiado cercanos. _(Moveset detallado por definir.)_
+
+**Función narrativa:** Representa la lucha por liberar a su clase del sistema opresivo de las corporaciones.
+
+**Descripción física:** Joven de complexión atlética moderada, cabello negro ondulado y abundante. Viste una chamarra roja, camiseta gris azulada oscura, pants negros, guantes de combate y calzado ligero de taekwondo. _(Edad por definir.)_
+
+**Personalidad:** Disciplinado y dedicado a su entrenamiento, lo que lo mantiene firme ante el peligro. Fuera del combate es relajado y bromista: disfruta convivir y no necesita estar serio todo el tiempo. Sin embargo, suele sobreestimar sus capacidades, subestimar a sus rivales o calcular mal sus movimientos.
+
+**Motivaciones:** Liberar a su clase del sistema opresivo y luchar contra el dominio de las corporaciones. _(Su historia personal y el hecho que lo llevó a involucrarse están por definir.)_
+
+**Objetivos:** Infiltrarse en las oficinas centrales de las corporaciones para destruirlas desde dentro.
+
+**Conflicto:** Su disciplina contra su exceso de confianza. Tiene preparación para pelear, pero puede equivocarse al evaluar a sus enemigos y sus propias capacidades, metiéndose en problemas.
+
+**Relaciones:** _(Por definir.)_
+
+_Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él podría animarla a confiar en su capacidad, mientras ella lo ayuda a reconocer riesgos que está subestimando. La relación concreta entre ambos todavía debe establecerse._
+
+**Arco del personaje:**  _(Por desarrollar.)_
+
+**Habilidades:** *(Por definir.)*
+
+**Debilidades:** *(Por definir.)*
+
+**Frases o tono de diálogo:** *(Por definir.)*
+
+**Referencias visuales:**
+![[20261016_070715.jpg.jpeg|415]]
 ### Personajes secundarios
 
 #### Mr. Wobbles
