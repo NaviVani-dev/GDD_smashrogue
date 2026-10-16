@@ -6,37 +6,64 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 ## Concepto del mundo
 
-**Época:**
+**Época:** Año 2060. El mundo es **moderno, no futurista**: se parece al nuestro, pero con las grandes corporaciones llevadas al extremo.
 
-**Lugar:**
+**Lugar:** Las ciudades del mundo, dominadas por los rascacielos corporativos. *(Ciudad o ciudades específicas por definir.)*
 
-**Contexto:**
+**Contexto:** Un puñado de megacorporaciones tiene el control general del mundo. La clase baja y media se usa como herramienta para hacer crecer las fortunas de la clase alta.
 
 **Reglas especiales del mundo:**
+- Todos están obligados a trabajar para alguna de las grandes compañías.
+- Las compañías deciden a quién atender primero, y siempre favorecen a los ricos.
+- Los datos personales son la moneda más valiosa: las empresas lo saben todo de todos.
 
 ## Historia del mundo
 
 ### Antes del juego
 
+La vida era normal hasta que varias empresas empezaron a tomar el control del mundo con facilidad. Poco a poco, el sistema comenzó a dar preferencia abierta a los ricos sobre la gente de bajos recursos, en el trabajo, en los precios y hasta en la atención médica. Fue en este contexto cuando Niko perdió a su hermano.
+
 ### Durante el juego
 
+La vida común es triste:
+- **Precios inflados** en todo.
+- **Tratos inhumanos** hacia los trabajadores.
+- **Anuncios por todas partes**, imposibles de evitar.
+- **Trabajo obligatorio** para las compañías gigantes.
+
+En los barrios de bajos recursos, el ambiente es deprimente. El único respiro son los espectáculos de Mr. Wobbles. Niko y él deciden infiltrarse en los rascacielos de cada compañía para derrocar a sus CEOs.
+
 ### Después del juego
+
+El cambio no es instantáneo. Tras la caída de las compañías, las ciudades se van liberando poco a poco: desaparecen los anuncios, la gente empieza a vivir en paz y el control vuelve a estar en manos del pueblo. La vida mejora lentamente, y el final deja abierta la imaginación sobre lo que pasará después.
 
 ## Lugares
 
 | Lugar | Descripción | Función jugable | Importancia narrativa |
 |---|---|---|---|
-| | | | |
+| Rascacielos corporativos | Oficinas centrales de cada compañía | Escenario de combate: cada ronda de enemigos es un piso más arriba | Símbolo del poder de cada empresa; derrotar al CEO en la cima acaba con su reinado |
+| Oficina del CEO (último piso) | La cima de cada rascacielos | Arena del jefe | Clímax de cada compañía |
+| Barrio de Niko y Mr. Wobbles | Comunidad de bajos recursos, triste y saturada de anuncios | — | Lo que los protagonistas defienden |
+| **Punto de la Resistencia** | Lugar de reunión de la resistencia | Punto de regreso tras cada derrota, antes de una nueva partida | Refugio de los protagonistas; donde se reagrupan para volver a intentarlo |
 
 ## Facciones
 
-| Facción | Objetivo | Relación con el jugador |
-|---|---|---|
-| | | |
+Las compañías son parodias de empresas reales conocidas por sus escándalos con datos personales.
+
+| Facción | Parodia de | Qué controla | Relación con el jugador |
+|---|---|---|---|
+| **Nuddle** | Google | La información: todo lo que la gente busca, ve y sabe pasa por Nuddle, que lo registra todo y lo vende al mejor postor. Dirigida por **Bernard "Big Data" Nuddleman**. **Es la compañía de la entrega.** | Enemiga: objetivo a derrocar |
+| **Bookworm** | Facebook | Las relaciones sociales: guarda cada conversación, amistad y foto, y manipula lo que la gente piensa. | Enemiga: objetivo a derrocar |
+| **Nile** | Amazon | El comercio: es la única tienda del mundo, fija los precios inflados y tiene bocinas "inteligentes" en cada casa que escuchan todo. Famosa por el trato inhumano a sus trabajadores. | Enemiga: objetivo a derrocar |
+| **Y** (se pronuncia "Why") | X / Twitter | La conversación pública: decide qué se dice y quién lo dice, y usa todo lo que publica la gente como materia prima para sus máquinas. Dirigida por **Melon Tusk**. | Enemiga: objetivo a derrocar |
+| **Niko y Mr. Wobbles** | — | La resistencia | Protagonistas |
 
 ## Coherencia del mundo
 
-Lista reglas que no deben romperse sin una razón narrativa o de diseño.
+- **Nadie muere al caer.** Cuando Niko o Mr. Wobbles salen volando por una ventana, escapan en paracaídas y evitan ser arrestados. Las derrotas son retiradas, no muertes.
+- **Moderno, no futurista.** La tecnología se parece a la actual; lo exagerado es el poder de las empresas, no la ciencia ficción.
+- **Heroico, pero no demasiado serio.** El mundo es triste, pero el humor nunca desaparece.
+- **El cambio es gradual.** Derrotar a una compañía no arregla el mundo de golpe.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →
