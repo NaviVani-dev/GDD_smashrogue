@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Diseño/02 - Mecánicas.md",
+                "file": "02 - Diseño/03 - Sistemas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Mecánicas"
+              "title": "03 - Sistemas"
             }
           }
         ]
@@ -201,8 +201,8 @@
   },
   "active": "406a138e9df5d01f",
   "lastOpenFiles": [
-    "02 - Diseño/01 - Jugabilidad.md",
     "02 - Diseño/02 - Mecánicas.md",
+    "02 - Diseño/01 - Jugabilidad.md",
     "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "03 - Historia y Mundo/03 - Personajes.md",
     "03 - Historia y Mundo/02 - Mundo.md",
