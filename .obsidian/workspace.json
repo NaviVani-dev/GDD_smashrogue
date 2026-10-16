@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "066b30b6b6ddd595",
+        "id": "444947305e0d0169",
         "type": "tabs",
         "children": [
           {
-            "id": "57b60a251379dd58",
+            "id": "82d46d894331bd75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Diseño/01 - Jugabilidad.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01 - Jugabilidad"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -189,15 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57b60a251379dd58",
+  "active": "82d46d894331bd75",
   "lastOpenFiles": [
+    "02 - Diseño/01 - Jugabilidad.md",
     "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "03 - Historia y Mundo/03 - Personajes.md",
     "03 - Historia y Mundo/02 - Mundo.md",
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
     "02 - Diseño/07 - Reglas y Estados del Juego.md",
     "02 - Diseño/02 - Mecánicas.md",
-    "02 - Diseño/01 - Jugabilidad.md",
     "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/02 - Visión del Juego.md",
     "01 - Visión/01 - Ficha del Proyecto.md",
