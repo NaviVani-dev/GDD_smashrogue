@@ -44,7 +44,7 @@ El cambio no es instantáneo. Tras la caída de las compañías, las ciudades se
 | Rascacielos corporativos | Oficinas centrales de cada compañía | Escenario de combate: cada ronda de enemigos es un piso más arriba | Símbolo del poder de cada empresa; derrotar al CEO en la cima acaba con su reinado |
 | Oficina del CEO (último piso) | La cima de cada rascacielos | Arena del jefe | Clímax de cada compañía |
 | Barrio de Niko y Mr. Wobbles | Comunidad de bajos recursos, triste y saturada de anuncios | — | Lo que los protagonistas defienden |
-| **Punto de la Resistencia** | Lugar de reunión de la resistencia | Punto de regreso tras cada derrota, antes de una nueva partida | Refugio de los protagonistas; donde se reagrupan para volver a intentarlo |
+| **La Coladera** (Punto de la Resistencia) | Base secreta de la resistencia, escondida bajo tierra en el viejo alcantarillado de la ciudad | Ninguna: no es un lugar jugable, solo existe en el lore | Refugio de los protagonistas; donde se reagrupan para volver a intentarlo |
 
 ## Facciones
 
@@ -57,6 +57,7 @@ Las compañías son parodias de empresas reales conocidas por sus escándalos co
 | **Nile** | Amazon | El comercio: es la única tienda del mundo, fija los precios inflados y tiene bocinas "inteligentes" en cada casa que escuchan todo. Famosa por el trato inhumano a sus trabajadores. | Enemiga: objetivo a derrocar |
 | **Y** (se pronuncia "Why") | X / Twitter | La conversación pública: decide qué se dice y quién lo dice, y usa todo lo que publica la gente como materia prima para sus máquinas. Dirigida por **Melon Tusk**. | Enemiga: objetivo a derrocar |
 | **Niko y Mr. Wobbles** | — | La resistencia | Protagonistas |
+| **Trabajadores de las compañías** | — | Programadores, marketing y demás empleados: víctimas del sistema, no culpables | Aliados: apoyan la causa desde dentro |
 
 ## Coherencia del mundo
 

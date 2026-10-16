@@ -6,16 +6,16 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo                              | Información                                                                                                                          |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombre del proyecto**      |                                                                                                                                       |
-| **Nombre clave**             | RogueSmash                                                                                                                            |
-| **Versión del GDD**         | 0.1.0                                                                                                                                 |
-| **Estado del proyecto**      | Concepto                                                                                                                              |
-| **Equipo**                   | Anthony David Duarte NaalHernandez Mex Ariel RobertoMaldonado Tun Carlos DanielHector Ulises Barreda OjedaMendoza Sanchez Axel Gibran |
-| **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                             |
-| **Fecha de inicio**          | 2026-09-25                                                                                                                            |
-| **Repositorio**              | [github.com/NaviVani-dev/GDD_smashrogue.git](https://github.com/NaviVani-dev/GDD_smashrogue.git)                                       |
+| Campo                        | Información                                                                                                                                           |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre del proyecto**      |                                                                                                                                                       |
+| **Nombre clave**             | RogueSmash                                                                                                                                            |
+| **Versión del GDD**          | 0.1.0                                                                                                                                                 |
+| **Estado del proyecto**      | Concepto                                                                                                                                              |
+| **Equipo**                   | Anthony David Duarte Naal<br>Hernandez Mex Ariel Roberto<br>Maldonado Tun Carlos Daniel<br>Hector Ulises Barreda Ojeda<br>Mendoza Sanchez Axel Gibran |
+| **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                                             |
+| **Fecha de inicio**          | 2026-09-25                                                                                                                                            |
+| **Repositorio**              | [github.com/NaviVani-dev/GDD_smashrogue.git](https://github.com/NaviVani-dev/GDD_smashrogue.git)                                                      |
 
 ## Identidad del videojuego
 
