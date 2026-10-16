@@ -32,6 +32,8 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 
 Describe el lenguaje, humor, formalidad y estilo de comunicación.
 
+La historia debe sentirse **heroica, pero no demasiado seria**. Mantiene un equilibrio entre chistes sencillos y un escenario poco feliz: el mundo es injusto y deprimente, pero sus protagonistas lo enfrentan con valentía y sentido del humor.
+
 ## Decisiones narrativas
 
 | Decisión | Opciones | Consecuencia |

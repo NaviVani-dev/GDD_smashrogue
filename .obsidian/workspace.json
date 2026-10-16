@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "066b30b6b6ddd595",
+        "id": "d86cb94e3ef36c34",
         "type": "tabs",
         "children": [
           {
-            "id": "57b60a251379dd58",
+            "id": "6087d01ed1235133",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Diseño/01 - Jugabilidad.md",
+                "file": "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Jugabilidad"
+              "title": "05 - Seguridad y Riesgos Técnicos"
             }
           }
         ]
@@ -46,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -169,36 +169,63 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "e055ad69aa477af7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57b60a251379dd58",
+  "active": "6087d01ed1235133",
   "lastOpenFiles": [
+    "07 - Tecnología/04 - Datos y Persistencia.md",
+    "07 - Tecnología/03 - Requisitos Técnicos.md",
+    "07 - Tecnología/02 - Motor y Herramientas.md",
+    "07 - Tecnología/01 - Arquitectura Técnica.md",
+    "05 - Arte y Audio/01 - Dirección de Arte.md",
+    "04 - Contenido/02 - Niveles.md",
+    "04 - Contenido/01 - Estructura del Contenido.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "02 - Diseño/07 - Reglas y Estados del Juego.md",
+    "02 - Diseño/06 - Economía y Recursos.md",
+    "02 - Diseño/05 - Progresión.md",
+    "02 - Diseño/04 - Controles.md",
+    "02 - Diseño/03 - Sistemas.md",
+    "02 - Diseño/02 - Mecánicas.md",
+    "02 - Diseño/01 - Jugabilidad.md",
     "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/03 - Público y Plataforma.md",
     "01 - Visión/02 - Visión del Juego.md",
     "01 - Visión/01 - Ficha del Proyecto.md",
-    "11 - Referencia de Diseño/04 - Perspectivas y Cámaras.md",
-    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
-    "11 - Referencia de Diseño/03 - Plataformas y Consolas.md",
-    "11 - Referencia de Diseño/05 - Modos de Juego.md",
-    "11 - Referencia de Diseño/02 - Subgéneros y Combinaciones.md",
-    "11 - Referencia de Diseño/01 - Géneros.md"
+    "04 - Contenido/05 - Misiones y Desafíos.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "00 - Acerca de esta guía.md",
+    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
+    "06 - Experiencia/04 - Guardado y Configuración.md"
   ]
 }
