@@ -6,12 +6,12 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 
 ## Recursos
 
-| Recurso | Obtención | Uso | Límite | Pérdida |
-|---|---|---|---|---|
-| **Porcentaje de daño** | Sube al recibir golpes | Determina qué tan lejos sale volando el personaje | 0% – 999% | Se reinicia a 0% al perder una vida. Baja con comida o con el boon de curación |
-| **Vidas** | 3 al iniciar la partida | Seguir jugando después de salir del escenario | 3 | Se pierde una al salir del escenario |
-| **Monedas** | Al derrotar enemigos: cantidad aleatoria **de 0 a 5** por enemigo | Comprar en la tienda | *(Por definir)* | Se pierden al terminar la partida |
-| **Boons** | Uno al terminar cada nivel | Mejorar el combate | 3 boons, nivel 5 cada uno | Se pierden al terminar la partida |
+| Recurso                | Obtención                                                         | Uso                                               | Límite                    | Pérdida                                                                        |
+| ---------------------- | ----------------------------------------------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------ |
+| **Porcentaje de daño** | Sube al recibir golpes                                            | Determina qué tan lejos sale volando el personaje | 0% – 999%                 | Se reinicia a 0% al perder una vida. Baja con comida o con el boon de curación |
+| **Vidas**              | 3 al iniciar la partida                                           | Seguir jugando después de salir del escenario     | 3                         | Se pierde una al salir del escenario                                           |
+| **Monedas**            | Al derrotar enemigos: cantidad aleatoria **de 0 a 5** por enemigo | Comprar en la tienda                              | *(Por definir)*           | Se pierden al terminar la partida                                              |
+| **Boons**              | Uno al terminar cada nivel                                        | Mejorar el combate                                | 3 boons, nivel 5 cada uno | Se pierden al terminar la partida                                              |
 
 ## Fuentes y sumideros
 
