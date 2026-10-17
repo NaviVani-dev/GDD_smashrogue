@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
+                "file": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Seguridad y Riesgos Técnicos"
+              "title": "04 - Diálogos y Narrativa"
             }
           }
         ]
@@ -46,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -189,43 +189,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "6087d01ed1235133",
   "lastOpenFiles": [
-    "07 - Tecnología/04 - Datos y Persistencia.md",
-    "07 - Tecnología/03 - Requisitos Técnicos.md",
-    "07 - Tecnología/02 - Motor y Herramientas.md",
-    "07 - Tecnología/01 - Arquitectura Técnica.md",
-    "05 - Arte y Audio/01 - Dirección de Arte.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "04 - Contenido/05 - Misiones y Desafíos.md",
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "04 - Contenido/03 - Enemigos y NPC.md",
     "04 - Contenido/02 - Niveles.md",
     "04 - Contenido/01 - Estructura del Contenido.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
-    "03 - Historia y Mundo/02 - Mundo.md",
-    "03 - Historia y Mundo/01 - Premisa y Trama.md",
-    "02 - Diseño/07 - Reglas y Estados del Juego.md",
-    "02 - Diseño/06 - Economía y Recursos.md",
-    "02 - Diseño/05 - Progresión.md",
+    "05 - Arte y Audio/01 - Dirección de Arte.md",
+    "05 - Arte y Audio/04 - Interfaz Visual.md",
+    "05 - Arte y Audio/05 - Audio y Música.md",
+    "05 - Arte y Audio/03 - Entornos.md",
+    "05 - Arte y Audio/02 - Personajes y Animación.md",
+    "WhatsApp Image 2026-10-16 at 12.29.57 PM.jpeg",
+    "20261016_070750.jpg.jpeg",
+    "20261016_070715.jpg.jpeg",
+    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
+    "06 - Experiencia/02 - UI y Menús.md",
+    "06 - Experiencia/04 - Guardado y Configuración.md",
+    "06 - Experiencia/03 - Accesibilidad.md",
     "02 - Diseño/04 - Controles.md",
-    "02 - Diseño/03 - Sistemas.md",
     "02 - Diseño/02 - Mecánicas.md",
     "02 - Diseño/01 - Jugabilidad.md",
     "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/03 - Público y Plataforma.md",
     "01 - Visión/02 - Visión del Juego.md",
     "01 - Visión/01 - Ficha del Proyecto.md",
-    "04 - Contenido/05 - Misiones y Desafíos.md",
-    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-    "00 - Acerca de esta guía.md",
-    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
-    "06 - Experiencia/04 - Guardado y Configuración.md"
+    "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md"
   ]
 }

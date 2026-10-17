@@ -14,6 +14,12 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 - Audio
 - Narración
 
+**Enfoque del juego:** la historia **no se explica de forma directa**. El jugador entra directo al juego y a pelear, al estilo de Megabonk: el juego se centra en el combate y el mundo se cuenta solo, a través del ambiente. No hay cinemáticas ni secciones dedicadas a explicar el lore.
+
+La historia llega al jugador por dos vías opcionales:
+1. **NPC en las tiendas:** trabajadores de la compañía (programadores, gente de marketing, etc.) que apoyan la causa y comentan un poco sobre la historia y el mundo.
+2. **Almanaque en el menú principal**, con el trasfondo de cada personaje (por ejemplo, la historia de Niko y su hermano Ethan).
+
 ## Estructura de diálogo
 
 ### Escena / Conversación
