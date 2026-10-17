@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d86cb94e3ef36c34",
+        "id": "0e454f036debcd50",
         "type": "tabs",
         "children": [
           {
-            "id": "6087d01ed1235133",
+            "id": "a2ad60bef122ba51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "06 - Experiencia/04 - Guardado y Configuración.md",
-                "mode": "source",
-                "source": false
+                "aFile": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+                "bFile": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "04 - Guardado y Configuración"
+              "icon": "diff",
+              "title": "Diff: 04 - Diálogos y Narrativa  (Working Tree)"
             }
           }
         ]
@@ -199,11 +199,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6087d01ed1235133",
+  "active": "a2ad60bef122ba51",
   "lastOpenFiles": [
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
+    "06 - Experiencia/04 - Guardado y Configuración.md",
     "06 - Experiencia/03 - Accesibilidad.md",
     "06 - Experiencia/02 - UI y Menús.md",
-    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
     "04 - Contenido/01 - Estructura del Contenido.md",
     "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
     "07 - Tecnología/04 - Datos y Persistencia.md",
@@ -212,7 +215,6 @@
     "07 - Tecnología/01 - Arquitectura Técnica.md",
     "05 - Arte y Audio/01 - Dirección de Arte.md",
     "04 - Contenido/02 - Niveles.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
     "03 - Historia y Mundo/02 - Mundo.md",
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
     "02 - Diseño/07 - Reglas y Estados del Juego.md",
@@ -224,8 +226,6 @@
     "02 - Diseño/01 - Jugabilidad.md",
     "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/03 - Público y Plataforma.md",
-    "01 - Visión/02 - Visión del Juego.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
-    "04 - Contenido/05 - Misiones y Desafíos.md"
+    "01 - Visión/02 - Visión del Juego.md"
   ]
 }
