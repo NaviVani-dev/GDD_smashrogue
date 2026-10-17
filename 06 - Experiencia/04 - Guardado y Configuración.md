@@ -6,29 +6,29 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
-**Tipo:** Automático / Manual / Mixto
+**Tipo:** Automático
 
-**Cuándo se guarda:**
+**Cuándo se guarda:** Por definir
 
-**Qué datos se guardan:**
+**Qué datos se guardan:** por definir
 
-**Cantidad de ranuras:**
+**Cantidad de ranuras:** por definir
 
-**Qué ocurre si el guardado falla:**
-
+**Qué ocurre si el guardado falla:** por definir
+ 
 ## Configuración
 
-| Categoría | Opciones |
-|---|---|
-| Audio | |
-| Video | |
-| Controles | |
-| Accesibilidad | |
-| Jugabilidad | |
+| Categoría     | Opciones |
+| ------------- | -------- |
+| Audio         | X        |
+| Video         |          |
+| Controles     | X        |
+| Accesibilidad |          |
+| Jugabilidad   |          |
 
 ## Restablecimiento
 
-¿Qué opciones pueden volver a valores predeterminados?
+Por definir
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Accesibilidad]] · [[01 - Arquitectura Técnica]] →

@@ -10,10 +10,10 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 - [ ] Subtítulos
 - [ ] Contraste
 - [ ] Modo para daltonismo
-- [ ] Reasignación de controles
+- [x] Reasignación de controles
 - [ ] Sensibilidad
 - [ ] Reducción de movimiento
-- [ ] Reducción de destellos
+- [x] Reducción de destellos
 - [ ] Asistencia de apuntado
 - [ ] Dificultad ajustable
 - [ ] Volumen independiente
@@ -21,7 +21,7 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 
 ## Consideraciones
 
-Documenta cualquier necesidad específica derivada del diseño del juego.
+Por definir
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →
