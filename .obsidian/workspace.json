@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0e454f036debcd50",
+        "id": "43e841806b15f2e9",
         "type": "tabs",
         "children": [
           {
-            "id": "a2ad60bef122ba51",
+            "id": "8015aa17e7241fe4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-                "bFile": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-                "aRef": ""
+                "file": "01 - Visión/01 - Ficha del Proyecto.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 04 - Diálogos y Narrativa  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "01 - Ficha del Proyecto"
             }
           }
         ]
@@ -46,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -189,18 +189,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2ad60bef122ba51",
+  "active": "8015aa17e7241fe4",
   "lastOpenFiles": [
+    "01 - Visión/04 - Pilares de Diseño.md",
+    "01 - Visión/03 - Público y Plataforma.md",
+    "01 - Visión/01 - Ficha del Proyecto.md",
+    "01 - Visión/02 - Visión del Juego.md",
+    "02 - Diseño/03 - Sistemas.md",
+    "02 - Diseño/02 - Mecánicas.md",
+    "02 - Diseño/01 - Jugabilidad.md",
     "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "03 - Historia y Mundo/03 - Personajes.md",
     "06 - Experiencia/01 - UX y Flujo del Jugador.md",
@@ -219,13 +226,6 @@
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
     "02 - Diseño/07 - Reglas y Estados del Juego.md",
     "02 - Diseño/06 - Economía y Recursos.md",
-    "02 - Diseño/05 - Progresión.md",
-    "02 - Diseño/04 - Controles.md",
-    "02 - Diseño/03 - Sistemas.md",
-    "02 - Diseño/02 - Mecánicas.md",
-    "02 - Diseño/01 - Jugabilidad.md",
-    "01 - Visión/04 - Pilares de Diseño.md",
-    "01 - Visión/03 - Público y Plataforma.md",
-    "01 - Visión/02 - Visión del Juego.md"
+    "02 - Diseño/05 - Progresión.md"
   ]
 }

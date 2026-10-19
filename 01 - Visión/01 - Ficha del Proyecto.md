@@ -11,7 +11,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | **Nombre del proyecto**      |                                                                                                                                                       |
 | **Nombre clave**             | RogueSmash                                                                                                                                            |
 | **Versión del GDD**          | 0.1.0                                                                                                                                                 |
-| **Estado del proyecto**      | Concepto                                                                                                                                              |
+| **Estado del proyecto**      | Prototipo                                                                                                                                             |
 | **Equipo**                   | Anthony David Duarte Naal<br>Hernandez Mex Ariel Roberto<br>Maldonado Tun Carlos Daniel<br>Hector Ulises Barreda Ojeda<br>Mendoza Sanchez Axel Gibran |
 | **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                                             |
 | **Fecha de inicio**          | 2026-09-25                                                                                                                                            |
@@ -61,9 +61,9 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Estado actual
 
 - [X] Concepto definido
-- [ ] Alcance inicial definido
-- [ ] Mecánica principal definida
-- [ ] Prototipo funcional
+- [x] Alcance inicial definido
+- [x] Mecánica principal definida
+- [x] Prototipo funcional
 - [ ] Vertical slice
 - [ ] Producción
 - [ ] Pruebas
