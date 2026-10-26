@@ -54,5 +54,6 @@ Destellos blancos localizados en el contacto de los golpes. **Por definir**
 
 Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 
+- Ascensor reutilizable integrado en las arenas, con puertas animadas, indicador de piso y señales luminosas roja y verde para comunicar sus estados bloqueado y disponible.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Personajes y Animación]] · [[04 - Interfaz Visual]] →

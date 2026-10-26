@@ -8,20 +8,20 @@ El juego se controla con **teclado y gamepad**, con un esquema inspirado en **Mu
 
 ## Mapa de controles
 
-| Acción | Teclado | Mouse | Control | Táctil |
-|---|---|---|---|---|
-| Mover | W A S D | — | Stick izquierdo | — |
-| Caminar lento | Shift + dirección | — | Inclinar poco el stick | — |
-| Ataque básico | J (+ dirección) | — | A / ✕ (+ dirección) | — |
-| Habilidad (especial) | K (+ dirección) | — | X / □ (+ dirección) | — |
-| Ataque fuerte (smash) | Flechas | — | Stick derecho | — |
-| Saltar / doble salto | Espacio | — | Y / △ o B / ○ | — |
-| Escudo | L | — | Gatillos (LT / RT) | — |
-| Esquive | L + dirección | — | Gatillo + dirección | — |
-| Elegir boon | Navegar y confirmar | Clic | Navegar y confirmar | — |
-| Menú / pausa | Esc | — | Start | — |
-| Reiniciar tras derrota | Enter | — | Start | — |
-
+| Acción                      | Teclado             | Mouse | Control                | Táctil |
+| --------------------------- | ------------------- | ----- | ---------------------- | ------ |
+| Mover                       | W A S D             | —     | Stick izquierdo        | —      |
+| Caminar lento               | Shift + dirección   | —     | Inclinar poco el stick | —      |
+| Ataque básico               | J (+ dirección)     | —     | A / ✕ (+ dirección)    | —      |
+| Habilidad (especial)        | K (+ dirección)     | —     | X / □ (+ dirección)    | —      |
+| Ataque fuerte (smash)       | Flechas             | —     | Stick derecho          | —      |
+| Saltar / doble salto        | Espacio             | —     | Y / △ o B / ○          | —      |
+| Escudo                      | L                   | —     | Gatillos (LT / RT)     | —      |
+| Esquive                     | L + dirección       | —     | Gatillo + dirección    | —      |
+| Elegir boon                 | Navegar y confirmar | Clic  | Navegar y confirmar    | —      |
+| Menú / pausa                | Esc                 | —     | Start                  | —      |
+| Reiniciar tras derrota      | Enter               | —     | Start                  | —      |
+| Interactuar con el ascensor | Por definir         | —     | Por definir            | —      |
 > [!warning] Diferencia con el prototipo
 > El prototipo todavía tiene un botón de **agarre** (I / RB). En el diseño **no hay agarres**, así que debe eliminarse.
 
@@ -45,6 +45,9 @@ El jugador **no puede reasignar** los controles.
 - **Parry:** destello azul.
 - **Estado alterado:** el personaje parpadea con el color del efecto (naranja = quemadura, azul = hielo).
 - **Último KO del nivel:** cámara lenta.
+- **Ascensor bloqueado:** puertas cerradas y luz roja durante el combate.
+- **Ascensor disponible:** luz verde y aviso del botón de interacción al acercarse.
+- **Ascensor activado:** cierre de puertas, cambio del indicador de piso y apertura en el siguiente nivel.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

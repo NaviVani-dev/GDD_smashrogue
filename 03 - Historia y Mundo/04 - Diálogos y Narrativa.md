@@ -14,8 +14,7 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 - Audio
 - Narración
 
-
-**Enfoque del juego:** la historia **no se explica de forma directa**. El jugador entra directo al juego y a pelear, al estilo de Megabonk: el juego se centra en el combate y el mundo se cuenta solo, a través del ambiente. No hay cinemáticas ni secciones dedicadas a explicar el lore.
+**Enfoque del juego:** la historia **no se explica de forma directa**. La experiencia se centra en el combate y el mundo se comunica a través del ambiente, los NPC de las tiendas y el almanaque. No hay cinemáticas narrativas ni secuencias dedicadas a explicar el lore. Sí se utilizan animaciones breves de presentación y transición, como la llegada del personaje por el ascensor al comenzar la partida y los viajes entre pisos.
 
 La historia llega al jugador por dos vías opcionales:
 

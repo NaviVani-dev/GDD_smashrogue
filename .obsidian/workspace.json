@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0e454f036debcd50",
+        "id": "ba674b79374b9858",
         "type": "tabs",
         "children": [
           {
-            "id": "a2ad60bef122ba51",
+            "id": "089191b0279c264a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-                "bFile": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-                "aRef": ""
+                "file": "02 - Diseño/03 - Sistemas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 04 - Diálogos y Narrativa  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "03 - Sistemas"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0e989c199bca173e",
@@ -185,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,33 +201,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2ad60bef122ba51",
+  "active": "089191b0279c264a",
   "lastOpenFiles": [
-    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
-    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
-    "06 - Experiencia/04 - Guardado y Configuración.md",
-    "06 - Experiencia/03 - Accesibilidad.md",
     "06 - Experiencia/02 - UI y Menús.md",
-    "04 - Contenido/01 - Estructura del Contenido.md",
-    "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
-    "07 - Tecnología/04 - Datos y Persistencia.md",
-    "07 - Tecnología/03 - Requisitos Técnicos.md",
-    "07 - Tecnología/02 - Motor y Herramientas.md",
+    "05 - Arte y Audio/04 - Interfaz Visual.md",
     "07 - Tecnología/01 - Arquitectura Técnica.md",
-    "05 - Arte y Audio/01 - Dirección de Arte.md",
+    "05 - Arte y Audio/03 - Entornos.md",
+    "02 - Diseño/05 - Progresión.md",
+    "02 - Diseño/06 - Economía y Recursos.md",
+    "04 - Contenido/03 - Enemigos y NPC.md",
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "05 - Arte y Audio/02 - Personajes y Animación.md",
+    "02 - Diseño/07 - Reglas y Estados del Juego.md",
+    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
+    "02 - Diseño/01 - Jugabilidad.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "04 - Contenido/02 - Niveles.md",
     "03 - Historia y Mundo/02 - Mundo.md",
-    "03 - Historia y Mundo/01 - Premisa y Trama.md",
-    "02 - Diseño/07 - Reglas y Estados del Juego.md",
-    "02 - Diseño/06 - Economía y Recursos.md",
-    "02 - Diseño/05 - Progresión.md",
     "02 - Diseño/04 - Controles.md",
-    "02 - Diseño/03 - Sistemas.md",
     "02 - Diseño/02 - Mecánicas.md",
-    "02 - Diseño/01 - Jugabilidad.md",
-    "01 - Visión/04 - Pilares de Diseño.md",
+    "04 - Contenido/01 - Estructura del Contenido.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "01 - Visión/01 - Ficha del Proyecto.md",
+    "01 - Visión/02 - Visión del Juego.md",
+    "05 - Arte y Audio/01 - Dirección de Arte.md",
     "01 - Visión/03 - Público y Plataforma.md",
-    "01 - Visión/02 - Visión del Juego.md"
+    "06 - Experiencia/04 - Guardado y Configuración.md",
+    "06 - Experiencia/03 - Accesibilidad.md"
   ]
 }

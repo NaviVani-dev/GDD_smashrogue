@@ -83,7 +83,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - **Ataques fuertes** (smash) hacia el lado, arriba y abajo, que se pueden **cargar**.
 - **Ataques aéreos** en el aire: neutral, adelante, atrás, arriba y abajo.
 - **No hay agarres.**
-- Cada personaje tiene su propio moveset: Niko pelea con los puños y Mr. Wobbles con objetos de payaso (globos explosivos, etc.).
+- Cada personaje tiene su propio moveset: Niko pelea con los puños, Mateo utiliza principalmente patadas de taekwondo y Mr. Wobbles combate con objetos de payaso (globos explosivos, etc.).
 
 **Entrada:** Ver [[04 - Controles]].
 
@@ -126,7 +126,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - El jugador puede tener un máximo de **3 boons** *(prototipo; diseño original: 3 o 4)*.
 - Con los espacios llenos, solo se ofrecen **mejoras** de los boons que ya tiene.
 - Cada boon tiene **hasta 5 niveles**.
-- Si no hay nada que ofrecer (todo al máximo), se pasa directo al siguiente nivel.
+- Si no hay nada que ofrecer (todo al máximo), se omite el menú de boons y se habilita el ascensor.
 
 **Entrada:** Seleccionar una carta en el menú de boons.
 

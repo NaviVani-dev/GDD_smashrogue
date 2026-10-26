@@ -8,7 +8,7 @@ Explica cómo cambia la experiencia desde el inicio hasta el final. La progresi�
 
 Describe las etapas principales del juego.
 
-1. **Inicio:** el jugador elige a Niko o a Mr. Wobbles. No se puede cambiar a mitad de partida.
+1. **Inicio:** el jugador elige a Niko, Mateo o Mr. Wobbles. No se puede cambiar a mitad de partida.
 2. **Introducción de sistemas:** primeros niveles con una sola ronda de 3 o 4 enemigos débiles. Primer boon.
 3. **Desarrollo:** aparecen más rondas por nivel, enemigos más fuertes y los primeros élites.
 4. **Dominio:** el jugador combina varios boons y empieza a mejorarlos. Visita tiendas cada 10 niveles (o un nivel antes de cada jefe) y enfrenta un mini-jefe élite cada 20.
@@ -37,7 +37,7 @@ Dentro de una partida, el personaje mejora mediante:
 
 ## Desbloqueos
 
-Por ahora **no hay desbloqueos**. Ambos personajes están disponibles desde el inicio.
+Por ahora **no hay desbloqueos**. Los tres personajes jugables están disponibles desde el inicio.
 
 | Desbloqueo | Requisito | Efecto |
 |---|---|---|
