@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Diseño/03 - Sistemas.md",
+                "file": "07 - Tecnología/03 - Requisitos Técnicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Sistemas"
+              "title": "03 - Requisitos Técnicos"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0e989c199bca173e",
@@ -186,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,9 +201,11 @@
   },
   "active": "089191b0279c264a",
   "lastOpenFiles": [
+    "07 - Tecnología/02 - Motor y Herramientas.md",
+    "07 - Tecnología/01 - Arquitectura Técnica.md",
+    "02 - Diseño/03 - Sistemas.md",
     "06 - Experiencia/02 - UI y Menús.md",
     "05 - Arte y Audio/04 - Interfaz Visual.md",
-    "07 - Tecnología/01 - Arquitectura Técnica.md",
     "05 - Arte y Audio/03 - Entornos.md",
     "02 - Diseño/05 - Progresión.md",
     "02 - Diseño/06 - Economía y Recursos.md",
@@ -226,8 +226,6 @@
     "01 - Visión/01 - Ficha del Proyecto.md",
     "01 - Visión/02 - Visión del Juego.md",
     "05 - Arte y Audio/01 - Dirección de Arte.md",
-    "01 - Visión/03 - Público y Plataforma.md",
-    "06 - Experiencia/04 - Guardado y Configuración.md",
-    "06 - Experiencia/03 - Accesibilidad.md"
+    "01 - Visión/03 - Público y Plataforma.md"
   ]
 }
