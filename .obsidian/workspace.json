@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Visión/01 - Ficha del Proyecto.md",
+                "file": "03 - Historia y Mundo/03 - Personajes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Ficha del Proyecto"
+              "title": "03 - Personajes"
             }
           }
         ]
@@ -201,15 +201,16 @@
   },
   "active": "8015aa17e7241fe4",
   "lastOpenFiles": [
+    "10 - Referencia/02 - Referencias e Inspiración.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "01 - Visión/01 - Ficha del Proyecto.md",
     "01 - Visión/04 - Pilares de Diseño.md",
     "01 - Visión/03 - Público y Plataforma.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
     "01 - Visión/02 - Visión del Juego.md",
     "02 - Diseño/03 - Sistemas.md",
     "02 - Diseño/02 - Mecánicas.md",
     "02 - Diseño/01 - Jugabilidad.md",
     "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
     "06 - Experiencia/01 - UX y Flujo del Jugador.md",
     "06 - Experiencia/04 - Guardado y Configuración.md",
     "06 - Experiencia/03 - Accesibilidad.md",
@@ -225,7 +226,6 @@
     "03 - Historia y Mundo/02 - Mundo.md",
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
     "02 - Diseño/07 - Reglas y Estados del Juego.md",
-    "02 - Diseño/06 - Economía y Recursos.md",
-    "02 - Diseño/05 - Progresión.md"
+    "02 - Diseño/06 - Economía y Recursos.md"
   ]
 }
