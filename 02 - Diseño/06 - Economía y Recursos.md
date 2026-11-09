@@ -6,12 +6,12 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 
 ## Recursos
 
-| Recurso                | Obtención                                                         | Uso                                               | Límite                    | Pérdida                                                                        |
-| ---------------------- | ----------------------------------------------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------ |
-| **Porcentaje de daño** | Sube al recibir golpes                                            | Determina qué tan lejos sale volando el personaje | 0% – 999%                 | Se reinicia a 0% al perder una vida. Baja con comida o con el boon de curación |
-| **Vidas**              | 3 al iniciar la partida                                           | Seguir jugando después de salir del escenario     | 3                         | Se pierde una al salir del escenario                                           |
-| **Monedas**            | Al derrotar enemigos: cantidad aleatoria **de 0 a 5** por enemigo | Comprar en la tienda                              | *(Por definir)*           | Se pierden al terminar la partida                                              |
-| **Boons**              | Uno al terminar cada nivel                                        | Mejorar el combate                                | 3 boons, nivel 5 cada uno | Se pierden al terminar la partida                                              |
+| Recurso                | Obtención                                                         | Uso                                               | Límite                    | Pérdida                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Porcentaje de daño** | Sube al recibir golpes                                            | Determina qué tan lejos sale volando el personaje | 0% – 999%                 | Se reinicia a 0% al perder una vida. Puede reducirse mediante comida, bebida energética o el boon de curación |
+| **Vidas**              | 3 al iniciar la partida                                           | Seguir jugando después de salir del escenario     | 3                         | Se pierde una al salir del escenario                                                                          |
+| **Monedas**            | Al derrotar enemigos: cantidad aleatoria **de 0 a 5** por enemigo | Comprar en la tienda                              | *(Por definir)*           | Se pierden al terminar la partida                                                                             |
+| **Boons**              | Uno al terminar cada nivel                                        | Mejorar el combate                                | 3 boons, nivel 5 cada uno | Se pierden al terminar la partida                                                                             |
 
 ## Fuentes y sumideros
 
@@ -30,6 +30,7 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 - Las monedas solo sirven dentro de la partida actual.
 - Hay **tienda cada 10 niveles**, excepto cuando el siguiente nivel tiene un mini-jefe o el jefe final: en ese caso, la tienda aparece **un nivel antes** para que el jugador se prepare. Las tiendas quedan en los niveles **10, 19, 30, 39, 50, 59, 70, 79, 90 y 99**.
 - Los enemigos sueltan una cantidad aleatoria de monedas, **entre 0 y 5**: algunos no sueltan nada.
+- La bebida energética reduce un 30% del porcentaje de daño acumulado al consumirla: porcentaje restante = porcentaje actual × 0.70.
 
 > [!note] Puntaje
 > El sistema de puntaje inspirado en Balatro **queda descartado por ahora**.

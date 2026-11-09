@@ -8,8 +8,11 @@ Documenta la información que el juego muestra al jugador y las reglas visuales 
 
 Elementos:
 
-- Vida
-Indicador numérico que aumenta al recibir daño. Cuanto mayor sea el porcentaje, mayor será el empuje recibido por los ataques y el riesgo de ser expulsado del escenario.
+- Porcentaje de daño
+Indicador numérico que aumenta al recibir golpes.
+
+- Vidas restantes
+Indicador independiente del porcentaje de daño. El jugador comienza con tres vidas y pierde una cada vez que sale de los límites del escenario.
 
 - Energía
 No hay un sistema de energía confirmado.
@@ -24,7 +27,7 @@ Debe comunicar la tarea inmediata: derrotar al grupo de enemigos, avanzar o enfr
 No se ha confirmado un mapa o minimapa.
 
 - Recursos
-No hay monedas u otros recursos acumulables definidos.
+Contador discreto de las monedas disponibles durante la partida, representado mediante un icono y una cantidad numérica. Se actualiza al obtener monedas o realizar compras. Debe ser legible sin competir visualmente con el porcentaje de daño y las vidas restantes.
 
 - Indicadores contextuales
 Avisos breves cuando haya una elección de mejora o una transición disponible.
@@ -36,6 +39,7 @@ Avisos breves cuando haya una elección de mejora o una transición disponible.
 1. **Información inmediata:** indicador de daño del personaje y avisos que afecten su supervivencia.
 2. **Estado del encuentro:** objetivo actual, avance y situación del jefe cuando corresponda.
 3. **Información complementaria:** boons, detalles de mejoras y puntaje si se implementa.
+4. El contador de monedas tendrá menor prioridad visual que el porcentaje de daño y las vidas restantes.
 
 Durante la elección de un boon, las opciones y sus efectos pasan a ser el foco principal de la interfaz.
 ## Estados
@@ -77,6 +81,9 @@ Opciones de mejora y descripción de sus efectos. La propuesta contempla selecci
 
 - Inventario
 No se ha confirmado un inventario. Puede evaluarse una consulta de boons sin asumir un sistema de objetos.
+
+- Tienda
+Muestra las monedas disponibles, los productos y sus precios. Debe indicar claramente cuándo el saldo es insuficiente y actualizarlo después de cada compra.
 
 - Mapa
 No confirmado.

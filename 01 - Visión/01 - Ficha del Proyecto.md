@@ -56,8 +56,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 > [!example] ¿Qué es?
 > Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
 
-**Respuesta:** Combate contra multiples oleadas de enemigos infinitamente al estilo Smash Bros.
-
+**Respuesta:** Combate contra oleadas de enemigos al estilo Smash Bros, ascendiendo hasta 100 pisos y combinando mejoras en partidas que puedes volver a jugar sin límite de intentos.
 ## Estado actual
 
 - [X] Concepto definido
@@ -72,6 +71,6 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 ## Criterio de éxito del proyecto
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
-El juego contiene al menos dos personajes jugables con diferentes tipos de movimientos, el gameplay es infinito y escalable, brindando una experiencia unica en cada partida de juego.
+El juego contiene al menos dos personajes jugables con diferentes movimientos. Cada partida tiene un máximo de 100 pisos y una dificultad progresiva. La elección de personajes y las combinaciones de mejoras aportan variedad y favorecen jugar nuevas partidas.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

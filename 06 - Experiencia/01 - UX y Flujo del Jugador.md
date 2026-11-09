@@ -7,12 +7,13 @@ UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente 
 ## Flujo principal
 
 ```text
-Elegir personaje → Pelear contra una o varias rondas de enemigos → Elegir o mejorar un boon → Subir al siguiente nivel → Tienda (cada 10 niveles o justo antes de un jefe) → (cada 20 niveles) Mini-jefe → … → (nivel 100) Jefe final → ¡Victoria! o derrota → Nueva partida
+Elegir personaje → Combatir las rondas del piso → Elegir boon o mejora, si hay opciones → Ascensor habilitado → Interactuar con el ascensor → Subir al siguiente piso → Tienda o encuentro correspondiente → Jefe final en el piso 100 → Victoria o derrota
 ```
 
 ## Primeros minutos
 
-El jugador elige a su personaje; no se puede cambiar a mitad de partida. Entra directo a pelear: aparece en el piso de una oficina, hay una cuenta regresiva de 3, 2, 1, ¡GO! y los enemigos caen al escenario. Los primeros niveles tienen una sola ronda de 3 o 4 enemigos débiles.
+El jugador elige a su personaje; no se puede cambiar a mitad de partida. Una animación breve muestra cómo se abren las puertas del ascensor y el personaje sale a la primera arena, sin diálogos ni explicación del lore. Al terminar la entrada, comienza la cuenta regresiva de 3, 2, 1, ¡GO! y los enemigos caen al escenario. Los primeros niveles tienen una sola ronda de 3 o 4 enemigos débiles.
+
 Lo que el jugador descubre y aprende:
 
 Moverse, saltar y usar ataques básicos.
@@ -22,7 +23,7 @@ Usar ataques fuertes y habilidades en todas direcciones.
 Elegir y combinar boons de forma estratégica.
 Administrar monedas y vida en las tiendas.
 
-Al limpiar el primer nivel se abre el menú de boons, donde elige uno de 3 boons ofrecidos, y salta al siguiente piso.
+Al limpiar el primer nivel se abre el menú de boons. Después de elegir una mejora, se habilita el ascensor de la arena. El jugador se acerca, identifica el aviso de interacción y lo activa para subir al siguiente piso.
 
 ## Retroalimentación
 
@@ -87,8 +88,14 @@ Que las ventanas rotas no se distingan con claridad de las intactas.
 ¿Cómo sabe el jugador:
 
 - Qué hacer?
-- Dónde ir?
-- Qué puede interactuar?
+- ¿Dónde ir?
+
+Al completar el piso y resolver la elección de boon, el ascensor se identifica con una luz verde. El jugador se acerca e interactúa con él para avanzar.
+
+- ¿Qué puede interactuar?
+
+El jugador elige boons en su menú, compra en la tienda y activa el ascensor cuando está disponible.
+
 - Qué ocurrió?
 - Por qué ganó o perdió?
 

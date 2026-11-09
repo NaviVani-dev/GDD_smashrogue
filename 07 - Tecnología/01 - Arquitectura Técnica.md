@@ -24,12 +24,12 @@ Presentación visual, audio, animaciones y UI
 
 ## Componentes principales
 
-| Componente                      | Responsabilidad                                                                               | Dependencias                                           |
-| ------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| sistema de entrada              | Detectar las acciones del jugador, como moverse, saltar y atacar                              | Sistema de Input de Unity                              |
-| Controlador del jugador         | Interpretar las entradas y controlar el movimiento y las acciones de Niko o Mr. Wobbles       | Sistema de entrada, fisica y componentes del personaje |
-| Sistema de combate              | Administrar ataques, daño, retroceso, y lanzamiento de personajes y enemigos                  | Personajes, hitboxes, física y datos de ataques        |
-| sistema de niveles y progresion | administrar oleadas de enemigos , el avance entre pisos y el inicio de combate contra el jefe | sistema de enemigos y estado de la partida             |
+| Componente                      | Responsabilidad                                                                                                         | Dependencias                                           |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| sistema de entrada              | Detectar las acciones del jugador, como moverse, saltar y atacar                                                        | Sistema de Input de Unity                              |
+| Controlador del jugador         | Interpretar las entradas y controlar el movimiento y las acciones del personaje seleccionado: Niko, Mateo o Mr. Wobbles | Sistema de entrada, fisica y componentes del personaje |
+| Sistema de combate              | Administrar ataques, daño, retroceso, y lanzamiento de personajes y enemigos                                            | Personajes, hitboxes, física y datos de ataques        |
+| sistema de niveles y progresion | administrar oleadas de enemigos , el avance entre pisos y el inicio de combate contra el jefe                           | sistema de enemigos y estado de la partida             |
 
 ## Comunicación
 

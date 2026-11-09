@@ -12,7 +12,13 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 **Comportamiento: Patrulla de rutina. En solitario es fácil de derrotar, pero intenta agruparse para abrumar al jugador**
 
-**Vida: Baja**
+**Porcentaje de daño: Comienza en 0% y aumenta al recibir golpes. Cuanto mayor sea, mayor será el retroceso recibido**
+
+**Vidas: 1. Queda eliminado al salir de los límites del escenario**
+
+**Susceptibilidad al daño: Por definir durante el balance**
+
+**Resistencia al lanzamiento: Por definir durante el balance**
 
 **Daño: Bajo**
 
@@ -44,7 +50,13 @@ Patrullar → Detectar → Perseguir → Atacar
 
 **Comportamiento: Disfruta el enfrentamiento físico. Persigue implacablemente e intenta arrinconar al jugador**
 
-**Vida: Alta**
+**Porcentaje de daño: Comienza en 0% y aumenta al recibir golpes. Cuanto mayor sea, mayor será el retroceso recibido**
+
+**Vidas: 1. Queda eliminado al salir de los límites del escenario**
+
+**Susceptibilidad al daño: Por definir durante el balance**
+
+**Resistencia al lanzamiento: Por definir durante el balance**
 
 **Daño: Alto**
 

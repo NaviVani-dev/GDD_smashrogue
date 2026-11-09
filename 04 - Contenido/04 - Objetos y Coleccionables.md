@@ -12,7 +12,7 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Descripción: Una lata de bebida ultra azucarada que la corporación da a sus Guardias Débiles para que aguanten los turnos dobles**
 
-**Función: Restaura un 30% de la salud máxima del personaje**
+**Función: Reduce un 30% del porcentaje de daño acumulado del personaje al consumirla. 
 
 **Cómo se obtiene: Al derrotar Guardias Débiles**
 

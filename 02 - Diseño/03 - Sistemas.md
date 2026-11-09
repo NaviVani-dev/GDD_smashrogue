@@ -6,18 +6,18 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 ## Inventario de sistemas
 
-| Sistema | Propósito | Dependencias | Estado |
-|---|---|---|---|
-| Combate | Daño por porcentaje, knockback, escudo, esquive, hitlag | Personajes, Escenario | Prototipo funcional |
-| Personajes (Fighter) | Movimiento, saltos y moveset de cada personaje | Entrada, Combate | Prototipo funcional (personaje de prueba) |
-| Escenario | Plataforma tipo pilar, ventanas rompibles, límites | Combate | Prototipo funcional |
-| Niveles y oleadas | Generar las rondas de enemigos de cada nivel | IA, Escenario | Prototipo: 1 ronda por nivel |
-| IA de enemigos | Controlar a los enemigos normales y élite | Combate, Niveles | Prototipo funcional |
-| Boons | Mejoras de la partida | Combate, Estados alterados | Prototipo funcional (5 boons) |
-| Estados alterados | Quemadura, lentitud y otros efectos temporales | Combate | Prototipo funcional |
-| Economía y tienda | Monedas, comida y mejoras | Niveles, Boons | Por implementar |
-| Jefes | Mini-jefe (enemigo élite) cada 20 niveles y jefe final (CEO) en el nivel 100 | Combate, IA, Niveles | Por implementar |
-| Interfaz (HUD) | Porcentajes, vidas, nivel, menú de boons | Todos | Prototipo funcional |
+| Sistema              | Propósito                                                                    | Dependencias               | Estado                                    |
+| -------------------- | ---------------------------------------------------------------------------- | -------------------------- | ----------------------------------------- |
+| Combate              | Daño por porcentaje, knockback, escudo, esquive, hitlag                      | Personajes, Escenario      | Prototipo funcional                       |
+| Personajes (Fighter) | Movimiento, saltos y moveset de cada personaje                               | Entrada, Combate           | Prototipo funcional (personaje de prueba) |
+| Escenario            | Plataforma tipo pilar, ventanas rompibles, límites                           | Combate                    | Prototipo funcional                       |
+| Niveles y oleadas    | Generar las rondas de enemigos de cada nivel                                 | IA, Escenario              | Prototipo: 1 ronda por nivel              |
+| IA de enemigos       | Controlar a los enemigos normales y élite                                    | Combate, Niveles           | Prototipo funcional                       |
+| Boons                | Mejoras de la partida                                                        | Combate, Estados alterados | Prototipo funcional (5 boons)             |
+| Estados alterados    | Quemadura, lentitud y otros efectos temporales                               | Combate                    | Prototipo funcional                       |
+| Economía y tienda    | Monedas, comida y mejoras                                                    | Niveles, Boons             | Por implementar                           |
+| Jefes                | Mini-jefe (enemigo élite) cada 20 niveles y jefe final (CEO) en el nivel 100 | Combate, IA, Niveles       | Por implementar                           |
+| Interfaz (HUD)       | Porcentajes, vidas, nivel, contador de monedas y menú de boons               | Todos                      | Prototipo funcional                       |
 
 ## Plantilla de sistema
 

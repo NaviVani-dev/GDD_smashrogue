@@ -8,9 +8,9 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 ### Nombre del nivel: Nivel 1.- La Recepción
 
-**Objetivo principal: Atravesar la entrada principal del edificio corporativo**
+**Objetivo principal: Derrotar a todos los enemigos de las rondas del piso dentro de una arena de combate ambientada como recepción corporativa**
 
-**Objetivos secundarios: Destruir 3 máquinas o drones**
+**Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
 
 **Duración estimada: De 5 a 7 minutos**
 
@@ -20,26 +20,25 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Mecánicas utilizadas: De salto, doble salto y boons**
 
-**Enemigos / obstáculos: Guardia Débil, Dron de Asalto. Y obstáculos: Barreras de control de multitudes**
+**Enemigos / obstáculos: Guardias débiles en las primeras rondas. La distribución de plataformas y obstáculos de la arena está por definir. El mobiliario de recepción forma parte de la ambientación; su función decorativa o como obstáculo se definirá en el diseño del escenario**
 
-**Recompensas: Tarjeta de Acceso Nivel 1**
+**Recompensas: Elección de un boon o mejora, si hay opciones disponibles**
 
 **Puntos de guardado: 1 o 2**
 
-**Condición de entrada: Iniciar el juego y se muestra una cinematica**
+**Condición de entrada: Iniciar una nueva partida con el personaje seleccionado. Las puertas del ascensor se abren y el personaje sale a la primera arena mediante una animación breve. Después comienza la cuenta regresiva de 3, 2, 1, ¡GO! y se inicia el combate**
 
-**Condición de salida: Interactuar con el ascensor que llevara a la segunda sala**
+**Condición de salida: Derrotar a todos los enemigos de todas las rondas del piso e interactuar con el ascensor habilitado para subir al siguiente nivel
 
 **Eventos narrativos: Aun sin definir**
 
-**Mapa / diagrama: Aun sin definir**
+**Mapa / diagrama: Arena de combate ambientada como recepción corporativa, sin recorrido entre zonas. Distribución concreta por definir**
 
 ## Flujo del nivel
 
 ```text
-Inicio (Puertas de cristal) → Zona A (Mostrador de recepción) → Desafío (Oleada de Guardias Débiles) → Zona B (Pasillos de seguridad con Drones) → Recompensa (Cae la tarjeta) → Final (Ascensor)
+Entrada a la arena → Rondas de enemigos → Piso completado → Elección de boon o mejora, si hay opciones → Ascensor habilitado → Interacción del jugador → Viaje al siguiente piso
 ```
-
 ## Criterios de calidad
 
 - El objetivo es comprensible.

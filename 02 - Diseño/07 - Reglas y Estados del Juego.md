@@ -9,10 +9,12 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 - Menú principal
 - Selección de personaje
 - Carga
+- Entrada inicial por el ascensor
 - Cuenta regresiva
 - Jugando
 - Menú de boons
-- Transición de nivel (salto al siguiente piso)
+- Ascensor disponible
+- Transición de nivel (viaje en ascensor al siguiente piso)
 - Tienda
 - Pausa
 - Combate contra mini-jefe
@@ -26,27 +28,28 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 
 ## Transiciones
 
-| Estado origen | Evento | Estado destino | Condición |
-|---|---|---|---|
-| Menú principal | Jugar | Selección de personaje | — |
-| Selección de personaje | Elegir a Niko o a Mr. Wobbles | Cuenta regresiva | — |
-| Cuenta regresiva | Termina el "¡GO!" | Jugando | — |
-| Jugando | Último enemigo de la ronda fuera | Jugando (siguiente ronda) | Quedan rondas en el nivel |
-| Jugando | Último enemigo del nivel fuera | Menú de boons | Hay boons o mejoras disponibles |
-| Jugando | Último enemigo del nivel fuera | Transición de nivel | No queda nada que ofrecer |
-| Menú de boons | Elegir boon | Transición de nivel | — |
-| Transición de nivel | Llega al nuevo piso | Combate contra jefe final | Nivel 100 |
-| Transición de nivel | Llega al nuevo piso | Combate contra mini-jefe | Nivel múltiplo de 20 (excepto el 100) |
-| Transición de nivel | Llega al nuevo piso | Tienda | Nivel 10, 19, 30, 39, 50, 59, 70, 79, 90 o 99 |
-| Transición de nivel | Llega al nuevo piso | Jugando | En cualquier otro caso |
-| Tienda | Salir | Jugando | — |
-| Combate contra mini-jefe | Derrotar al mini-jefe | Menú de boons | — |
-| Combate contra jefe final | Derrotar al jefe final | Victoria | La partida termina |
-| Jugando | Pierde la última vida | Derrota / Game Over | — |
-| Victoria / Derrota | Continuar | Menú principal | — |
-| Jugando | Esc / Start | Pausa | — |
-| Pausa | Esc / Start | Jugando | — |
-
+| Estado origen                   | Evento                               | Estado destino                      | Condición                                     |
+| ------------------------------- | ------------------------------------ | ----------------------------------- | --------------------------------------------- |
+| Menú principal                  | Jugar                                | Selección de personaje              | —                                             |
+| Selección de personaje          | Elegir a Niko, Mateo o a Mr. Wobbles | Entrada inicial por el ascensor<br> | —<br>                                         |
+| Entrada inicial por el ascensor | Termina la animación de llegada      | Cuenta regresiva                    | El personaje está en la primera arena <br>    |
+| Cuenta regresiva                | Termina el "¡GO!"                    | Jugando                             | —                                             |
+| Jugando                         | Último enemigo de la ronda fuera     | Jugando (siguiente ronda)           | Quedan rondas en el nivel                     |
+| Jugando                         | Último enemigo del nivel fuera       | Menú de boons                       | Hay boons o mejoras disponibles               |
+| Jugando                         | Último enemigo del nivel fuera       | Ascensor disponible<br>             | No quedan boons o mejoras disponibles         |
+| Menú de boons                   | Elegir boon                          | Ascensor disponible                 | —                                             |
+| Transición de nivel             | Llega al nuevo piso                  | Combate contra jefe final           | Nivel 100                                     |
+| Ascensor disponible             | Interactuar con el ascensor          | Transición de nivel                 | El jugador está junto al ascensor             |
+| Transición de nivel             | Llega al nuevo piso                  | Combate contra mini-jefe            | Nivel múltiplo de 20 (excepto el 100)         |
+| Transición de nivel             | Llega al nuevo piso                  | Tienda                              | Nivel 10, 19, 30, 39, 50, 59, 70, 79, 90 o 99 |
+| Transición de nivel             | Llega al nuevo piso                  | Jugando                             | En cualquier otro caso                        |
+| Tienda                          | Salir                                | Jugando                             | —                                             |
+| Combate contra mini-jefe        | Derrotar al mini-jefe                | Menú de boons                       | Hay boons o mejoras disponibles               |
+| Combate contra jefe final       | Derrotar al jefe final               | Ascensor disponible                 | No quedan boons o mejoras disponibles         |
+| Jugando                         | Pierde la última vida                | Derrota / Game Over                 | —                                             |
+| Victoria / Derrota              | Continuar                            | Menú principal                      | —                                             |
+| Jugando                         | Esc / Start                          | Pausa                               | —                                             |
+| Pausa                           | Esc / Start                          | Jugando                             | —                                             |
 ## Reglas globales
 
 1. Se pierde una vida al salir de los límites del escenario. El jugador tiene 3 vidas.
@@ -57,6 +60,8 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 6. No se puede cambiar de personaje durante la partida.
 7. Las monedas y los boons solo duran una partida. No hay progreso permanente.
 8. Mini-jefe (enemigo élite) cada 20 niveles; jefe final en el nivel 100. Vencer al jefe final termina la partida.
+9. El ascensor se habilita después de completar todas las rondas del piso y elegir el boon o la mejora, si hay opciones disponibles.
+10. Derrotar al jefe final del piso 100 conduce a la victoria, sin otro ascenso.
 
 ## Casos especiales
 
