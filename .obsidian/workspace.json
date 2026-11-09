@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 - Tecnología/04 - Datos y Persistencia.md",
+                "file": "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Datos y Persistencia"
+              "title": "05 - Seguridad y Riesgos Técnicos"
             }
           }
         ]
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07 - Tecnología/04 - Datos y Persistencia.md",
+                "file": "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -191,8 +191,8 @@
   },
   "active": "089191b0279c264a",
   "lastOpenFiles": [
-    "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
     "07 - Tecnología/04 - Datos y Persistencia.md",
+    "07 - Tecnología/05 - Seguridad y Riesgos Técnicos.md",
     "07 - Tecnología/03 - Requisitos Técnicos.md",
     "07 - Tecnología/02 - Motor y Herramientas.md",
     "07 - Tecnología/01 - Arquitectura Técnica.md",
