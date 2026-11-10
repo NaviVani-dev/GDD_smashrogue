@@ -24,7 +24,7 @@ Acción enérgica, rebeldía y determinación. Los protagonistas deben ser el fo
 Caricaturesco y estilizado, con anatomía simplificada y expresiva.
 
 **Formas predominantes:**
-**Por definir**
+Combinación de curvas y ángulos. Las curvas se usan en rostros, anatomía, cabello y prendas; los ángulos definen articulaciones, pliegues, protecciones y equipo. Los enemigos se distinguen por su silueta: tamaño, anchura, postura y equipamiento.
 
 **Iluminación:**
 El acabado gráfico utiliza sombras sólidas de bordes nítidos. Se evitan degradados como recursos de sombreado.
@@ -40,7 +40,15 @@ El acabado gráfico utiliza sombras sólidas de bordes nítidos. Se evitan degra
 **Por definir**
 
 **Colores para información jugable:**
-**Por definir**
+- **Rojo:** destello del personaje golpeado y luz del ascensor bloqueado.
+- **Verde:** luz del ascensor disponible.
+- **Amarillo:** parpadeo al cargar un ataque fuerte.
+- **Azul:** destello del parry y parpadeo del estado de hielo.
+- **Naranja:** parpadeo del estado de quemadura.
+- **Dorado:** porcentaje de los enemigos élite.
+- **Blanco:** destellos localizados en el contacto de los golpes.
+
+El color se acompaña de formas, símbolos o texto para comunicar estados.
 
 ## Reglas visuales
 
@@ -81,7 +89,9 @@ El acabado gráfico utiliza sombras sólidas de bordes nítidos. Se evitan degra
 
 Añade enlaces o imágenes dentro de la carpeta del proyecto.
 
--
+- Imágenes de referencia de la sección **Identidad visual**.
+- Imágenes de personajes: [[Poster_promocional.png]], [[Mr_Wobbles.png]], [[Atsuko.png]] y [[Craub.png]].
+- Estética anime y cel-shading en [[02 - Referencias e Inspiración]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →

@@ -31,6 +31,13 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribución o conectividad.
 
+- **Hardware:** requisitos mínimos de Windows 10 de 64 bits, Intel Core i3 o equivalente, GPU compatible con DirectX 11 y resolución de 1280 × 720 (ver [[03 - Requisitos Técnicos]]).
+- **Memoria:** 8 GB de RAM como mínimo y 16 GB recomendados. Objetivo de hasta 4 GB de RAM durante la ejecución.
+- **Almacenamiento:** 5 GB disponibles como mínimo y 10 GB recomendados, preferentemente en SSD.
+- **Controles:** teclado y mando. No se usan mouse ni controles táctiles durante el combate.
+- **Conectividad:** no requiere conexión a internet.
+- **Rendimiento:** depende de la complejidad de los escenarios, los efectos visuales y la cantidad de enemigos simultáneos.
+
 
 ## Sesión de juego
 

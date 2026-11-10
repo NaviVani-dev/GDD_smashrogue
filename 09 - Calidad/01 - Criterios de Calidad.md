@@ -37,7 +37,7 @@ Define qué significa que una característica esté correctamente terminada.
 - [ ]  **Memoria:** hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 100 (sin fugas de memoria).
 - [ ]  **Estabilidad:** se puede completar un recorrido del piso 1 al 100 sin cierres inesperados ni bloqueos.
 - [ ]  **Entrada:** el juego funciona igual con teclado y con mando, y detecta el mando conectado sin reiniciar.
-- [ ]  **Guardado estable:** la configuración se conserva al cerrar y abrir el juego. Lo que guarde la partida se validará cuando se defina en [[04 - Guardado y Configuración]] (backlog P08).
+- [ ]  **Guardado estable:** la configuración se conserva al cerrar y abrir el juego. La partida en curso no se guarda.
 - [ ]  **Sin dependencias rotas:** la compilación de PC no muestra errores en consola, referencias perdidas ni assets faltantes.
 ## Definición de terminado
 

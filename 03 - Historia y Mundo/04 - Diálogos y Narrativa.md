@@ -23,17 +23,17 @@ La historia llega al jugador por dos vías opcionales:
 
 ## Estructura de diálogo
 
-### Escena / Conversación
+### Escena / Conversación: NPC de la tienda
 
-**Participantes:**
+**Participantes:** El personaje jugable y un trabajador de la compañía (programador, gente de marketing, etc.) que apoya la causa.
 
-**Objetivo de la conversación:**
+**Objetivo de la conversación:** Comentar un poco sobre la historia y el mundo. Es una vía opcional para conocer el lore.
 
-**Contexto:**
+**Contexto:** Ocurre en las tiendas de los pisos 10, 19, 30, 39, 50, 59, 70, 79, 90 y 99, durante una pausa del combate.
 
-**Opciones del jugador:**
+**Opciones del jugador:** No aplica: el jugador no elige respuestas.
 
-**Consecuencias:**
+**Consecuencias:** No aplica: la conversación no cambia la partida.
 
 ## Tono
 
@@ -43,15 +43,13 @@ La historia debe sentirse **heroica, pero no demasiado seria**. Mantiene un equi
 
 ## Decisiones narrativas
 
-| Decisión | Opciones | Consecuencia |
-|---|---|---|
-| | | |
+No aplica: el juego tiene un final único y la historia no avanza mediante decisiones del jugador.
 
 ## Localización
 
 ¿El juego tendrá diferentes idiomas?
 
-Idiomas previstos:
+Idiomas previstos: Español.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

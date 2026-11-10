@@ -20,7 +20,7 @@ El diseño de un videojuego cambia. Esta sección evita que las modificaciones i
 
 **Decisión:** Aprobado como alcance de la primera versión.
 
-**Responsable:** Por asignar.
+**Responsable:** Anthony David Duarte Naal.
 
 ## Registro
 

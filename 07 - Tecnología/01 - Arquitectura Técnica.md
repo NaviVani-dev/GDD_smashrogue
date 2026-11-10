@@ -30,6 +30,13 @@ Presentación visual, audio, animaciones y UI
 | Controlador del jugador         | Interpretar las entradas y controlar el movimiento y las acciones del personaje seleccionado: Niko, Mateo o Mr. Wobbles | Sistema de entrada, fisica y componentes del personaje |
 | Sistema de combate              | Administrar ataques, daño, retroceso, y lanzamiento de personajes y enemigos                                            | Personajes, hitboxes, física y datos de ataques        |
 | sistema de niveles y progresion | administrar oleadas de enemigos , el avance entre pisos y el inicio de combate contra el jefe                           | sistema de enemigos y estado de la partida             |
+| Escenario                       | Administrar la plataforma tipo pilar, las ventanas rompibles y los límites del escenario                                | Combate                                                |
+| IA de enemigos                  | Controlar a los enemigos normales y élite                                                                               | Combate y niveles                                      |
+| Sistema de boons                | Ofrecer y aplicar los boons y sus mejoras durante la partida                                                            | Combate y estados alterados                            |
+| Estados alterados               | Aplicar quemadura, lentitud y otros efectos temporales                                                                  | Combate                                                |
+| Economía y tienda               | Administrar las monedas, la comida y las mejoras de boons                                                               | Niveles y boons                                        |
+| Jefes                           | Controlar a los mini-jefes de los pisos 20, 40, 60 y 80 y a Big Data en el piso 100                                     | Combate, IA y niveles                                  |
+| Interfaz (HUD)                  | Mostrar porcentajes, vidas, nivel, contador de monedas y menú de boons                                                  | Todos los sistemas                                     |
 
 ## Comunicación
 

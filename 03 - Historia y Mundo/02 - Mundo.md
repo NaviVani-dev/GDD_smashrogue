@@ -8,7 +8,7 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 **Época:** Año 2060. El mundo es **moderno, no futurista**: se parece al nuestro, pero con las grandes corporaciones llevadas al extremo.
 
-**Lugar:** Las ciudades del mundo, dominadas por los rascacielos corporativos. *(Ciudad o ciudades específicas por definir.)*
+**Lugar:** Las ciudades del mundo, dominadas por los rascacielos corporativos. Cada compañía tiene su propio rascacielos y el juego no nombra una ciudad específica.
 
 **Contexto:** Un puñado de megacorporaciones tiene el control general del mundo. La clase baja y media se usa como herramienta para hacer crecer las fortunas de la clase alta.
 

@@ -18,7 +18,7 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 **Resolución:**  1280 × 720 píxeles
 
-**Conexión:**
+**Conexión:** No requiere conexión a internet.
 
 ## Requisitos recomendados
 

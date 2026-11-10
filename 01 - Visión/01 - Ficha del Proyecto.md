@@ -8,10 +8,10 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 | Campo                        | Información                                                                                                                                           |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombre del proyecto**      |                                                                                                                                                       |
-| **Nombre clave**             | RogueSmash                                                                                                                                            |
+| **Nombre del proyecto**      | MAKE ’EM FALL                                                                                                                                         |
+| **Nombre clave**             | MAKE ’EM FALL                                                                                                                                         |
 | **Versión del GDD**          | 0.1.0                                                                                                                                                 |
-| **Estado del proyecto**      | Prototipo                                                                                                                                             |
+| **Estado del proyecto**      | Producción                                                                                                                                            |
 | **Equipo**                   | Anthony David Duarte Naal<br>Hernandez Mex Ariel Roberto<br>Maldonado Tun Carlos Daniel<br>Hector Ulises Barreda Ojeda<br>Mendoza Sanchez Axel Gibran |
 | **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                                             |
 | **Fecha de inicio**          | 2026-09-25                                                                                                                                            |
@@ -43,7 +43,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 <!-- AAAA-MM-DD -->
 
-**Clasificaciones y etiquetas adicionales:**
+**Clasificaciones y etiquetas adicionales:**  Roguelike, Combate, Jefes, Generación aleatoria (boons y enemigos élite), Personalización (boons), Permadeath (sin progreso permanente entre partidas), Un jugador, Sin conexión
 
 > Consulta [[06 - Clasificaciones y Etiquetas]].
 
@@ -63,9 +63,9 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 - [x] Alcance inicial definido
 - [x] Mecánica principal definida
 - [x] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
-- [ ] Pruebas
+- [x] Vertical slice
+- [x] Producción
+- [x] Pruebas
 - [ ] Versión final
 
 ## Criterio de éxito del proyecto

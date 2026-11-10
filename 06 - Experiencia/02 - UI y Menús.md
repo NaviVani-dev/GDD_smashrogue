@@ -17,6 +17,7 @@ Menú principal
 │               ├── Tienda
 │               ├── Pausa
 │               ├── Victoria
+│               │   └── Créditos
 │               └── Derrota
 └── Configuración
 ```
@@ -28,23 +29,24 @@ Menú principal
 
 Propósito: Dar acceso a las opciones principales.
 
-Elementos: Estructura por definir.
+Elementos: Jugar, Configuración y almanaque con el trasfondo de cada personaje. Estructura visual por definir.
 
-Acciones disponibles: Jugar.
+Acciones disponibles: Jugar, entrar a Configuración y consultar el almanaque.
 
 Estados: Por definir.
 
 Transiciones:
 
 Jugar → Selección de personaje.
-Victoria / Derrota → Continuar → Menú principal.
+Derrotar al jefe final → Victoria → Créditos → Menú principal.
+Derrota → Continuar → Menú principal.
 
 
 **Selección de personaje**
 
 Propósito: Elegir entre los protagonistas disponibles.
 
-Elementos: Presentación y datos por definir.
+Elementos: Niko, Mateo Cruz y Mr. Wobbles, disponibles desde el inicio. Presentación y datos por definir.
 
 Acciones disponibles: Elegir personaje.
 
@@ -66,11 +68,8 @@ Transiciones:
 
 Último enemigo del nivel fuera → Menú de boons, si hay opciones disponibles.
 Derrotar al mini-jefe → Menú de boons, si hay opciones disponibles.
-Elegir boon → Ascensor disponible.
+Elegir boon → Ascensor disponible → Interactuar con el ascensor → Transición de nivel.
 Sin opciones disponibles → Ascensor disponible.
-Último enemigo del nivel fuera → Menú de boons (si hay boons o mejoras disponibles).
-Derrotar al mini-jefe → Menú de boons.
-Elegir boon → Transición de nivel.
 
 **Tienda**
 
@@ -84,9 +83,19 @@ Estados: Compra disponible si el saldo alcanza; compra bloqueada por saldo insuf
 
 Transiciones: Salir de la tienda → Continuar con el flujo del piso correspondiente.
 
+**Pausa**
+
+Propósito: Detener la partida temporalmente.
+
+Elementos: Continuar, Configuración y Abandonar partida.
+
+Acciones disponibles: Continuar, entrar a Configuración y abandonar la partida.
+
+Transiciones: Esc / Start → Jugando. Abandonar partida → Confirmación → Menú principal.
+
 ## Confirmaciones
 
-Las confirmaciones de acciones destructivas o irreversibles están por definir.
+Se pide confirmación al abandonar la partida (la partida se pierde porque no se guarda), al restablecer la configuración y al salir del juego.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →

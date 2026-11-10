@@ -22,7 +22,7 @@ Se contemplan **dos personajes jugables adicionales**. Quedan por definir su ide
 - Versiones para consolas.
 - Cinemáticas narrativas y mejoras permanentes entre partidas.
 
-La posibilidad de guardar una partida en curso para retomarla más tarde queda pendiente de definir en [[04 - Guardado y Configuración]].
+La primera versión no permite guardar una partida en curso para retomarla más tarde: solo se guarda la configuración (ver [[04 - Guardado y Configuración]]).
 
 ## MVP
 

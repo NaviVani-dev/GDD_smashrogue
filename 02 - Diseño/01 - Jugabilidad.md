@@ -13,7 +13,7 @@ Describe el ciclo que se repite durante la experiencia.
 `Explorar → Encontrar desafío → Resolver → Obtener recompensa → Mejorar → Explorar`
 
 **Bucle del proyecto:**
- Rift es un roguelike de combate de plataformas al estilo Smash Bros. El jugador sube piso por piso un rascacielos corporativo, peleando contra oleadas de enemigos y construyendo su personaje con boons hasta llegar al jefe.
+ MAKE ’EM FALL es un roguelike de combate de plataformas al estilo Smash Bros. El jugador sube piso por piso un rascacielos corporativo, peleando contra oleadas de enemigos y construyendo su personaje con boons hasta llegar al jefe.
 
 `Elegir personaje → Pelear contra una o varias rondas de enemigos → Elegir o mejorar un boon, si hay opciones disponibles → Activar el ascensor → Subir al siguiente piso → Tienda cuando corresponda → Continuar los encuentros → Jefe final en el piso 100 → Victoria o derrota → Nueva partida`
 

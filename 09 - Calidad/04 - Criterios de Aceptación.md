@@ -84,7 +84,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 **Cuando:** derrota a Big Data.
 
-**Entonces:** aparece la pantalla de ¡Victoria!, sin otro ascenso, y la partida termina.
+**Entonces:** aparece la pantalla de ¡Victoria!, sin otro ascenso ni elección de boon, y la partida termina. Al continuar, se muestran los créditos y después el menú principal.
 
 ### Derrota
 

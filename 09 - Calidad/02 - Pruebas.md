@@ -199,7 +199,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 4. Intentar comprar un producto con saldo insuficiente.
 5. Salir de la tienda.
 
-**Resultado esperado:** La comida reduce el porcentaje. La bebida energética deja el porcentaje en el porcentaje actual × 0.70. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al salir, continúa el flujo del piso correspondiente.
+**Resultado esperado:** La comida reduce el porcentaje. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al salir, continúa el flujo del piso correspondiente.
 
 **Resultado obtenido:**
 
@@ -217,7 +217,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 2. Registrar en qué pisos aparece un mini-jefe.
 3. Llegar al piso 100 y derrotar a Big Data.
 
-**Resultado esperado:** Las tiendas aparecen solo en los pisos 10, 19, 30, 39, 50, 59, 70, 79, 90 y 99. Los mini-jefes aparecen en los pisos 20, 40, 60 y 80. Al derrotar a Big Data en el piso 100, aparece la pantalla de ¡Victoria! sin otro ascenso y la partida termina.
+**Resultado esperado:** Las tiendas aparecen solo en los pisos 10, 19, 30, 39, 50, 59, 70, 79, 90 y 99. Los mini-jefes aparecen en los pisos 20, 40, 60 y 80. Al derrotar a Big Data en el piso 100, aparece la pantalla de ¡Victoria! sin otro ascenso ni elección de boon. Al continuar, se muestran los créditos y después el menú principal.
 
 **Resultado obtenido:**
 
@@ -231,7 +231,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Pasos:**
 
-1. Continuar desde la pantalla de victoria o derrota al menú principal.
+1. Continuar desde la pantalla de victoria, pasando por los créditos, o desde la pantalla de derrota hasta el menú principal.
 2. Iniciar una partida nueva.
 3. Revisar el HUD.
 

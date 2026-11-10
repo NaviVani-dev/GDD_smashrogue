@@ -4,35 +4,9 @@
 
 Las misiones y desafíos convierten las mecánicas en objetivos concretos para el jugador.
 
-## Plantilla de misión
+## Misiones
 
-### Nombre
-
-**Tipo:** Principal / Secundaria / Opcional
-
-**Objetivo:**
-
-**Contexto:**
-
-**Requisitos:**
-
-**Pasos:**
-
-1.
-2.
-3.
-
-**Condición de éxito:**
-
-**Condición de fracaso:**
-
-**Recompensa:**
-
-**Consecuencias:**
-
-**Personajes relacionados:**
-
-**Nivel relacionado:**
+No aplica: el juego no tiene misiones ni objetivos secundarios. El objetivo de cada piso es derrotar a todos los enemigos de sus rondas, y el objetivo de la partida es llegar al piso 100 y derrotar a Big Data (ver [[02 - Niveles]] y [[01 - Jugabilidad]]).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →
