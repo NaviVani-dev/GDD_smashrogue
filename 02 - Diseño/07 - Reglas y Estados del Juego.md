@@ -6,71 +6,70 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 
 ## Estados principales
 
-- Menú principal
-- Selección de personaje
-- Carga
-- Entrada inicial por el ascensor
-- Cuenta regresiva
-- Jugando
-- Menú de boons
-- Ascensor disponible
-- Transición de nivel (viaje en ascensor al siguiente piso)
-- Tienda
-- Pausa
-- Combate contra mini-jefe
-- Combate contra jefe final
-- Victoria
-- Derrota / Game Over
-- Créditos
+* Pantalla de título ("Pulsa cualquier botón")
+* Menú principal (Jugar, Tutorial, Opciones, Créditos, Salir)
+* Selección de personaje
+* Tutorial
+* Cuenta regresiva
+* Jugando (rondas de enemigos)
+* Piso limpio (recoger boons de élites)
+* Menú de boons
+* Salto al siguiente piso
+* Cafetería
+* Combate contra Mr. Big Data
+* Pausa
+* Fin de la partida ("GAME!")
+* Resultados
 
-> [!note] La Coladera
+> [!note] ✏️ La Coladera
 > La Coladera **no es un estado jugable**: solo existe en el lore. Lo único jugable son las oficinas; todo lo demás es interfaz.
 
 ## Transiciones
 
-| Estado origen                   | Evento                               | Estado destino                      | Condición                                     |
-| ------------------------------- | ------------------------------------ | ----------------------------------- | --------------------------------------------- |
-| Menú principal                  | Jugar                                | Selección de personaje              | —                                             |
-| Selección de personaje          | Elegir a Niko, Mateo o a Mr. Wobbles | Entrada inicial por el ascensor<br> | —<br>                                         |
-| Entrada inicial por el ascensor | Termina la animación de llegada      | Cuenta regresiva                    | El personaje está en la primera arena <br>    |
-| Cuenta regresiva                | Termina el "¡GO!"                    | Jugando                             | —                                             |
-| Jugando                         | Último enemigo de la ronda fuera     | Jugando (siguiente ronda)           | Quedan rondas en el nivel                     |
-| Jugando                         | Último enemigo del nivel fuera       | Menú de boons                       | Hay boons o mejoras disponibles               |
-| Jugando                         | Último enemigo del nivel fuera       | Ascensor disponible<br>             | No quedan boons o mejoras disponibles         |
-| Menú de boons                   | Elegir boon                          | Ascensor disponible                 | —                                             |
-| Transición de nivel             | Llega al nuevo piso                  | Combate contra jefe final           | Nivel 100                                     |
-| Ascensor disponible             | Interactuar con el ascensor          | Transición de nivel                 | El jugador está junto al ascensor             |
-| Transición de nivel             | Llega al nuevo piso                  | Combate contra mini-jefe            | Nivel múltiplo de 20 (excepto el 100)         |
-| Transición de nivel             | Llega al nuevo piso                  | Tienda                              | Nivel 10, 19, 30, 39, 50, 59, 70, 79, 90 o 99 |
-| Transición de nivel             | Llega al nuevo piso                  | Jugando                             | En cualquier otro caso                        |
-| Tienda                          | Salir                                | Jugando                             | —                                             |
-| Combate contra mini-jefe        | Derrotar al mini-jefe                | Menú de boons                       | Hay boons o mejoras disponibles               |
-| Combate contra jefe final       | Derrotar al jefe final               | Victoria                            | Nivel 100                                     |
-| Jugando                         | Pierde la última vida                | Derrota / Game Over                 | —                                             |
-| Victoria                        | Continuar                            | Créditos                            | —                                             |
-| Créditos                        | Terminan los créditos                | Menú principal                      | —                                             |
-| Derrota / Game Over             | Continuar                            | Menú principal                      | —                                             |
-| Jugando                         | Esc / Start                          | Pausa                               | —                                             |
-| Pausa                           | Esc / Start                          | Jugando                             | —                                             |
+| Estado origen               | Evento                                    | Estado destino              | Condición                                     |
+| --------------------------- | ----------------------------------------- | --------------------------- | ---------------------------------------------- |
+| Pantalla de título         | Pulsar cualquier botón                   | Menú principal             | —                                             |
+| Menú principal             | Jugar                                     | Selección de personaje     | —                                             |
+| Menú principal             | Tutorial                                  | Tutorial                    | —                                             |
+| Tutorial                    | Completar todos los pasos                 | Menú principal             | —                                             |
+| Selección de personaje     | Elegir personaje y START                  | Cuenta regresiva            | —                                             |
+| Cuenta regresiva            | Termina el "¡GO!"                        | Jugando                     | —                                             |
+| Jugando                     | Último enemigo de la ronda fuera         | Jugando (siguiente ronda)   | Quedan rondas en el piso                       |
+| Jugando                     | Último enemigo del piso fuera            | Piso limpio                 | —                                             |
+| Piso limpio                 | Se recogen los boons soltados por élites | Menú de boons              | Hay boons o mejoras disponibles                |
+| Piso limpio                 | Se recogen los boons soltados por élites | Salto al siguiente piso     | No quedan boons o mejoras disponibles          |
+| Menú de boons              | Elegir boon                               | Salto al siguiente piso     | —                                             |
+| Salto al siguiente piso     | Aterriza en el nuevo piso                 | Cafetería                  | Piso múltiplo de 10 o piso anterior a un jefe |
+| Salto al siguiente piso     | Aterriza en el nuevo piso                 | Combate contra Mr. Big Data | Piso múltiplo de 50                           |
+| Salto al siguiente piso     | Aterriza en el nuevo piso                 | Jugando                     | En cualquier otro caso                         |
+| Cafetería                  | Pulsar agarrar en la salida (SUBIR)       | Salto al siguiente piso     | —                                             |
+| Combate contra Mr. Big Data | Derrotar al jefe                          | Piso limpio                 | Se cobran 60 monedas                           |
+| Jugando / Combate con jefe  | Pierde la última vida                    | Fin de la partida           | —                                             |
+| Fin de la partida           | Termina la cámara lenta                  | Resultados                  | —                                             |
+| Resultados                  | Reintentar                                | Cuenta regresiva            | Mismo personaje, desde el piso 1               |
+| Resultados                  | Menú                                     | Menú principal             | —                                             |
+| Jugando                     | Esc / Start                               | Pausa                       | —                                             |
+| Pausa                       | Continuar (Esc / Start)                   | Jugando                     | —                                             |
+| Pausa                       | Volver al inicio                          | Menú principal             | —                                             |
+
 ## Reglas globales
 
 1. Se pierde una vida al salir de los límites del escenario. El jugador tiene 3 vidas.
 2. Entre más porcentaje tiene un personaje, más lejos sale volando.
 3. Los enemigos son más susceptibles al daño que el jugador.
-4. Un nivel termina cuando todos sus enemigos quedan fuera.
-5. Las ventanas se rompen con golpes muy fuertes, se regeneran después de un rato y se reparan al cambiar de nivel.
+4. Un piso termina cuando todos sus enemigos quedan fuera.
+5. Las ventanas se rompen con lanzamientos fuertes y se regeneran unos segundos después.
 6. No se puede cambiar de personaje durante la partida.
 7. Las monedas y los boons solo duran una partida. No hay progreso permanente.
-8. Mini-jefe (enemigo élite) cada 20 niveles; jefe final en el nivel 100. Vencer al jefe final termina la partida.
-9. El ascensor se habilita después de completar todas las rondas del piso y elegir el boon o la mejora, si hay opciones disponibles.
-10. Derrotar al jefe final del piso 100 conduce a la pantalla de ¡Victoria!, sin otro ascenso ni elección de boon. Después se muestran los créditos y se regresa al menú principal.
+8. Mr. Big Data aparece cada 50 pisos. Vencerlo da 60 monedas y la partida continúa.
+9. Se pasa al siguiente piso automáticamente después de elegir el boon (o directamente, si no hay opciones).
+10. La partida no tiene final: termina únicamente al perder las 3 vidas o al volver al menú desde la pausa.
 
 ## Casos especiales
 
-- **Reaparición:** al perder una vida, el jugador reaparece en una plataforma temporal, con 0% e invulnerable por unos instantes.
-- **Sin boons disponibles:** si todos los boons están al máximo, se pasa directo al siguiente nivel.
-- **Cambio de nivel:** los proyectiles en pantalla desaparecen y las ventanas se reparan.
-- **Tienda antes de un jefe:** si al nivel múltiplo de 10 le toca un mini-jefe o el jefe final, la tienda se adelanta un nivel (19, 39, 59, 79, 99) para que el jugador se prepare.
-
+* **Reaparición:** al perder una vida, el jugador reaparece en una plataforma temporal, con 0% e invulnerable por unos instantes.
+* **Sin boons disponibles:** si todos los boons están al máximo, se pasa directo al siguiente piso.
+* **Cambio de piso:** las cáscaras de plátano y los proyectiles en pantalla desaparecen; el nuevo piso se genera con ventanas intactas.
+* **Gato de la suerte:** si el jugador tiene este boon, puede salvarse de un KO por sala en lugar de perder una vida.
 
 > **Navegación:** [[00 - Índice]] · ← [[06 - Economía y Recursos]] · [[01 - Premisa y Trama]] →
