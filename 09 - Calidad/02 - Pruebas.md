@@ -65,9 +65,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Cada golpe suma porcentaje a quien lo recibe. El enemigo con más porcentaje sale volando visiblemente más lejos que el de menos porcentaje.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Cada golpe suma porcentaje y los enemigos con más porcentaje salen volando visiblemente más lejos.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-02 · KO, pérdida de vida y reaparición
 
@@ -84,9 +84,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Cada salida del escenario cuenta como KO. El jugador pierde una vida y, tras unos instantes, reaparece cayendo desde arriba con 0 % e invulnerable unos 2 segundos (parpadea mientras dura). Al perder la tercera vida, aparece el letrero "GAME!" y después la pantalla de resultados.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Al salir del escenario el jugador pierde una vida y reaparece cayendo desde arriba, con 0 % e invulnerable unos instantes.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-03 · Ventanas rompibles
 
@@ -104,9 +104,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** La ventana intacta funciona como pared. Con un golpe muy fuerte, la ventana se rompe y el personaje sale volando. Un personaje lanzado contra la ventana rota sale directo sin chocar. La ventana se regenera después de un rato y todas las ventanas están reparadas en el siguiente piso.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Las ventanas y paredes funcionan como pared, se rompen con golpes fuertes, se regeneran después de unos segundos y se reparan al cambiar de piso.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-04 · Escudo, parry y esquive
 
@@ -123,9 +123,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** El escudo bloquea los golpes y se desgasta. Al romperse, el personaje queda aturdido. Soltar el escudo justo a tiempo provoca un parry con destello cian y el atacante queda expuesto. El esquive en el suelo y en el aire da un momento de invulnerabilidad.
 
-**Resultado obtenido:**
+**Resultado obtenido:** El escudo bloquea y se desgasta; al romperse, el personaje queda aturdido. El parry y el esquive funcionan.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-05 · Moveset de los personajes
 
@@ -143,9 +143,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Cada combinación produce el ataque documentado para el personaje. El ataque neutral básico es un combo de 3 golpes. El personaje parpadea en amarillo al cargar un ataque fuerte. El agarre atrapa al enemigo, permite golpearlo y lanzarlo.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Los cinco personajes ejecutan sus ataques según la dirección y el agarre (I / RB) funciona en todos.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-06 · Menú de boons
 
@@ -162,9 +162,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Se ofrecen 3 opciones al azar, que pueden ser boons nuevos o mejoras de los boons que ya tiene el jugador. No hay límite de boons equipados: se siguen ofreciendo boons nuevos mientras queden. Ningún boon pasa del nivel 5. Si no hay opciones, el menú se omite y el personaje sube al siguiente piso.
 
-**Resultado obtenido:**
+**Resultado obtenido:** El menú ofrece 3 opciones entre boons nuevos y mejoras, respeta el nivel máximo y se omite cuando no hay opciones.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-07 · Avance al siguiente piso
 
@@ -181,9 +181,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Mientras queden rondas o enemigos, el personaje permanece en el piso. Después de limpiar todas las rondas y resolver la elección de boon, el personaje celebra unos instantes, salta, rompe el techo y llega al siguiente piso, sin necesidad de interactuar con nada. El número de piso del HUD aumenta.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Al limpiar el piso y elegir boon, el personaje celebra, salta, rompe el techo y aterriza en el siguiente piso.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-08 · Tienda
 
@@ -220,9 +220,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Las tiendas aparecen cada 10 pisos y en el piso anterior a cada jefe (10, 20, 30, 40, 49, 60, 70, 80, 90, 99…). Mr. Big Data aparece en el piso 50 y después cada 50 pisos. Al derrotarlo, el jugador recibe monedas, se abre el menú de boons y la subida continúa. No hay pantalla de victoria.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Las tiendas aparecen en los pisos indicados, Mr. Big Data aparece en el piso 50 y la subida continúa después de derrotarlo.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-10 · Partida nueva sin progreso permanente
 
@@ -237,9 +237,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** La partida nueva empieza con 0 monedas, sin boons, con 3 vidas y en el piso 1. "REINTENTAR" empieza con el mismo personaje.
 
-**Resultado obtenido:**
+**Resultado obtenido:** La partida nueva empieza en el piso 1, con 0 monedas, sin boons y con 3 vidas; REINTENTAR conserva el personaje.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-11 · Teclado y mando
 
@@ -255,9 +255,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** Todas las acciones funcionan con teclado y con mando. El mando se detecta sin reiniciar el juego.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Todas las acciones funcionan con teclado y con mando. Se probó con distintos mandos y todos fueron reconocidos.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-12 · Primer piso con un jugador nuevo
 
@@ -273,9 +273,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** El jugador se mueve, salta y ataca en el primer piso sin leer instrucciones externas. Sabe cuándo debe pelear o elegir un boon. Distingue las ventanas rotas de las intactas.
 
-**Resultado obtenido:**
+**Resultado obtenido:** El jugador nuevo se movió, saltó y atacó en el primer piso sin instrucciones externas y entendió el menú de boons y la subida.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-13 · Rendimiento con requisitos recomendados
 
@@ -291,9 +291,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** La carga tarda menos de 10 segundos. Los FPS se mantienen estables en 60. El uso de RAM no pasa de 4 GB y no crece de forma sostenida entre el piso 1 y el piso 50.
 
-**Resultado obtenido:**
+**Resultado obtenido:** En una laptop de gama alta el juego corre fluido y la carga es rápida. No se midieron FPS ni RAM con herramientas.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-14 · Rendimiento con requisitos mínimos
 
@@ -308,9 +308,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** El juego es jugable y no tiene caídas sostenidas por debajo de 30 FPS.
 
-**Resultado obtenido:**
+**Resultado obtenido:** En una laptop de gama baja el juego también corre fluido. No se midieron FPS con herramientas.
 
-**Estado:**
+**Estado:** Aprobado
 
 ### CP-15 · Estabilidad de la subida
 
@@ -325,9 +325,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** La subida se completa sin cierres inesperados ni bloqueos. No aparecen errores en consola, referencias perdidas ni assets faltantes.
 
-**Resultado obtenido:**
+**Resultado obtenido:** Se jugó una partida larga sin cierres inesperados ni bloqueos.
 
-**Estado:**
+**Estado:** Aprobado
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →
