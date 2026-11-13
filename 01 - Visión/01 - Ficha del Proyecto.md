@@ -6,16 +6,16 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo                        | Información                                                                                                                                           |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombre del proyecto**      |                                                                                                                                                       |
-| **Nombre clave**             | RogueSmash                                                                                                                                            |
-| **Versión del GDD**          | 0.1.0                                                                                                                                                 |
-| **Estado del proyecto**      | Prototipo                                                                                                                                             |
-| **Equipo**                   | Anthony David Duarte Naal<br>Hernandez Mex Ariel Roberto<br>Maldonado Tun Carlos Daniel<br>Hector Ulises Barreda Ojeda<br>Mendoza Sanchez Axel Gibran |
-| **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                                             |
-| **Fecha de inicio**          | 2026-09-25                                                                                                                                            |
-| **Repositorio**              | [github.com/NaviVani-dev/GDD_smashrogue.git](https://github.com/NaviVani-dev/GDD_smashrogue.git)                                                      |
+| Campo                              | Información                                                                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre del proyecto**      | MAKE ’EM FALL                                                                                                                       |
+| **Nombre clave**             | RogueSmash (nombre del proyecto de Unity)                                                                                             |
+| **Versión del GDD**         | 1.0.0 (versión final de la entrega)                                                                                                 |
+| **Estado del proyecto**      | Prototipo                                                                                                                             |
+| **Equipo**                   | Anthony David Duarte NaalHernandez Mex Ariel RobertoMaldonado Tun Carlos DanielHector Ulises Barreda OjedaMendoza Sanchez Axel Gibran |
+| **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                             |
+| **Fecha de inicio**          | 2026-09-25                                                                                                                            |
+| **Repositorio**              | [github.com/NaviVani-dev/GDD_smashrogue.git](https://github.com/NaviVani-dev/GDD_smashrogue.git)                                       |
 
 ## Identidad del videojuego
 
@@ -29,7 +29,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
-**Plataforma objetivo:**  PC, Xbox, PlayStation, Nintendo Switch, Steam Deck
+**Plataforma objetivo:**  PC con Windows para la entrega (itch.io). Xbox, PlayStation, Nintendo Switch y Steam Deck quedan como objetivo de un lanzamiento futuro.
 
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
@@ -43,7 +43,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 <!-- AAAA-MM-DD -->
 
-**Clasificaciones y etiquetas adicionales:**
+**Clasificaciones y etiquetas adicionales:** Roguelike, Combate, Jefes, Generación aleatoria (enemigos, élites, tipo de piso y boons), Personalización (boons), Permadeath (sin progreso permanente entre partidas), Un jugador
 
 > Consulta [[06 - Clasificaciones y Etiquetas]].
 
@@ -56,21 +56,22 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 > [!example] ¿Qué es?
 > Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
 
-**Respuesta:** Combate contra oleadas de enemigos al estilo Smash Bros, ascendiendo hasta 100 pisos y combinando mejoras en partidas que puedes volver a jugar sin límite de intentos.
+**Respuesta:** Combate contra oleadas de enemigos al estilo Smash Bros, subiendo piso por piso un rascacielos corporativo, enfrentando a Mr. Big Data cada 50 pisos y combinando mejoras en partidas que puedes volver a jugar sin límite de intentos.
+
 ## Estado actual
 
 - [X] Concepto definido
-- [x] Alcance inicial definido
-- [x] Mecánica principal definida
-- [x] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
-- [ ] Pruebas
-- [ ] Versión final
+- [X] Alcance inicial definido
+- [X] Mecánica principal definida
+- [X] Prototipo funcional
+- [X] Vertical slice
+- [X] Producción
+- [X] Pruebas
+- [X] Versión final
 
 ## Criterio de éxito del proyecto
 
 ¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
-El juego contiene al menos dos personajes jugables con diferentes movimientos. Cada partida tiene un máximo de 100 pisos y una dificultad progresiva. La elección de personajes y las combinaciones de mejoras aportan variedad y favorecen jugar nuevas partidas.
+El juego contiene cinco personajes jugables con movesets distintos (Niko, Mateo, Mr. Wobbles, Atsuko y Craub). Cada partida es un ascenso con dificultad progresiva y un enfrentamiento contra Mr. Big Data cada 50 pisos. El objetivo del jugador es llegar lo más alto posible; la pantalla de resultados registra el piso alcanzado y le asigna una calificación (S, A, B, C o D). La elección de personaje y las combinaciones de boons aportan variedad y favorecen jugar nuevas partidas.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

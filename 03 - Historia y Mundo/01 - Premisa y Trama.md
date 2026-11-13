@@ -20,39 +20,46 @@ El plan es directo: entrar a cada rascacielos corporativo, abrirse paso a golpes
 
 Las compañías a derrocar son **Nuddle**, **Bookworm**, **Nile** e **Y** (ver [[02 - Mundo]]).
 
-> [!note] Pendiente
-> La entrega se centra en **Nuddle** y su CEO, Bernard "Big Data" Nuddleman. Falta definir el orden de las demás compañías y los CEOs de Bookworm y Nile.
+> [!note] ✏️ Pendiente
+> La entrega se centra en **Nuddle** y su CEO, Bernard "Big Data" Nuddleman. Faltan por definir los CEOs de Bookworm y Nile.
 
 ## La derrota dentro del lore
 
-Al ser un juego tipo Smash, el jugador solo pierde cuando sale disparado del escenario. 
-Niko, Mateo Cruz y Mr. Wobbles llevan paracaídas para escapar cuando son expulsados del edificio. **Canónicamente no mueren:** las derrotas representan retiradas temporales. Después de un intento fallido, el personaje regresa a el **Punto de la Resistencia**, donde se reagrupa con sus aliados para volver a intentarlo. Esto justifica dentro de la historia la estructura de partidas repetidas.
+Al ser un juego tipo Smash, el jugador solo pierde cuando sale disparado del escenario. Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub llevan paracaídas para escapar cuando son expulsados del edificio. **Canónicamente no mueren.** Cada vez que salen volando (perder una vida), abren el paracaídas y vuelven a entrar al piso, lo que justifica la reaparición mientras queden vidas. Al perder las 3 vidas, el intento termina: el personaje se retira al  **Punto de la Resistencia** , donde se reagrupa con sus aliados para volver a intentarlo. Esto justifica dentro de la historia la estructura de partidas repetidas.
 
 ## Estructura narrativa
 
 ### Acto / Etapa 1
+
+Niko pierde a su hermano Ethan cuando el sistema prioriza a los ricos en la atención médica. Mateo comienza su propia lucha para liberar a su comunidad. Ambos se conocen en la resistencia y deciden unir esfuerzos, y Mr. Wobbles se une a ellos como su último show.
+
 <!-- Pendiente -->
 
 ### Acto / Etapa 2
+
+Los protagonistas se infiltran en el rascacielos de Nuddle y suben piso por piso, desde La Recepción y sin un final a la vista, contra guardias, antidisturbios y drones. El encargado de la cafetería Café Corp, una trabajadora explotada, les vende ayuda en el camino. Cada 50 pisos se enfrentan a Bernard "Big Data" Nuddleman ("Mr. Big Data" en el juego), que escapa y vuelve a esperarlos más arriba. Cada derrota es una retirada en paracaídas a La Coladera para volver a intentarlo.
+
 <!-- Pendiente -->
 
 ### Acto / Etapa 3
+
+Tras la caída de Nuddle, la resistencia va por Bookworm, Nile e Y, en ese orden, hasta derrotar a Melon Tusk. Las ciudades se liberan poco a poco: desaparecen los anuncios y el control regresa al pueblo, en un final esperanzador pero abierto.
+
 <!-- Pendiente -->
 
 ## Eventos principales
 
-| Orden | Evento                                                                                        | Participación del jugador                        | Consecuencia                                                                           |
-| ----- | --------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| 1     | Niko y Mateo, con el apoyo de Mr. Wobbles, se infiltran en el rascacielos de una compañía<br> | Combate piso por piso contra oleadas de enemigos | Avanzan hacia la cima del edificio                                                     |
-| 2     | Enfrentamiento con el CEO en el último piso                                                   | Combate contra el jefe                           | El reinado de esa compañía termina                                                     |
-| —     | Son lanzados por una ventana                                                                  | Derrota de la partida                            | Escapan en paracaídas, se reúnen en el Punto de la Resistencia y lo vuelven a intentar |
+| Orden | Evento                                                                                      | Participación del jugador                       | Consecuencia                                                                             |
+| ----- | ------------------------------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| 1     | Niko y Mateo, con el apoyo de Mr. Wobbles, se infiltran en el rascacielos de una compañía | Combate piso por piso contra oleadas de enemigos | Avanzan hacia la cima del edificio                                                       |
+| 2     | Enfrentamiento con el CEO en el último piso                                                | Combate contra el jefe                           | El reinado de esa compañía termina                                                     |
+| —    | Son lanzados por una ventana                                                                | Derrota de la partida                            | Escapan en paracaídas, se reúnen en el Punto de la Resistencia y lo vuelven a intentar |
 
 ## Finales
 
 **Final único:** el cambio no es instantáneo. Al caer las compañías, las ciudades empiezan a liberarse poco a poco: desaparecen los anuncios, la gente vuelve a vivir en paz y el control regresa al pueblo. Es un final esperanzador pero abierto: la vida mejora lentamente, y lo que ocurra después queda a la imaginación del jugador.
 
-> [!warning] Spoilers
+> [!warning] ⚠️ Spoilers
 > Si el documento será compartido con estudiantes o colaboradores, considera separar información sensible de la documentación general.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[07 - Reglas y Estados del Juego]] · [[02 - Mundo]] →

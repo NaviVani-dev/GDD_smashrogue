@@ -6,18 +6,19 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 ## Inventario de sistemas
 
-| Sistema              | Propósito                                                                    | Dependencias               | Estado                                    |
-| -------------------- | ---------------------------------------------------------------------------- | -------------------------- | ----------------------------------------- |
-| Combate              | Daño por porcentaje, knockback, escudo, esquive, hitlag                      | Personajes, Escenario      | Prototipo funcional                       |
-| Personajes (Fighter) | Movimiento, saltos y moveset de cada personaje                               | Entrada, Combate           | Prototipo funcional (personaje de prueba) |
-| Escenario            | Plataforma tipo pilar, ventanas rompibles, límites                           | Combate                    | Prototipo funcional                       |
-| Niveles y oleadas    | Generar las rondas de enemigos de cada nivel                                 | IA, Escenario              | Prototipo: 1 ronda por nivel              |
-| IA de enemigos       | Controlar a los enemigos normales y élite                                    | Combate, Niveles           | Prototipo funcional                       |
-| Boons                | Mejoras de la partida                                                        | Combate, Estados alterados | Prototipo funcional (5 boons)             |
-| Estados alterados    | Quemadura, lentitud y otros efectos temporales                               | Combate                    | Prototipo funcional                       |
-| Economía y tienda    | Monedas, comida y mejoras                                                    | Niveles, Boons             | Por implementar                           |
-| Jefes                | Mini-jefe (enemigo élite) cada 20 niveles y jefe final (CEO) en el nivel 100 | Combate, IA, Niveles       | Por implementar                           |
-| Interfaz (HUD)       | Porcentajes, vidas, nivel, contador de monedas y menú de boons               | Todos                      | Prototipo funcional                       |
+| Sistema              | Propósito                                                               | Dependencias               | Estado                               |
+| -------------------- | ------------------------------------------------------------------------ | -------------------------- | ------------------------------------ |
+| Combate              | Daño por porcentaje, knockback, escudo, parry, esquive, agarres, hitlag | Personajes, Escenario      | Implementado                         |
+| Personajes (Fighter) | Movimiento, saltos y moveset de cada personaje                           | Entrada, Combate           | Implementado (5 personajes jugables) |
+| Escenario            | Pisos de oficina generados, ventanas y muebles rompibles, límites       | Combate                    | Implementado                         |
+| Niveles y oleadas    | Generar los enemigos y las rondas de cada piso                           | IA, Escenario              | Implementado                         |
+| IA de enemigos       | Controlar a guardias, antidisturbios, drones y élites (9 niveles de IA) | Combate, Niveles           | Implementado                         |
+| Boons                | Mejoras de la partida                                                    | Combate, Estados alterados | Implementado (16 boons)              |
+| Estados alterados    | Quemadura, congelación, veneno, lentitud, enamorado y otros             | Combate                    | Implementado                         |
+| Economía y tienda   | Monedas y cafetería que vende boons y mejoras                           | Niveles, Boons             | Implementado                         |
+| Jefes                | Mr. Big Data cada 50 pisos, con barra de vida propia                     | Combate, IA, Niveles       | Implementado                         |
+| Interfaz (HUD)       | Porcentajes, vidas, piso, monedas, boons y menú de boons                | Todos                      | Implementado                         |
+| Tutorial             | Escena guiada con Niko que enseña los controles paso a paso             | Combate, Interfaz          | Implementado                         |
 
 ## Plantilla de sistema
 
@@ -64,30 +65,31 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 **Objetivo:** Decidir qué enemigos aparecen en cada nivel.
 
 **Procesamiento / reglas:**
-- Primeros niveles: **1 ronda de 3 o 4 enemigos**.
-- Al subir, aparecen **más rondas por nivel**, una justo después de otra, con un **máximo de 3 rondas**.
-- Los enemigos se vuelven más fuertes poco a poco y aumenta la probabilidad de élites.
-- Hay **tienda cada 10 niveles**, excepto cuando el siguiente nivel tiene un mini-jefe o el jefe final: en ese caso, la tienda aparece **un nivel antes** para que el jugador se prepare. Las tiendas quedan en los niveles **10, 19, 30, 39, 50, 59, 70, 79, 90 y 99**.
-- Cada **20 niveles** aparece un **mini-jefe**, que es un enemigo élite.
-- En el **nivel 100** aparece el **jefe final**. Al vencerlo, la partida termina.
 
-**Datos que genera:** Número de nivel, KO totales.
+- Pisos 1 y 2: 2 enemigos. Desde el piso 3, 3 enemigos, y uno más cada 4 pisos, hasta un máximo de 16.
+- Los enemigos se reparten en rondas de hasta 4, una justo después de otra. Por eso los pisos altos tienen varias rondas.
+- Tipos de enemigo según la altura: guardias comunes desde el inicio; antidisturbios (con puños o con porra) y drones desde el piso 2; drones kamikaze desde el piso 3 (máximo 3 drones por piso).
+- Cada 4 pisos los enemigos reciben un poco menos de daño y su IA sube de nivel (reacciona más rápido y se cubre más).
+- Élites desde el piso 3 (ver [[02 - Mecánicas]]).
+- Hay cafetería cada 10 pisos y un piso antes de cada jefe (10, 20, 30, 40, 49, 60, 70, 80, 90, 99…).
+- Cada 50 pisos aparece Mr. Big Data. Al vencerlo, el jugador cobra 60 monedas y sigue subiendo.
+
+**Datos que genera:** Número de piso, KO totales, monedas ganadas, boons y tiempo (se muestran en la pantalla de Resultados).
 
 ### Boons
 
 **Objetivo:** Ofrecer y aplicar mejoras durante la partida.
 
-**Procesamiento / reglas:** Al limpiar un nivel se ofrecen 3 opciones al azar entre boons nuevos (si hay espacio) y mejoras de los que ya tiene. Máximo 3 boons, hasta nivel 5 cada uno.
+**Procesamiento / reglas:** Al limpiar un nivel se ofrecen 3 opciones al azar entre boons nuevos y mejoras de los que ya tiene, ponderadas por rareza. No hay límite fijo de boons; cada uno llega hasta el nivel 5. Los élites también sueltan un boon y la cafetería los vende.
 
-**Interacciones:** Los boons de golpe (fuego, hielo, curación) se activan al conectar un ataque; los de estadística (pluma, espacio) cambian el movimiento del personaje.
+**Interacciones:** Los boons de golpe (Encendedor, Extintor, Café, Chocolates) se activan al conectar un ataque; los de estadística (Bebida energética, Zapatillas, Mancuerna, Casco) cambian los atributos del personaje; otros reaccionan a eventos (KO, esquive, limpiar la sala).
 
 ## Relaciones entre sistemas
 
 - **Entrada → Personajes → Combate:** el jugador presiona un botón, el personaje ejecuta un ataque y Combate resuelve el golpe.
 - **Combate → Escenario:** un lanzamiento fuerte rompe una ventana. Si el personaje sale de los límites, Escenario avisa del KO.
-- **KO → Niveles → Boons:** cuando todos los enemigos están fuera, el nivel termina y se abre el menú de boons.
+- **KO → Niveles → Boons:** cuando todos los enemigos están fuera, el piso termina y se abre el menú de boons. Si el KO fue de un élite, suelta su boon.
 - **KO → Economía:** cada enemigo derrotado da monedas.
 - **Niveles → IA:** el nivel define cuántos enemigos hay, cuántos son élite y qué tan inteligentes son.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →

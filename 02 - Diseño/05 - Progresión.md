@@ -8,12 +8,13 @@ Explica cómo cambia la experiencia desde el inicio hasta el final. La progresi�
 
 Describe las etapas principales del juego.
 
-1. **Inicio:** el jugador elige a Niko, Mateo o Mr. Wobbles. No se puede cambiar a mitad de partida.
-2. **Introducción de sistemas:** primeros niveles con una sola ronda de 3 o 4 enemigos débiles. Primer boon.
-3. **Desarrollo:** aparecen más rondas por nivel, enemigos más fuertes y los primeros élites.
-4. **Dominio:** el jugador combina varios boons y empieza a mejorarlos. Visita tiendas cada 10 niveles (o un nivel antes de cada jefe) y enfrenta un mini-jefe élite cada 20.
-5. **Clímax:** combate contra el jefe final en el nivel 100, la cima del edificio.
-6. **Final:** pantalla de **¡Victoria!** o de derrota. La partida termina y el jugador puede empezar otra.
+0. **Tutorial (opcional):** desde el menú principal, una escena guiada con Niko enseña movimiento, ataques, smash, especiales, escudo, esquive, agarres, KO y boons.
+1. **Inicio:** el jugador elige a Niko, Mateo, Mr. Wobbles, Atsuko o Craub. No se puede cambiar a mitad de partida.
+2. **Introducción de sistemas:** primeros pisos con 2 o 3 guardias comunes. Primer boon.
+3. **Desarrollo:** aparecen antidisturbios, drones, drones kamikaze y los primeros élites; los pisos empiezan a tener varias rondas.
+4. **Dominio:** el jugador combina varios boons y empieza a mejorarlos. Visita la cafetería cada 10 pisos (y un piso antes de cada jefe).
+5. **Clímax:** combate contra Mr. Big Data en el piso 50, y de nuevo cada 50 pisos.
+6. **Final:** la partida termina al perder las 3 vidas. La pantalla de Resultados muestra el piso alcanzado y una calificación; el jugador puede reintentar.
 
 ## Progresión del jugador
 
@@ -23,39 +24,39 @@ Describe las etapas principales del juego.
 4. Defenderse con escudo, esquive y parry.
 5. Usar ataques fuertes y habilidades en todas direcciones.
 6. Elegir y combinar boons de forma estratégica.
-7. Administrar monedas y vida en las tiendas.
+7. Administrar monedas en la cafetería: comprar boons nuevos o mejorar los que ya tiene.
 
 ## Progresión del personaje
 
 Dentro de una partida, el personaje mejora mediante:
 
-- **Vida:** la comida de la tienda reduce su porcentaje.
-- **Habilidades:** boons nuevos y mejoras de boons (hasta nivel 5).
-- **Recursos:** monedas obtenidas de los enemigos.
+* **Vida:** algunos boons reducen su porcentaje (Botiquín, Frasco de vitaminas, Gato de la suerte).
+* **Habilidades:** boons nuevos y mejoras de boons (hasta nivel 5), obtenidos al limpiar pisos, de los élites y en la cafetería.
+* **Recursos:** monedas obtenidas de los enemigos.
 
 **No hay mejoras permanentes entre partidas:** cada partida empieza desde cero.
 
 ## Desbloqueos
 
-Por ahora **no hay desbloqueos**. Los tres personajes jugables están disponibles desde el inicio.
+Por ahora **no hay desbloqueos**. Los cinco personajes jugables están disponibles desde el inicio.
 
 | Desbloqueo | Requisito | Efecto |
-|---|---|---|
-| — | — | — |
+| ---------- | --------- | ------ |
+| —         | —        | —     |
 
 ## Curva de dificultad
 
-- **Más rondas:** de 1 ronda por nivel al principio, hasta un máximo de 3 rondas seguidas.
-- **Enemigos más fuertes:** se "bufean" poco a poco al subir *(prototipo: reciben menos daño y reaccionan más rápido; además aparece un enemigo más por nivel, hasta 10)*.
-- **Más élites:** la probabilidad sube con la altura *(prototipo: 2% en el nivel 1, ~25% cerca del nivel 7; después pueden aparecer varios por ronda)*.
-- **Variantes:** débil → fuerte → demasiado fuerte.
-- **Mini-jefe** (enemigo élite) cada 20 niveles y **jefe final** en el nivel 100.
+* **Más enemigos y rondas:** 2 enemigos en los pisos 1 y 2; desde el piso 3, uno más cada 4 pisos (hasta 16), repartidos en rondas de 4.
+* **Enemigos más fuertes:** cada 4 pisos reciben menos daño y su IA sube de nivel (de 1 a 8; el jefe llega a 9): reaccionan más rápido, se quedan menos quietos y se cubren más.
+* **Más variedad:** guardias comunes → antidisturbios (puños o porra) y drones → drones kamikaze. La probabilidad de enemigos más difíciles sube con la altura.
+* **Más élites:** desde el piso 3, con 15% por oportunidad, y una oportunidad extra cada 25 pisos.
+* **Jefe:** Mr. Big Data cada 50 pisos.
 
 ## Curva de aprendizaje
 
 - Antes de enfrentar varias rondas seguidas, el jugador debe saber sacar enemigos del escenario.
 - Antes de los élites, debe saber usar el escudo y el esquive.
-- Antes de cada mini-jefe y del jefe final, debe haber construido una combinación de boons.
 
+* Antes de Mr. Big Data, debe haber construido una combinación de boons (la cafetería del piso 49 sirve para prepararse).
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →
