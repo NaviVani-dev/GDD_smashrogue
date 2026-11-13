@@ -292,6 +292,21 @@ Implementación en la entrega:
 
 **Debilidades:** Sin sus robots, armaduras y guardias, no tiene fuerza propia.
 
+**Relaciones:**
+
+- **Nuddle:** la compañía que dirige y cuyo imperio de datos defiende.
+- **Sus guardias, antidisturbios, guardias pesados y drones:** lo protegen y son los que invoca en cada cambio de fase.
+- **La resistencia (Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub):** los rivales que atacan su torre corporativa piso por piso.
+
+**Arco del personaje:** Escapa de cada derrota dentro de su armadura, vuelve a esperar a los protagonistas más arriba y no cambia de actitud. Tras la caída de Nuddle en el final, su poder desaparece con la compañía.
+
+**Habilidades:** Ataca con disparos, misiles, ondas de choque y un láser desde su armadura. Sus golpes son lentos y fuertes. En cada cambio de fase invoca una oleada y lanza misiles desde lejos.
+
+**Frases o tono de diálogo:** No tiene diálogos hablados. Su presentación en pantalla es "MR. BIG DATA — CEO DE NUDDLE". Tono arrogante, derrochador y cobarde, como lo describe su personalidad.
+
+**Referencias visuales:**
+![[Bocetos/Animaciones/Big Data Intro/toma1.png|400]]
+
 ## Enemigos comunes
 
 Cada compañía tiene sus propios enemigos, en **tres variantes**: débil, media y fuerte. Pueden ser humanos o robots. Ver [[03 - Enemigos y NPC]].

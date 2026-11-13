@@ -85,13 +85,27 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 * **Agarres:** el personaje puede agarrar a un enemigo (botón de agarre, o escudo + ataque) y lanzarlo en una dirección. Los agarres atraviesan el escudo.
 * Cada personaje tiene su propio moveset: Niko pelea con los puños, Mateo utiliza principalmente patadas de taekwondo y Mr. Wobbles combate con objetos de payaso (globos explosivos, etc.), Atsuko pelea con una motosierra y Craub ataca con sus garras.
 
-**Entrada:** Ver [[04 - Controles]].
+**Entrada:** Teclado: ataque básico J, habilidad K, ataque fuerte con las flechas, agarre con I (o L + J). Mando: ataque básico B / ○, habilidad X / □, ataque fuerte con el stick derecho, agarre con RB / R1. Ver [[04 - Controles]].
 
-**Interacciones con otras mecánicas:** Los boons modifican los efectos de los ataques.
+**Estado inicial:** Personaje en reposo, sin ataque en curso.
+
+**Estado final:** El ataque termina y el personaje vuelve a reposo.
+
+**Recursos utilizados:** Ninguno: el juego no tiene sistema de energía ni munición.
+
+**Recompensa:** El enemigo recibe porcentaje y retroceso, lo que facilita sacarlo del escenario (ver Mecánica 01).
+
+**Penalización:** Un parry deja expuesto al atacante durante 14 cuadros extra (ver Mecánica 03).
+
+**Interacciones con otras mecánicas:** Los boons modifican los efectos de los ataques (ver Mecánica 05). Los agarres se combinan con el escudo (ver Mecánica 03).
+
+**Casos límite:** Un ataque fuerte cargado al máximo (1 s) hace hasta 40 % más de daño. Los guardias comunes no agarran, así que solo los antidisturbios y los pesados pueden hacerlo (ver [[03 - Enemigos y NPC]]).
 
 ### Mecánica 03 — Defensa: escudo y esquive
 
 **Propósito:** Dar al jugador herramientas para no recibir daño.
+
+**Activación:** Mantener el botón de escudo. Para esquivar, escudo más dirección.
 
 **Reglas:**
 
@@ -99,13 +113,27 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - Soltar el escudo justo cuando llega un golpe provoca un **parry** (ventana de 5 cuadros, a 60 cuadros por segundo): el atacante queda expuesto y congelado 14 cuadros extra.
 - **Esquive** en el suelo (rodar a un lado) y en el aire (esquive aéreo), con un momento de invulnerabilidad.
 
-**Entrada:** Botón de escudo (más dirección para esquivar).
+**Entrada:** Teclado: escudo con L, esquive con L + dirección. Mando: escudo con gatillos (LT / RT) o Y / △, esquive con escudo + dirección. Ver [[04 - Controles]].
 
-**Penalización:** Abusar del escudo provoca que se rompa.
+**Estado inicial:** Escudo bajado, con 50 de vida.
+
+**Estado final:** Escudo bajado con la vida que le quede, o escudo roto con el personaje aturdido 6.7 s.
+
+**Recursos utilizados:** Vida del escudo (50).
+
+**Recompensa:** Parry: el atacante queda expuesto y congelado 14 cuadros extra. Esquive: un momento de invulnerabilidad.
+
+**Penalización:** Abusar del escudo provoca que se rompa, con el aturdimiento que eso conlleva.
+
+**Interacciones con otras mecánicas:** Los agarres atraviesan el escudo (Mecánica 02). Los antidisturbios se defienden con un contraataque que agarra al atacante (ver [[03 - Enemigos y NPC]]).
+
+**Casos límite:** El esquive solo da invulnerabilidad durante un momento; un agarre ignora el escudo.
 
 ### Mecánica 04 — Ventanas rompibles
 
 **Propósito:** Convierte los edificios en parte del combate y conecta la mecánica de KO con la historia (los personajes salen por las ventanas).
+
+**Activación:** Un personaje choca contra una ventana o pared lateral a suficiente velocidad (un lanzamiento fuerte).
 
 **Reglas:**
 
@@ -115,6 +143,20 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - La ventana rota **se queda abierta** mientras haya alguien fuera y se regenera unos **5 segundos** después.
 - En las salas cerradas sin ventanas (Mantenimiento y Sala de servidores), las paredes laterales funcionan igual: se rompen igual que las ventanas, cuando un personaje choca contra ellas a suficiente velocidad (un lanzamiento fuerte); el hueco queda abierto mientras haya alguien fuera y se regeneran unos 5 segundos después.
 - Al pasar al siguiente nivel, todas las ventanas y paredes se reparan.
+
+**Entrada:** No aplica: es una reacción del escenario ante un lanzamiento.
+
+**Estado inicial:** Ventana o pared intacta, que funciona como pared.
+
+**Estado final:** Ventana o pared rota y abierta mientras haya alguien fuera; se regenera unos 5 s después, o se repara al cambiar de piso.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** Sacar al enemigo del escenario por la abertura (KO, ver Mecánica 01).
+
+**Penalización:** Si el jugador sale por la abertura, pierde una vida (ver Mecánica 01).
+
+**Interacciones con otras mecánicas:** KO (Mecánica 01) y regla global 5 de [[07 - Reglas y Estados del Juego]].
 
 **Casos límite:** Si un personaje es lanzado contra una ventana o pared rota, sale directo sin chocar.
 
@@ -133,9 +175,21 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 * Si quedan menos de 3 opciones disponibles, se muestran solo las que quedan (1 o 2 cartas).
 * Si no hay nada que ofrecer (todo al máximo), se omite el menú de boons y se pasa al siguiente piso. Con 16 boons de 5 niveles hay 80 mejoras posibles, así que esto solo pasa en partidas muy largas.
 
-**Entrada:** Seleccionar una carta en el menú de boons.
+**Entrada:** Seleccionar una carta en el menú de boons (Navegar y Enter; A / ✕ en mando). Recoger un boon del suelo con el botón de ataque. Comprar en la tienda con COMPRAR (ver [[04 - Controles]]).
 
-**Interacciones con otras mecánicas:** La tienda también vende mejoras de boons.
+**Estado inicial:** El boon no está equipado, o está equipado con su nivel actual.
+
+**Estado final:** El boon queda equipado en su nivel nuevo (1 a 5).
+
+**Recursos utilizados:** Elegir un boon del menú no cuesta recurso. Comprarlo en la cafetería cuesta monedas (ver [[06 - Economía y Recursos]]).
+
+**Recompensa:** El efecto del boon durante el resto de la partida (ver tabla).
+
+**Penalización:** No hay penalización durante la partida. Los boons se pierden al terminar la partida (regla global 7 de [[07 - Reglas y Estados del Juego]]).
+
+**Interacciones con otras mecánicas:** La tienda también vende mejoras de boons. Los boons de élite no pueden ser Caja de chocolates, Reloj de pared, Botiquín, Caja de cartón, Cerdito hucha ni Gato de la suerte (ver Mecánica 06).
+
+**Casos límite:** Si quedan menos de 3 opciones, se muestran 1 o 2 cartas. Si todo está al máximo, se omite el menú. Caja de cartón: mientras el jugador está escondido, ningún enemigo lo detecta (ver [[03 - Enemigos y NPC]]).
 
 > [!note] ✏️ Lista de boons
 > Lista de boons implementados (16) Los boons son objetos de oficina, en línea con la sátira corporativa del juego.
@@ -150,7 +204,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 > | Reloj de pared        | Lentitud      | Épico      | Cada KO ralentiza al resto de los enemigos: del 55 % de su velocidad (3 s) al 45 % (4 s)                  |
 > | Botiquín              | Curación      | Común      | Al limpiar un piso te curas de 28 % a 44 % del porcentaje                                                 |
 > | Frasco de vitaminas   | Regeneración  | Raro       | Si no te golpean en 3 s, te curas de 0.6 %/s a 1.2 %/s                                                    |
-> | Caja de cartón        | Sigilo        | Legendario | Agáchate 1 s para esconderte: los enemigos no te ven de 2.5 s a 3.5 s (se recarga en 6 s)                 |
+> | Caja de cartón        | Sigilo        | Legendario | Agáchate 1 s para esconderte: ningún enemigo te detecta de 2.5 s a 3.5 s (se recarga en 6 s)              |
 > | Bebida energética     | Velocidad     | Común      | Te mueves y atacas de 8 % a 16 % más rápido                                                               |
 > | Zapatillas deportivas | Salto         | Común      | De 1 salto extra en el aire a 2 saltos extra con 12 % más de altura                                       |
 > | Mancuerna             | Fuerza        | Raro       | Tus golpes lanzan de 8 % a 18 % más lejos                                                                 |
@@ -165,10 +219,13 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 - El hielo solo funciona con ataques normales, y un enemigo congelado no se puede volver a congelar en 2.5 s.
 - La electricidad solo funciona con habilidades; el rayo se recarga en 0.5 s.
 - La probabilidad de enamorar es la mitad contra élites y no funciona contra el jefe.
+- La Caja de cartón se activa agachándose 1 s; mientras dura, los enemigos no detectan al jugador.
 
 ### Mecánica 06 — Enemigos élite
 
 **Propósito:** Sorprender al jugador y aumentar la dificultad poco a poco.
+
+**Activación:** Aparece en el piso con probabilidad: 15 % por piso desde el piso 3, y cada 25 pisos se suma otra oportunidad.
 
 **Reglas:**
 
@@ -178,14 +235,190 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 * Puede aparecer a partir del piso 3. En cada piso hay una oportunidad del 15% de que aparezca uno, y cada 25 pisos se suma otra oportunidad, así que más arriba pueden aparecer varios.
 * **No hay mini-jefes cada 20 pisos** : los picos de dificultad son los élites y Mr. Big Data cada 50 pisos.
 
+**Entrada:** Recoger su boon con el botón de ataque (J en teclado; B / ○ en mando).
+
+**Estado inicial:** Élite en el escenario, con su boon equipado.
+
+**Estado final:** Derrotado: suelta su boon en el suelo. Si no se recoge en 10 segundos, el boon desaparece.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** El doble de monedas (0 a 20) y el boon que lleva.
+
+**Penalización:** No aplica para el jugador. El boon se pierde si no se recoge en 10 segundos.
+
+**Interacciones con otras mecánicas:** Boons (Mecánica 05) y Objetos ([[04 - Objetos y Coleccionables]]). En los pisos del jefe, los guardias pesados que invoca Mr. Big Data también son élites.
+
+**Casos límite:** El nivel del boon depende del piso (ver Reglas). El piso no se da por terminado mientras queden boons en el suelo.
+
 ## Mecánicas secundarias
 
-* **Doble salto** y recuperación con la habilidad hacia arriba.
-* **Caminar lento** con un modificador.
-* **Cámara lenta** en el último KO de cada nivel.
-* **Salto entre pisos:** el personaje salta, rompe el techo y aterriza en el siguiente piso, con cámara lenta.
-* **Cuenta regresiva** al iniciar la partida.
-* **Agarrarse al borde** del escenario al recuperarse.
-* **Muebles rompibles:** algunos objetos de la oficina se pueden golpear y destruir.
+### Doble salto y recuperación
+
+**Propósito:** Permitir volver al escenario tras un lanzamiento.
+
+**Activación:** Pulsar salto en el aire (Espacio o W; A / ✕ en mando). La recuperación se activa con la habilidad hacia arriba (K + arriba).
+
+**Reglas:** El personaje tiene doble salto. Zapatillas deportivas añade saltos extra y altura (Mecánica 05).
+
+**Entrada:** Ver [[04 - Controles]].
+
+**Estado inicial:** Personaje en el aire, con saltos disponibles.
+
+**Estado final:** Personaje en el aire sin saltos, o de vuelta en el escenario.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** Volver al escenario y seguir peleando.
+
+**Penalización:** Si el personaje sale del escenario, pierde una vida (Mecánica 01).
+
+**Interacciones con otras mecánicas:** Zapatillas deportivas (Mecánica 05). Agarrarse al borde (se detalla abajo).
+
+**Casos límite:** Por definir: el GDD no indica qué pasa si la recuperación choca con el borde.
+
+### Caminar lento
+
+**Propósito:** Permitir moverse con más control, por ejemplo para posicionarse.
+
+**Activación:** Mantener Shift mientras se mueve (teclado), o inclinar poco el stick (mando).
+
+**Reglas:** Reduce la velocidad de movimiento respecto al movimiento normal. La cantidad exacta de reducción está por definir.
+
+**Entrada:** Shift + dirección (teclado); inclinar poco el stick izquierdo (mando).
+
+**Estado inicial:** Personaje moviéndose a velocidad normal.
+
+**Estado final:** Personaje moviéndose a velocidad reducida, o de vuelta a velocidad normal al soltar Shift.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** Más control del movimiento.
+
+**Penalización:** No aplica.
+
+**Interacciones con otras mecánicas:** Ninguna definida.
+
+**Casos límite:** Por definir.
+
+### Cámara lenta
+
+**Propósito:** Marcar momentos importantes del piso.
+
+**Activación:** El último KO de cada nivel, el salto entre pisos y el fin de la partida.
+
+**Reglas:** El tiempo se ralentiza durante la transición o el KO marcado.
+
+**Entrada:** No aplica: es automática.
+
+**Estado inicial:** Juego a velocidad normal.
+
+**Estado final:** Juego a velocidad normal al terminar la transición o el KO.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** Dar énfasis visual al momento.
+
+**Penalización:** No aplica.
+
+**Interacciones con otras mecánicas:** Salto entre pisos y Fin de la partida (ver [[07 - Reglas y Estados del Juego]]).
+
+**Casos límite:** Por definir: la duración exacta no está indicada.
+
+### Salto entre pisos
+
+**Propósito:** Avanzar al siguiente piso sin ascensor.
+
+**Activación:** Terminar el piso y resolver la elección de boon, si hay opciones.
+
+**Reglas:** El personaje salta, rompe el techo y aterriza en el siguiente piso, con cámara lenta. En la cafetería, el jugador sube usando la salida (SUBIR).
+
+**Entrada:** Automática; en la cafetería, agarrar en la salida (I; RB / R1 en mando).
+
+**Estado inicial:** Piso completado.
+
+**Estado final:** Personaje en el piso de arriba.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** Avanzar en la subida.
+
+**Penalización:** No aplica.
+
+**Interacciones con otras mecánicas:** Menú de boons (Mecánica 05) y Cafetería.
+
+**Casos límite:** Si no hay boons disponibles, se pasa directo al siguiente piso.
+
+### Cuenta regresiva
+
+**Propósito:** Preparar al jugador antes de empezar la partida.
+
+**Activación:** Iniciar una partida o reintentar.
+
+**Reglas:** La cuenta 3, 2, 1, MAKE 'EM FALL mientras los enemigos entran al escenario.
+
+**Entrada:** No aplica.
+
+**Estado inicial:** Partida recién iniciada.
+
+**Estado final:** Partida en curso.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** No aplica.
+
+**Penalización:** No aplica.
+
+**Interacciones con otras mecánicas:** Selección de personaje y Reintentar (ver [[07 - Reglas y Estados del Juego]]).
+
+**Casos límite:** No aplica.
+
+### Agarrarse al borde
+
+**Propósito:** Permitir recuperarse tras un lanzamiento.
+
+**Activación:** El personaje llega al borde del escenario al recuperarse.
+
+**Reglas:** Por definir: el GDD solo indica que el personaje se agarra al borde al recuperarse.
+
+**Entrada:** Por definir.
+
+**Estado inicial:** Personaje en el aire, cerca del borde.
+
+**Estado final:** Personaje sobre el escenario.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** Volver al escenario.
+
+**Penalización:** Por definir.
+
+**Interacciones con otras mecánicas:** Doble salto y recuperación (ver arriba).
+
+**Casos límite:** Por definir.
+
+### Muebles rompibles
+
+**Propósito:** Dar al escenario elementos que el jugador puede destruir durante el combate.
+
+**Activación:** Golpear el mueble.
+
+**Reglas:** Algunos muebles se pueden tirar o romper durante el combate (sillas, plantas, escritorios, libreros, impresoras, máquinas expendedoras, etc.), y otros sirven como plataforma (ver [[03 - Entornos]]).
+
+**Entrada:** Ataque sobre el mueble.
+
+**Estado inicial:** Mueble intacto.
+
+**Estado final:** Mueble roto.
+
+**Recursos utilizados:** No aplica.
+
+**Recompensa:** 5 % de probabilidad de que caiga un boon (ver Mecánica 05).
+
+**Penalización:** No aplica.
+
+**Interacciones con otras mecánicas:** Boons (Mecánica 05).
+
+**Casos límite:** Por definir: el GDD no indica si el mueble roto deja restos en el escenario.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

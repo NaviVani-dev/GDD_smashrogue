@@ -44,7 +44,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Velocidad: Media**
 
-**Rango de detección: No aplica: siempre sabe dónde está el jugador**
+**Rango de detección: No aplica: siempre sabe dónde está el jugador, salvo mientras el jugador está escondido con la Caja de cartón (ver [[02 - Mecánicas]])**
 
 **Ataques: Combo de 3 golpes, golpes y patadas, ataques fuertes y un disparo con pistola a media distancia. No agarra**
 
@@ -76,7 +76,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Velocidad: Media**
 
-**Rango de detección: No aplica: siempre sabe dónde está el jugador**
+**Rango de detección: No aplica: siempre sabe dónde está el jugador, salvo mientras el jugador está escondido con la Caja de cartón (ver [[02 - Mecánicas]])**
 
 **Ataques: Combo de golpes, patada explosiva, gancho ascendente, suplex, agarres y lanzamientos**
 
@@ -108,7 +108,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Velocidad: Media-baja**
 
-**Rango de detección: No aplica: siempre sabe dónde está el jugador**
+**Rango de detección: No aplica: siempre sabe dónde está el jugador, salvo mientras el jugador está escondido con la Caja de cartón (ver [[02 - Mecánicas]])**
 
 **Ataques: Combo con porra, estocada, giro con la porra, contraataque, agarres y lanzamientos**
 
@@ -140,7 +140,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Velocidad: Baja: es el enemigo más lento del juego**
 
-**Rango de detección: No aplica: siempre sabe dónde está el jugador**
+**Rango de detección: No aplica: siempre sabe dónde está el jugador, salvo mientras el jugador está escondido con la Caja de cartón (ver [[02 - Mecánicas]])**
 
 **Ataques: Lariats, golpe cruzado, golpes demoledores, agarres y lanzamientos**
 
@@ -172,7 +172,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Velocidad: Media**
 
-**Rango de detección: Largo: dispara desde lejos**
+**Rango de detección: Largo: dispara desde lejos, salvo mientras el jugador está escondido con la Caja de cartón**
 
 **Ataques: Láser cargado**
 
@@ -204,7 +204,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Velocidad: Alta al lanzarse**
 
-**Rango de detección: Medio**
+**Rango de detección: Medio, salvo mientras el jugador está escondido con la Caja de cartón**
 
 **Ataques: Embestida y explosión**
 

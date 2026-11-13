@@ -39,14 +39,14 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Cuenta regresiva            | Termina el "MAKE 'EM FALL"              | Jugando                     | —                                             |
 | Jugando                     | Último enemigo de la ronda fuera         | Jugando (siguiente ronda)   | Quedan rondas en el piso                       |
 | Jugando                     | Último enemigo del piso fuera            | Piso limpio                 | —                                             |
-| Piso limpio                 | Se recogen los boons soltados por élites | Menú de boons              | Hay boons o mejoras disponibles                |
+| Piso limpio                 | Se recogen los boons soltados por élites, si los hay | Menú de boons              | Hay boons o mejoras disponibles                |
 | Piso limpio                 | Se recogen los boons soltados por élites | Salto al siguiente piso     | No quedan boons o mejoras disponibles          |
 | Menú de boons              | Elegir boon                               | Salto al siguiente piso     | —                                             |
 | Salto al siguiente piso     | Aterriza en el nuevo piso                 | Cafetería                  | Piso múltiplo de 10 que no sea múltiplo de 50, o piso anterior a un jefe |
 | Salto al siguiente piso     | Aterriza en el nuevo piso                 | Combate contra Mr. Big Data | Piso múltiplo de 50                           |
 | Salto al siguiente piso     | Aterriza en el nuevo piso                 | Jugando                     | En cualquier otro caso                         |
 | Cafetería                  | Pulsar agarrar en la salida (SUBIR)       | Salto al siguiente piso     | —                                             |
-| Combate contra Mr. Big Data | Derrotar al jefe                          | Piso limpio                 | Se cobran 60 monedas                           |
+| Combate contra Mr. Big Data | Derrotar al jefe                          | Menú de boons              | Se cobran 60 monedas; si no hay opciones, pasa al salto de piso |
 | Jugando / Combate con jefe  | Pierde la última vida                    | Fin de la partida           | —                                             |
 | Fin de la partida           | Termina la cámara lenta                  | Resultados                  | —                                             |
 | Resultados                  | Reintentar                                | Cuenta regresiva            | Mismo personaje, desde el piso 1               |
