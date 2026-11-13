@@ -162,13 +162,34 @@ Registra problemas encontrados durante las pruebas y permite darles seguimiento.
 
 | ID | Bug | Severidad | Responsable | Estado |
 |---|---|---|---|---|
-| B01 | El prototipo conserva el botón de agarre (I / RB) | Ninguna | Por asignar | Cerrado: el agarre forma parte del juego |
+| B01 | El prototipo conserva el botón de agarre (I / RB) | Ninguna | Mendoza Sanchez Axel Gibran (QA) | Cerrado: el agarre forma parte del juego |
 | B02 | La IA del paso 9 del tutorial tarda en conectar sus 3 golpes | Baja | | Abierto |
 | B03 | El paso 10 del tutorial no cuenta el remate del enemigo | Alta | | Abierto |
 | B04 | No se pueden elegir las opciones del menú de pausa | Media | | Abierto |
 | B05 | El texto de los productos de la tienda se encima | Media | | Abierto |
 | B06 | Falta indicar cómo interactuar con la tienda | Media | | Abierto |
 | B07 | Los drones vuelan demasiado alto | Baja | | Abierto |
+
+## Problemas conocidos
+
+Características que no funcionan por completo o limitaciones pendientes en la versión entregada.
+
+### Bugs abiertos
+
+- **Tutorial, paso 10 (B03, severidad alta):** el remate del enemigo no se cuenta y el tutorial no avanza. No afecta a la partida normal, a la que se entra desde JUGAR.
+- **Menú de pausa (B04):** no se pueden elegir CONTINUAR ni VOLVER AL INICIO. Para salir de la pausa hay que pulsar Esc / Start otra vez.
+- **Tienda (B05 y B06):** los textos de los productos se enciman y falta una indicación clara de cómo usar la tienda.
+- **Tutorial, paso 9 (B02):** a la IA le cuesta conectar los 3 golpes requeridos, así que el paso se alarga.
+- **Drones (B07):** vuelan muy alto y cuesta alcanzarlos.
+
+### Limitaciones de la versión
+
+- Los botones **OPCIONES** (menú principal y pausa) y **CRÉDITOS** aparecen, pero todavía no tienen función.
+- No hay ajustes de audio, video, controles ni accesibilidad, y los controles no se pueden reasignar (ver [[04 - Guardado y Configuración]] y [[03 - Accesibilidad]]).
+- El juego no guarda datos: si se cierra a mitad de partida, la partida se pierde.
+- No se pide confirmación al volver al inicio desde la pausa ni al salir del juego.
+- El mando no vibra.
+- El rendimiento se comprobó jugando en una laptop de gama alta y otra de gama baja, pero no se midieron FPS, tiempos de carga ni uso de RAM con herramientas.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Pruebas]] · [[04 - Criterios de Aceptación]] →

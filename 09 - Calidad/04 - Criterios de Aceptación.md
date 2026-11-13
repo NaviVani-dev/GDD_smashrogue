@@ -104,9 +104,9 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 ## Criterios del proyecto
 
-- [ ] El bucle principal funciona: elegir personaje, limpiar las rondas del piso, elegir boon y subir piso por piso con cualquiera de los cinco personajes iniciales.
-- [ ] La condición de derrota funciona: perder las 3 vidas lleva al letrero "GAME!" y a la pantalla de resultados.
-- [ ] Los sistemas principales están integrados: combate, agarres, ventanas, boons, monedas, tienda, HUD, salto entre pisos y Mr. Big Data cada 50 pisos.
+- [x] El bucle principal funciona: elegir personaje, limpiar las rondas del piso, elegir boon y subir piso por piso con cualquiera de los cinco personajes iniciales.
+- [x] La condición de derrota funciona: perder las 3 vidas lleva al letrero "GAME!" y a la pantalla de resultados.
+- [x] Los sistemas principales están integrados: combate, agarres, ventanas, boons, monedas, tienda, HUD, salto entre pisos y Mr. Big Data cada 50 pisos.
 - [ ] Las pruebas críticas están aprobadas: los casos de prueba y la subida del piso 1 al 50 en la compilación de PC con teclado y mando.
 - [ ] El rendimiento cumple el objetivo definido: 60 FPS a 1920×1080 con los requisitos recomendados, carga de menos de 10 segundos y hasta 4 GB de RAM.
 - [ ] No existen errores bloqueantes conocidos ni bugs abiertos de severidad crítica o alta.

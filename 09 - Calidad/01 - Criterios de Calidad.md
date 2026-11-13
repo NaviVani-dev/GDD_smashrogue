@@ -6,24 +6,24 @@ Define qué significa que una característica esté correctamente terminada.
 
 ## Calidad funcional
 
-- [ ]  **Combate:** cada golpe suma porcentaje a quien lo recibe, y el retroceso crece con el porcentaje. Un enemigo con mucho porcentaje sale volando visiblemente más lejos que uno con poco.
-- [ ]  **KO y vidas:** salir de los límites del escenario (por una ventana o pared rota, o al caer por el borde de la plataforma) siempre cuenta como KO. El jugador pierde una vida, reaparece cayendo desde arriba con 0 % e invulnerable unos instantes, y pierde la partida al perder la tercera vida.
-- [ ]  **Ventanas:** una ventana intacta funciona como pared, se rompe con un golpe muy fuerte, se regenera después de unos segundos y se repara al cambiar de piso. Las paredes de las salas cerradas funcionan igual.
-- [ ]  **Defensa:** el escudo se desgasta y, al romperse, aturde al personaje. El parry y el esquive funcionan en el suelo y en el aire, según corresponda.
-- [ ]  **Moveset:** cada combinación de botón y dirección produce el ataque documentado para los cinco personajes iniciales. El agarre (I / RB) atrapa al rival y permite atacarlo y lanzarlo.
-- [ ]  **Boons:** se ofrecen 3 opciones, que pueden ser boons nuevos o mejoras; no hay límite de boons equipados; ningún boon pasa del nivel 5; si no hay opciones, el menú se omite.
-- [ ]  **Estructura de la partida:** las tiendas aparecen cada 10 pisos y en el piso anterior a cada jefe (10, 20, 30, 40, 49, 60, 70, 80, 90, 99…); Mr. Big Data aparece cada 50 pisos (50, 100, 150…).
-- [ ]  **Avance:** el personaje solo sube al siguiente piso después de limpiar todas las rondas del piso y resolver la elección de boon. En la tienda, sube al usar la salida.
-- [ ]  **Fin de partida:** perder las 3 vidas muestra el letrero "GAME!" y después la pantalla de resultados. No hay condición de victoria: la subida no tiene fin.
-- [ ]  **Sin progreso permanente:** una partida nueva empieza con 0 monedas, sin boons, con 3 vidas y en el piso 1.
+- [x] **Combate:** cada golpe suma porcentaje a quien lo recibe, y el retroceso crece con el porcentaje. Un enemigo con mucho porcentaje sale volando visiblemente más lejos que uno con poco.
+- [x] **KO y vidas:** salir de los límites del escenario (por una ventana o pared rota, o al caer por el borde de la plataforma) siempre cuenta como KO. El jugador pierde una vida, reaparece cayendo desde arriba con 0 % e invulnerable unos instantes, y pierde la partida al perder la tercera vida.
+- [x] **Ventanas:** una ventana intacta funciona como pared, se rompe con un golpe muy fuerte, se regenera después de unos segundos y se repara al cambiar de piso. Las paredes de las salas cerradas funcionan igual.
+- [x] **Defensa:** el escudo se desgasta y, al romperse, aturde al personaje. El parry y el esquive funcionan en el suelo y en el aire, según corresponda.
+- [x] **Moveset:** cada combinación de botón y dirección produce el ataque documentado para los cinco personajes iniciales. El agarre (I / RB) atrapa al rival y permite atacarlo y lanzarlo.
+- [x] **Boons:** se ofrecen 3 opciones, que pueden ser boons nuevos o mejoras; no hay límite de boons equipados; ningún boon pasa del nivel 5; si no hay opciones, el menú se omite.
+- [x] **Estructura de la partida:** las tiendas aparecen cada 10 pisos y en el piso anterior a cada jefe (10, 20, 30, 40, 49, 60, 70, 80, 90, 99…); Mr. Big Data aparece cada 50 pisos (50, 100, 150…).
+- [x] **Avance:** el personaje solo sube al siguiente piso después de limpiar todas las rondas del piso y resolver la elección de boon. En la tienda, sube al usar la salida.
+- [x] **Fin de partida:** perder las 3 vidas muestra el letrero "GAME!" y después la pantalla de resultados. No hay condición de victoria: la subida no tiene fin.
+- [x] **Sin progreso permanente:** una partida nueva empieza con 0 monedas, sin boons, con 3 vidas y en el piso 1.
 
 ## Calidad de experiencia
 
 - [ ] **Objetivo claro:** el jugador sabe en todo momento si debe pelear, elegir un boon, recoger un boon o comprar en la tienda.
 - [ ]  **Lectura del combate:** el porcentaje del jugador y de los enemigos es visible en todo momento; la vida del jefe se ve en su barra.
 - [ ]  **Sensación de impacto:** cada golpe conectado tiene congelación breve (hitlag), destello y respuesta sonora. Los lanzamientos fuertes dejan estela. El último KO del nivel se marca con cámara lenta.
-- [ ]  **Ventanas legibles:** una ventana rota se distingue de una intacta a primera vista, sin depender solo del color.
-- [ ]  **Controles:** un jugador nuevo puede moverse, saltar y atacar en el primer piso sin leer instrucciones externas.
+- [x] **Ventanas legibles:** una ventana rota se distingue de una intacta a primera vista, sin depender solo del color.
+- [x] **Controles:** un jugador nuevo puede moverse, saltar y atacar en el primer piso sin leer instrucciones externas.
 - [ ]  **Dificultad coherente:** los primeros pisos son claramente más fáciles que los posteriores, y Mr. Big Data es un pico de dificultad reconocible.
 - [ ]  **Decisiones con sentido:** en la tienda, el jugador duda entre comprar un boon nuevo y mejorar uno que ya tiene; no compra siempre lo mismo.
 - [ ]  **Ritmo:** la historia nunca interrumpe el combate. Los descansos (menú de boons, salto entre pisos y tienda) son breves.
@@ -34,9 +34,9 @@ Define qué significa que una característica esté correctamente terminada.
 - [ ]  **Rendimiento mínimo:** el juego es jugable a 1280×720 en un equipo con los requisitos mínimos, sin caídas sostenidas por debajo de 30 FPS.
 - [ ]  **Carga:** menos de 10 segundos para entrar a la partida en condiciones normales.
 - [ ]  **Memoria:** hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 50 (sin fugas de memoria).
-- [ ]  **Estabilidad:** se puede jugar del piso 1 al piso 50, incluido el combate contra Mr. Big Data, sin cierres inesperados ni bloqueos.
-- [ ]  **Entrada:** el juego funciona igual con teclado y con mando, y detecta el mando conectado sin reiniciar.
-- [ ]  **Sin dependencias rotas:** la compilación de PC no muestra errores en consola, referencias perdidas ni assets faltantes.
+- [x] **Estabilidad:** se puede jugar del piso 1 al piso 50, incluido el combate contra Mr. Big Data, sin cierres inesperados ni bloqueos.
+- [x] **Entrada:** el juego funciona igual con teclado y con mando, y detecta el mando conectado sin reiniciar.
+- [x] **Sin dependencias rotas:** la compilación de PC no muestra errores en consola, referencias perdidas ni assets faltantes.
 ## Definición de terminado
 
 Una característica se considera terminada cuando:
