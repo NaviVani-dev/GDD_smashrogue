@@ -290,7 +290,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Datos que genera:** Paso completado y tutorial terminado.
 
-**Riesgos:** Pasos que no avanzan por fallos de la IA o del conteo de golpes (B02 y B03 en [[03 - Bugs y Seguimiento]]).
+**Riesgos:** Pasos que no avanzan por fallos de la IA o del conteo de golpes.
 
 **Criterios de aceptación:** Completar todos los pasos regresa al menú principal, y un jugador nuevo puede moverse, saltar y atacar sin instrucciones externas (ver [[01 - Criterios de Calidad]]).
 

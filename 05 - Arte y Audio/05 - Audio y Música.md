@@ -10,7 +10,7 @@ Define la identidad sonora y cómo el audio comunica información al jugador.
 Temas de 136 a 138 BPM que acompañan la energía del combate y la tensión del enfrentamiento contra las corporaciones. El tema de la tienda es lo-fi. Las influencias visuales del proyecto no determinan automáticamente el género musical.
 
 **Instrumentación:**
-Por definir.
+No aplica: la música no fue compuesta por el equipo. Se tomó de un recurso externo (ver [[#Origen de los recursos de audio]]).
 
 **Temas principales:**
 - Menú principal.
@@ -62,5 +62,18 @@ Define prioridades, volumen relativo y comportamiento de la música ante eventos
 Priorizar las señales que afectan al jugador, seguidas de los impactos y acciones principales. La música debe acompañar el ritmo del combate sin ocultar información importante.
 
 Se deberá controlar la acumulación de sonidos cuando varios enemigos ataquen o reciban daño al mismo tiempo. La música suena a 0.5 de volumen base (0.3 en la tienda), los sonidos de los enemigos suenan al 60 % y se reproducen hasta 28 sonidos al mismo tiempo. Por ahora no hay ajustes separados de volumen para música, efectos y voces.
+
+## Origen de los recursos de audio
+
+El equipo no creó audio propio: toda la música, los efectos de sonido y las voces se tomaron de un recurso externo. El equipo solo los seleccionó, los integró en Unity y ajustó su mezcla.
+
+| Recurso | Uso en el juego | Origen | Licencia o uso |
+|---|---|---|---|
+| Música | Menú principal, combate, tienda (Café Corp) y tutorial | Externo: archivo del código fuente de *Super Smash Flash* (2006), [codeberg.org/SmashFlashDevs/SuperSmashFlash](https://codeberg.org/SmashFlashDevs/SuperSmashFlash) | El repositorio no declara una licencia y aclara que no está afiliado con Nintendo. Se usa solo con fines escolares, sin fines de lucro. |
+| Efectos de sonido | Golpes, lanzamientos, escudo, boons, ventanas, monedas, público e interfaz | Externo: mismo repositorio | Igual que la música. |
+| Voces | Anunciador de la selección de personaje y sonidos de esfuerzo y golpe | Externo: mismo repositorio | Igual que la música. |
+
+> [!warning] ⚠️ Derechos de autor
+> Estos recursos no pertenecen al equipo. Para publicar o vender el juego habría que reemplazarlos por audio propio o con licencia libre.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[01 - UX y Flujo del Jugador]] →

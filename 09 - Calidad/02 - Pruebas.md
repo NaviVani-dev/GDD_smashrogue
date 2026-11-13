@@ -202,9 +202,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Resultado esperado:** La tienda ofrece 4 productos. El boon nuevo se agrega a los boons del jugador. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada y la tendera lo avisa. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al usar la salida, el personaje sube al siguiente piso.
 
-**Resultado obtenido:** Los textos de la información de los productos se enciman y dificultan la lectura ([[03 - Bugs y Seguimiento|B05]]). El juego no indica con claridad cómo interactuar con la tienda ([[03 - Bugs y Seguimiento|B06]]).
+**Resultado obtenido:** Los textos de la información de los productos se enciman y dificultan la lectura. El juego no indica con claridad cómo interactuar con la tienda.
 
-**Estado:** Fallido: bugs B05 y B06 abiertos.
+**Estado:** Fallido: los dos problemas siguen pendientes.
 
 ### CP-09 · Estructura de la partida
 
