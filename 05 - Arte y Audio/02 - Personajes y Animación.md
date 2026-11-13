@@ -41,7 +41,7 @@ La selección de boons se realiza mediante interfaz. Los boons que sueltan los �
 Al terminar la partida, la pantalla de resultados muestra al personaje con su animación de victoria.
 ### Combate
 
-Cada ataque debe permitir reconocer preparación, ejecución y recuperación. Las cadenas de golpes, los ataques aéreos y los especiales de cada personaje están definidos en el moveset de Personajes. Los tiempos de cada ataque están por definir.
+Cada ataque debe permitir reconocer preparación, ejecución y recuperación. Las cadenas de golpes, los ataques aéreos y los especiales de cada personaje están definidos en el moveset de Personajes.
 
 ***Niko***
 Utiliza principalmente los puños para combatir cuerpo a cuerpo. Sus animaciones deben permitir reconocer la dirección y el alcance de los golpes. Sus movimientos están definidos en el moveset de Personajes.

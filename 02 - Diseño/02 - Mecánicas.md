@@ -275,15 +275,13 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Interacciones con otras mecánicas:** Zapatillas deportivas (Mecánica 05). Agarrarse al borde (se detalla abajo).
 
-**Casos límite:** Por definir: el GDD no indica qué pasa si la recuperación choca con el borde.
-
 ### Caminar lento
 
 **Propósito:** Permitir moverse con más control, por ejemplo para posicionarse.
 
 **Activación:** Mantener Shift mientras se mueve (teclado), o inclinar poco el stick (mando).
 
-**Reglas:** Reduce la velocidad de movimiento respecto al movimiento normal. La cantidad exacta de reducción está por definir.
+**Reglas:** Reduce la velocidad de movimiento respecto al movimiento normal.
 
 **Entrada:** Shift + dirección (teclado); inclinar poco el stick izquierdo (mando).
 
@@ -298,8 +296,6 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 **Penalización:** No aplica.
 
 **Interacciones con otras mecánicas:** Ninguna definida.
-
-**Casos límite:** Por definir.
 
 ### Cámara lenta
 
@@ -322,8 +318,6 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 **Penalización:** No aplica.
 
 **Interacciones con otras mecánicas:** Salto entre pisos y Fin de la partida (ver [[07 - Reglas y Estados del Juego]]).
-
-**Casos límite:** Por definir: la duración exacta no está indicada.
 
 ### Salto entre pisos
 
@@ -379,9 +373,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Activación:** El personaje llega al borde del escenario al recuperarse.
 
-**Reglas:** Por definir: el GDD solo indica que el personaje se agarra al borde al recuperarse.
-
-**Entrada:** Por definir.
+**Reglas:** El personaje se agarra al borde al recuperarse.
 
 **Estado inicial:** Personaje en el aire, cerca del borde.
 
@@ -391,11 +383,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Recompensa:** Volver al escenario.
 
-**Penalización:** Por definir.
-
 **Interacciones con otras mecánicas:** Doble salto y recuperación (ver arriba).
-
-**Casos límite:** Por definir.
 
 ### Muebles rompibles
 
@@ -418,7 +406,5 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 **Penalización:** No aplica.
 
 **Interacciones con otras mecánicas:** Boons (Mecánica 05).
-
-**Casos límite:** Por definir: el GDD no indica si el mueble roto deja restos en el escenario.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

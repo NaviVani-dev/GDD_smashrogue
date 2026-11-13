@@ -29,7 +29,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
-**Plataforma objetivo:**  PC con Windows o Linux para la entrega (itch.io). Xbox, PlayStation, Nintendo Switch y Steam Deck quedan como objetivo de un lanzamiento futuro.
+**Plataforma objetivo:**  PC con Windows y Linux, y versión Web para navegador, publicadas en itch.io para la entrega. Xbox, PlayStation, Nintendo Switch y Steam Deck quedan como objetivo de un lanzamiento futuro.
 
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 

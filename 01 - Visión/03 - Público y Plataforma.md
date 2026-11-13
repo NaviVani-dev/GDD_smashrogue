@@ -20,7 +20,7 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 | Elemento                | Decisión                                           |
 | ----------------------- | --------------------------------------------------- |
-| Plataforma principal    | PC con Windows o Linux (build publicada en itch.io) |
+| Plataforma principal    | PC con Windows y Linux, y versión Web para navegador (publicadas en itch.io) |
 | Plataformas secundarias | Xbox, PlayStation, Nintendo Switch y Steam Deck (lanzamiento futuro) |
 | Método de entrada      | Teclado / Control                                   |
 | Resolución objetivo    | 1920x1080 (el juego se abre a la resolución nativa del monitor) |
@@ -32,7 +32,7 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribución o conectividad.
 
-* **Hardware:** requisitos mínimos de Windows 10 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior), Intel Core i3 o equivalente, GPU compatible con DirectX 11 (Windows) o con Vulkan / OpenGL 3.2 (Linux) y resolución de 1280 × 720 (ver [[03 - Requisitos Técnicos]]).
+* **Hardware:** requisitos mínimos de Windows 10 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior), Intel Core i3 o equivalente, GPU compatible con DirectX 11 (Windows) o con Vulkan / OpenGL 3.2 (Linux) y resolución de 1280 × 720. La versión Web requiere un navegador actual compatible con WebGL 2 (ver [[03 - Requisitos Técnicos]]).
 * **Memoria:** 8 GB de RAM como mínimo y 16 GB recomendados. Objetivo de hasta 4 GB de RAM durante la ejecución.
 * **Almacenamiento:** 5 GB disponibles como mínimo y 10 GB recomendados.
 * **Controles:** teclado y mando. No se usan mouse ni controles táctiles durante el combate.

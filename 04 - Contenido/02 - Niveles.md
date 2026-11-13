@@ -40,8 +40,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
 
-**Duración estimada: Por definir: depende del número de rondas del piso**
-
 **Dificultad: Variable: sube con el número del piso (ver [[05 - Progresión]])**
 
 **Mecánicas introducidas: Ninguna propia del arquetipo: las mecánicas que aparecen en cada piso dependen de su número (ver [[05 - Progresión]])**
@@ -67,8 +65,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 **Objetivo principal: Derrotar a todos los enemigos de las rondas del piso dentro de una sala de reuniones**
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
-
-**Duración estimada: Por definir: depende del número de rondas del piso**
 
 **Dificultad: Variable: sube con el número del piso (ver [[05 - Progresión]])**
 
@@ -96,8 +92,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
 
-**Duración estimada: Por definir: depende del número de rondas del piso**
-
 **Dificultad: Variable: sube con el número del piso (ver [[05 - Progresión]])**
 
 **Mecánicas introducidas: Ninguna propia del arquetipo: las mecánicas que aparecen en cada piso dependen de su número (ver [[05 - Progresión]])**
@@ -123,8 +117,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 **Objetivo principal: Derrotar a todos los enemigos de las rondas del piso dentro de un cuarto de servicio**
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
-
-**Duración estimada: Por definir: depende del número de rondas del piso**
 
 **Dificultad: Variable: sube con el número del piso (ver [[05 - Progresión]])**
 
@@ -152,8 +144,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
 
-**Duración estimada: Por definir: depende del número de rondas del piso**
-
 **Dificultad: Variable: sube con el número del piso (ver [[05 - Progresión]])**
 
 **Mecánicas introducidas: Ninguna propia del arquetipo: las mecánicas que aparecen en cada piso dependen de su número (ver [[05 - Progresión]])**
@@ -180,8 +170,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivos secundarios: No aplica: no hay combate en este piso**
 
-**Duración estimada: Por definir: depende de las compras del jugador**
-
 **Dificultad: No aplica: no hay enemigos**
 
 **Mecánicas introducidas: No aplica**
@@ -207,8 +195,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 **Objetivo principal: Derrotar a Mr. Big Data, CEO de Nuddle, bajando su barra de vida a cero**
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
-
-**Duración estimada: Por definir: depende de las fases del jefe**
 
 **Dificultad: Pico de dificultad: el jefe es el enemigo más fuerte de la partida (ver [[02 - Mecánicas]] y [[03 - Personajes]])**
 

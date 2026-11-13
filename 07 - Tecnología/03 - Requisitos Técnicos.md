@@ -6,7 +6,7 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Requisitos mínimos
 
-**Sistema operativo:** Windows 10 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior)
+**Sistema operativo:** Windows 10 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior). Versión Web: navegador actual compatible con WebGL 2 (Chrome, Edge o Firefox)
 
 **CPU:**   Intel Core i3 o equivalente
 
@@ -22,7 +22,7 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Requisitos recomendados
 
-**Sistema operativo:**  Windows 10 u 11 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior)
+**Sistema operativo:**  Windows 10 u 11 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior). Versión Web: navegador actual compatible con WebGL 2 (Chrome, Edge o Firefox)
 
 **CPU:**    Intel Core i5 o equivalente
 
