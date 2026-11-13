@@ -27,7 +27,7 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 | Herramienta     | Propósito                                      | Versión     |
 | --------------- | ---------------------------------------------- | ----------- |
 | UNITY           | MOTOR DEL JUEGO                                | 6.6         |
-| BLENDER         | Modelar y animar elementos 3D                  | Por definir |
+| BLENDER         | Modelar y animar elementos 3D                  |             |
 | Adobe Photoshop | Sprites, fondos e interfaz                     |             |
 | Github          | Control de versiones y trabajo en equipo       |             |
 | Discord         | Comunicación del equipo y comunidad de testers |             |

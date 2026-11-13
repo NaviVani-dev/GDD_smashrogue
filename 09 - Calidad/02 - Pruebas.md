@@ -46,8 +46,8 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 - 60 FPS estables a 1920×1080 en un equipo con los requisitos recomendados.
 - Sin caídas sostenidas por debajo de 30 FPS a 1280×720 en un equipo con los requisitos mínimos.
 - Menos de 10 segundos para entrar a la partida en condiciones normales.
-- Hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 100.
-- Subida del piso 1 al 100 sin cierres inesperados ni bloqueos.
+- Hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 50.
+- Subida del piso 1 al 50, incluido el combate contra Mr. Big Data, sin cierres inesperados ni bloqueos.
 
 ## Casos de prueba
 
@@ -287,9 +287,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 1. Medir el tiempo desde iniciar la partida hasta entrar al primer piso.
 2. Jugar un piso con el máximo de enemigos y efectos de boons en pantalla mientras se miden los FPS.
-3. Medir el uso de RAM en el piso 1 y en el piso 100.
+3. Medir el uso de RAM en el piso 1 y en el piso 50.
 
-**Resultado esperado:** La carga tarda menos de 10 segundos. Los FPS se mantienen estables en 60. El uso de RAM no pasa de 4 GB y no crece de forma sostenida entre el piso 1 y el piso 100.
+**Resultado esperado:** La carga tarda menos de 10 segundos. Los FPS se mantienen estables en 60. El uso de RAM no pasa de 4 GB y no crece de forma sostenida entre el piso 1 y el piso 50.
 
 **Resultado obtenido:**
 
@@ -320,7 +320,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Pasos:**
 
-1. Jugar una partida del piso 1 al piso 100.
+1. Jugar una partida del piso 1 al piso 50, incluido el combate contra Mr. Big Data.
 2. Revisar la consola durante la partida.
 
 **Resultado esperado:** La subida se completa sin cierres inesperados ni bloqueos. No aparecen errores en consola, referencias perdidas ni assets faltantes.

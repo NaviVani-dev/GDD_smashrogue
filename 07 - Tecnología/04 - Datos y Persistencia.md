@@ -11,7 +11,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 - **Inventario:** no persiste. Las monedas y los boons solo duran una partida.
 - **Estadísticas:** no se guardan. Durante la partida se generan el piso alcanzado, los KO totales, las monedas ganadas, la suma de niveles de boons y el tiempo, que solo se muestran en la pantalla de resultados junto con una calificación de S a D.
 - **Desbloqueos:** ninguno por ahora. Los cinco personajes jugables (Niko, Mateo Cruz, Atsuko, Mr. Wobbles y Craub) están disponibles desde el inicio.
-- **Otros:** por definir.
+- **Otros:** ninguno.
 
 ## Modelo de datos
 

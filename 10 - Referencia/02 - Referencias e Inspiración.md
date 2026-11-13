@@ -120,7 +120,7 @@ Declaraciones o hechos atribuidos a personas reales.
 
 **Tipo:** Estilo visual.
 
-**Enlace:** Por definir.
+**Enlace:** No aplica: es una referencia de estilo general, no de una obra concreta.
 
 **Qué nos interesa:**
 
@@ -133,19 +133,7 @@ Personajes, diseños ni escenas de ningún anime o juego específico.
 
 ## Referencias visuales
 
-Añade imágenes utilizando la sintaxis de Obsidian:
-
-```markdown
-![[imagen.png]]
-```
-
-## Referencias externas
-
-Puedes utilizar enlaces normales:
-
-```markdown
-[Nombre de la referencia](https://ejemplo.com)
-```
+El arte propio del proyecto (personajes, póster y bocetos) está en [[01 - Dirección de Arte]] y [[03 - Personajes]], y los archivos originales en las carpetas `05 - Arte y Audio/Imágenes de personajes` y `Bocetos`.
 
 > [!warning] ⚠️ Propiedad intelectual
 > Una referencia sirve para analizar y comunicar una idea. No implica que el proyecto pueda copiar recursos protegidos.

@@ -33,8 +33,8 @@ Define qué significa que una característica esté correctamente terminada.
 - [ ] **Rendimiento:** 60 FPS estables a 1920×1080 en un equipo con los requisitos recomendados, incluso con el máximo de enemigos y efectos de boons en pantalla.
 - [ ]  **Rendimiento mínimo:** el juego es jugable a 1280×720 en un equipo con los requisitos mínimos, sin caídas sostenidas por debajo de 30 FPS.
 - [ ]  **Carga:** menos de 10 segundos para entrar a la partida en condiciones normales.
-- [ ]  **Memoria:** hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 100 (sin fugas de memoria).
-- [ ]  **Estabilidad:** se puede jugar del piso 1 al piso 100 sin cierres inesperados ni bloqueos.
+- [ ]  **Memoria:** hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 50 (sin fugas de memoria).
+- [ ]  **Estabilidad:** se puede jugar del piso 1 al piso 50, incluido el combate contra Mr. Big Data, sin cierres inesperados ni bloqueos.
 - [ ]  **Entrada:** el juego funciona igual con teclado y con mando, y detecta el mando conectado sin reiniciar.
 - [ ]  **Sin dependencias rotas:** la compilación de PC no muestra errores en consola, referencias perdidas ni assets faltantes.
 ## Definición de terminado

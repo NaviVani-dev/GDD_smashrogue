@@ -47,7 +47,7 @@ Elementos: JUGAR, TUTORIAL, OPCIONES, CRÉDITOS y SALIR, más el botón "MUNDO D
 
 Acciones disponibles: Jugar, entrar al tutorial, entrar al mundo debug y salir del juego. Opciones y Créditos todavía no tienen función.
 
-Estados: Por definir.
+Estados: Opciones y Créditos aparecen en el menú, pero todavía no tienen función.
 
 Transiciones:
 
