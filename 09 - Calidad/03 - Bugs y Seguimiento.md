@@ -158,6 +158,27 @@ Registra problemas encontrados durante las pruebas y permite darles seguimiento.
 
 **Estado:** Abierto
 
+### B08 · El tutorial dice que la cafetería aparece cada 5 pisos
+
+**Versión:** Versión final (1.0.0)
+
+**Nivel / escena:** Tutorial
+
+**Pasos para reproducir:**
+
+1. Desde el menú principal, entrar a TUTORIAL.
+2. Leer el texto que explica la cafetería.
+
+**Resultado esperado:** El tutorial indica que la cafetería aparece cada 10 pisos y un piso antes del jefe.
+
+**Resultado actual:** El tutorial dice que la cafetería aparece cada 5 pisos.
+
+**Frecuencia:** Siempre
+
+**Severidad:** Baja
+
+**Estado:** Abierto
+
 ## Registro
 
 | ID | Bug | Severidad | Responsable | Estado |
@@ -169,6 +190,7 @@ Registra problemas encontrados durante las pruebas y permite darles seguimiento.
 | B05 | El texto de los productos de la tienda se encima | Media | | Abierto |
 | B06 | Falta indicar cómo interactuar con la tienda | Media | | Abierto |
 | B07 | Los drones vuelan demasiado alto | Baja | | Abierto |
+| B08 | El tutorial dice que la cafetería aparece cada 5 pisos (es cada 10 y un piso antes del jefe) | Baja | | Abierto |
 
 ## Problemas conocidos
 
@@ -179,6 +201,7 @@ Características que no funcionan por completo o limitaciones pendientes en la v
 - **Tutorial, paso 10 (B03, severidad alta):** el remate del enemigo no se cuenta y el tutorial no avanza. No afecta a la partida normal, a la que se entra desde JUGAR.
 - **Menú de pausa (B04):** no se pueden elegir CONTINUAR ni VOLVER AL INICIO. Para salir de la pausa hay que pulsar Esc / Start otra vez.
 - **Tienda (B05 y B06):** los textos de los productos se enciman y falta una indicación clara de cómo usar la tienda.
+- **Texto del tutorial (B08):** dice que la cafetería aparece cada 5 pisos, pero aparece cada 10 y un piso antes del jefe.
 - **Tutorial, paso 9 (B02):** a la IA le cuesta conectar los 3 golpes requeridos, así que el paso se alarga.
 - **Drones (B07):** vuelan muy alto y cuesta alcanzarlos.
 
