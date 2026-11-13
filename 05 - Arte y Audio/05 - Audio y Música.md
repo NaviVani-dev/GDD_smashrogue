@@ -44,10 +44,10 @@ Por definir
 ## Voz
 
 **Narración:**
-No hay narrador confirmado.
+No hay narrador.
 
 **Diálogos hablados:**
-Tampoco se ha decidido si los personajes tendrán voces completas, frases breves o únicamente sonidos de esfuerzo.
+No hay diálogos hablados. Los personajes solo tienen sonidos de esfuerzo y de golpe. Los diálogos de las tiendas se presentan como texto.
 
 **Idiomas:**
 Español

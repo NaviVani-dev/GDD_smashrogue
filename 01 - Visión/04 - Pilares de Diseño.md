@@ -19,6 +19,11 @@ Los pilares son los principios que deben mantenerse durante todo el desarrollo. 
 **Descripción:** Cada golpe debe sentirse y entenderse. El jugador siempre debe saber qué está pasando en el combate: a quién golpeó, cuánto porcentaje tiene cada personaje y por qué alguien salió volando.
 
 **¿Cómo se refleja en el juego?**
+- Cada golpe conectado tiene congelación breve (hitlag), destello y vibración del personaje golpeado. Los lanzamientos fuertes dejan una estela y el último KO de cada nivel se marca con cámara lenta.
+- El porcentaje de todos los personajes en pantalla es visible en todo momento.
+- Entre más porcentaje tiene un personaje, más lejos sale volando. La regla aplica igual para el jugador y para los enemigos.
+- Las ventanas rotas se distinguen con claridad de las intactas.
+- Los estados alterados, la carga de ataques fuertes y el parry se comunican con parpadeos y destellos de color.
 
 * Cada golpe conectado tiene congelación breve (hitlag), destello y vibración del personaje golpeado. Los lanzamientos fuertes dejan una estela y el último KO de cada nivel se marca con cámara lenta.
 * El porcentaje de todos los personajes en pantalla es visible en todo momento.
@@ -31,6 +36,11 @@ Los pilares son los principios que deben mantenerse durante todo el desarrollo. 
 **Descripción:** El jugador sube piso por piso el rascacielos de Nuddle, y el desafío crece de forma gradual conforme sube. Cada tramo del edificio exige lo aprendido antes, con picos de dificultad reconocibles en los enfrentamientos contra Mr. Big Data.
 
 **¿Cómo se refleja en el juego?**
+- Los primeros niveles tienen una sola ronda de 3 o 4 enemigos débiles. Al subir, aparecen más rondas por nivel, hasta un máximo de 3.
+- Los enemigos se vuelven más fuertes poco a poco: débil → fuerte → demasiado fuerte.
+- La probabilidad de que aparezcan enemigos élite aumenta con la altura.
+- Cada 20 niveles hay un mini-jefe y en el nivel 100 espera Big Data, el jefe final.
+- Las tiendas aparecen cada 10 niveles, o un nivel antes de un mini-jefe o del jefe final, para que el jugador se prepare.
 
 * Los primeros pisos tienen 2 o 3 enemigos. Cada 4 pisos aparece un enemigo más (hasta 16), repartidos en rondas de 4; por eso, al subir, un piso puede tener varias rondas seguidas.
 * Los enemigos se vuelven más fuertes poco a poco: reciben menos daño y su IA reacciona más rápido. También aparecen nuevos tipos: antidisturbios, drones y drones kamikaze.

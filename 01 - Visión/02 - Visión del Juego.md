@@ -6,7 +6,7 @@ Aquí se define la **idea central** del videojuego. Esta sección funciona como 
 
 ## Concepto central
 
-**El videojuego trata sobre:**  Un futuro, en donde grandes companias como Nuddle, Bookworm, etc, tienen el control general del mundo, un sistema en donde se usa a gente de clase baja/media como herramientas para hacer crecer el bolsillo de gente clase alta.
+**El videojuego trata sobre:**  Un futuro, en donde grandes compañías como Nuddle, Bookworm, etc, tienen el control general del mundo, un sistema en donde se usa a gente de clase baja/media como herramientas para hacer crecer el bolsillo de gente clase alta.
 
 Nuestros protagonistas ya tuvieron suficiente, y su objetivo es tomar el control de las oficinas centrales de diferentes companias y destruirlas desde dentro para poder abrir puertas a un futuro mas prometedor para su gente.
 

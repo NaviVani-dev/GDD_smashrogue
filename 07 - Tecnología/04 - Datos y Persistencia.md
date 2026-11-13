@@ -6,10 +6,10 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 ## Datos persistentes
 
-- **Progreso:** no hay progreso permanente entre partidas; cada partida empieza desde cero. El guardado es automático, pero su contenido está por definir.
-- **Configuración:** categorías de audio y controles.
+- **Progreso:** no hay progreso permanente entre partidas; cada partida empieza desde cero. El guardado es automático y solo conserva la configuración. La partida en curso no se guarda.
+- **Configuración:** categorías de audio, video, controles y accesibilidad.
 - **Inventario:** no persiste. Las monedas y los boons solo duran una partida.
-- **Estadísticas:** por definir. Durante la partida se generan el número de nivel alcanzado y los KO totales.
+- **Estadísticas:** no se guardan. Durante la partida se generan el número de nivel alcanzado y los KO totales, que solo se muestran al terminar la partida.
 - **Desbloqueos:** ninguno por ahora. Los tres personajes jugables (Niko, Mateo Cruz y Mr. Wobbles) están disponibles desde el inicio.
 - **Otros:** por definir.
 
@@ -32,15 +32,15 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 ## Formato
 
-**Formato de guardado:** Por definir
+**Formato de guardado:** Archivo JSON local con la configuración.
 
-**Ubicación:** Por definir
+**Ubicación:** Carpeta de datos persistentes de Unity, en el equipo del jugador.
 
-**Versionado de datos:** Por definir
+**Versionado de datos:** El archivo guarda un número de versión.
 
 ## Migraciones
 
-Por definir. Como no existe progreso permanente entre partidas, un cambio en la estructura de los datos afectaría únicamente a la configuración y al guardado automático.
+Como no existe progreso permanente entre partidas, un cambio en la estructura de los datos solo afecta a la configuración. Si la versión del archivo no coincide con la del juego, se restablecen los valores predeterminados.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Requisitos Técnicos]] · [[05 - Seguridad y Riesgos Técnicos]] →

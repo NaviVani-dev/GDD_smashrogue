@@ -18,7 +18,7 @@ A ellos se une Mr. Wobbles, un payaso y viejo amigo de Niko que lleva años leva
 
 El plan es directo: entrar a cada rascacielos corporativo, abrirse paso a golpes contra guardias de seguridad y demás defensas, subir hasta el último piso y derrotar al CEO para acabar con su reinado.
 
-Las compañías a derrocar son **Nuddle**, **Bookworm**, **Nile** e **Y** (ver [[02 - Mundo]]).
+Las compañías a derrocar son, en este orden, **Nuddle**, **Bookworm**, **Nile** e **Y** (ver [[02 - Mundo]]).
 
 > [!note] ✏️ Pendiente
 > La entrega se centra en **Nuddle** y su CEO, Bernard "Big Data" Nuddleman. Faltan por definir los CEOs de Bookworm y Nile.

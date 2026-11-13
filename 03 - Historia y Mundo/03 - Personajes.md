@@ -71,13 +71,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 - **Mateo Cruz:** compañero al que conoce durante la resistencia, después de que ambos comienzan a luchar por separado. Su amistad y confianza se construyen durante la lucha. Él la anima a confiar en sus capacidades, mientras ella lo ayuda a reconocer los riesgos que suele subestimar.
 - **Mr. Wobbles:** amigo de años y compañero de lucha. Su amistad es sincera y sencilla, como cualquier amistad común: conectan muy bien.
 
-**Arco del personaje:** De vivir una vida normal, a perderlo todo por culpa del sistema, a armarse de valor para enfrentarlo directamente. *(Por desarrollar.)*
+**Arco del personaje:** De vivir una vida normal, a perderlo todo por culpa del sistema, a armarse de valor para enfrentarlo directamente. A lo largo de la lucha pasa de dudar de sí misma a confiar en su capacidad, con el apoyo de Mateo.
 
 **Habilidades:** Rápida y agresiva en el combate cuerpo a cuerpo, con mucha valentía.
 
 **Debilidades:** Poco alcance. Duda de sus propias capacidades.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Directa, con humor nervioso. Ejemplos: «Ok… sí puedo. Sí puedo.» y «Esto es por Ethan.»
 
 **Referencias visuales:**
 ![[Poster_promocional.png|300]]
@@ -97,7 +97,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Función narrativa:** Comparte el protagonismo con Niko y representa la decisión de enfrentar al sistema por convicción propia y solidaridad con su comunidad. Su confianza contrasta con las inseguridades de Niko, aunque su tendencia a subestimar el peligro también lo obliga a escucharla.
 
-**Descripción física:** Joven de complexión atlética moderada, cabello negro ondulado y abundante. Viste una chamarra roja, camiseta gris azulada oscura, pants negros, guantes de combate y calzado ligero de taekwondo. _(Edad por definir.)_
+**Descripción física:** Joven de 22 años, de complexión atlética moderada, cabello negro ondulado y abundante. Viste una chamarra roja, camiseta gris azulada oscura, pants negros, guantes de combate y calzado ligero de taekwondo.
 
 **Personalidad:** Disciplinado y dedicado a su entrenamiento, lo que lo mantiene firme ante el peligro. Fuera del combate es relajado y bromista: disfruta convivir y no necesita estar serio todo el tiempo. Sin embargo, suele sobreestimar sus capacidades, subestimar a sus rivales o calcular mal sus movimientos.
 
@@ -120,7 +120,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Exceso de confianza. Es más vulnerable cuando el enemigo se le acerca demasiado.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Relajado y bromista. Ejemplo: «Tranquila, esto lo tengo.»
 
 **Referencias visuales:**
 ![[20261016_070715.jpg.jpeg|415]]
@@ -166,7 +166,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Depende de sus objetos. Esconde su tristeza detrás de la sonrisa.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Hace bromas incluso en los momentos serios. Ejemplo: «¡Damas y caballeros, el show debe continuar!»
 
 **Referencias visuales:**
 ![[Mr_Wobbles.png|600]]
@@ -204,7 +204,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Le falta experiencia y la motosierra es pesada.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Enérgica y decidida. Ejemplo: «¡No necesito el dinero de mi familia para esto!»
 
 **Referencias visuales:**
 ![[Atsuko.png|600]]
@@ -221,7 +221,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Descripción física:** Cangrejo de estilo pixel art, rojo, con ojos negros alargados y patas con garras. Tiene un cuerpo semi-tangible.
 
-**Personalidad:** *(Por definir.)*
+**Personalidad:** Curioso, leal y muy empático. Habla con la precisión de una máquina, pero siente como una persona. No soporta que traten a la gente como si no importara, y le teme a volver a ser desconectado.
 
 **Motivaciones:** Ve la situación como profundamente injusta y no soporta que las empresas traten a las personas como si no importaran. Por eso ayuda a detenerlas.
 
@@ -240,7 +240,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Le teme a volver a ser desconectado.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Preciso como una máquina, pero cálido. Ejemplo: «Dato confirmado: esto es injusto.»
 
 **Referencias visuales:**
 ![[Craub.png|600]]

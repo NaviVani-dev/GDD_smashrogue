@@ -58,7 +58,7 @@ Centraliza términos técnicos, de diseño y propios del universo del videojuego
 
 | Término                 | Definición                                                                                                |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| Nuddle (aun por definir) | Compañía parodia de Google. Es la compañía de la entrega.                                              |
+| Nuddle                   | Compañía parodia de Google. Es la compañía de la entrega.                                              |
 | Bookworm                 | Compañía parodia de Facebook.                                                                            |
 | Nile                     | Compañía parodia de Amazon.                                                                              |
 | Y (se pronuncia "Why")   | Compañía parodia de X (Twitter).                                                                         |
@@ -77,6 +77,6 @@ Documenta aquí términos que el equipo debe escribir siempre de la misma manera
 | Compañías               | Nuddle, Bookworm, Nile, Y                 |
 | Lugar de la resistencia   | La Coladera                               |
 | Mejoras de partida        | boons (en minúscula y en plural con "s") |
-| Nombre clave del proyecto | MAKE EM' FALL                             |
+| Nombre clave del proyecto | MAKE ’EM FALL                             |
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Criterios de Aceptación]] · [[02 - Referencias e Inspiración]] →
