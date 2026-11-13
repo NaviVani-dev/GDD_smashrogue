@@ -6,22 +6,15 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 
 ## Formato
 
-| Versión | Fecha | Cambios principales     | Responsable |
-| -------- | ----- | ----------------------- | ----------- |
-| 0.1.0    |       | Creación del documento |             |
-|          |       |                         |             |
-
-
-## Formato
-
 | Versión | Fecha      | Cambios principales                                                                                                                                    | Responsable                                                              |
 | -------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | 0.1.0    | 2026-09-25 | Creación del documento a partir de la plantilla de GDD.                                                                                               | Anthony Duarte                                                           |
 | 0.2.0    | 2026-09-28 | Bases del GDD: ficha del proyecto, visión, Unity como motor y Nuddle como compañía de la entrega.                                                   | Anthony Duarte, Ariel Mex                                                |
 | 0.3.0    | 2026-10-15 | Pulido de la historia y del mundo; se agrega a Mr. Wobbles.                                                                                            | Anthony Duarte                                                           |
 | 0.4.0    | 2026-10-16 | Diseño completo (jugabilidad, mecánicas, sistemas, controles y economía). Avances en Tecnología, Contenido, Arte y Audio, Experiencia y Diálogos. | Anthony Duarte, Ariel Mex, Hector Ulises, Axel Mendoza, Carlos Maldonado |
-| 0.5.0    | 2026-10-25 | Correcciones de coherencia entre secciones y actualización general del GDD.                                                                           | Hector Ulistes                                                           |
-| 0.6.0    | 2026-11-09 | Se completa la sección 10 — Referencia: glosario, referencias e inspiración, registro de decisiones e historial de versiones.                       | AxelMendoz                                                               |
+| 0.5.0    | 2026-10-25 | Correcciones de coherencia entre secciones y actualización general del GDD.                                                                           | Hector Ulises                                                            |
+| 0.6.0    | 2026-11-09 | Se completa la sección 10 — Referencia: glosario, referencias e inspiración, registro de decisiones e historial de versiones.                       | Axel Mendoza                                                              |
+| 1.0.0    | 2026-11-13 | Versión final de la entrega. Se alinean todas las secciones con el juego implementado: subida sin límite, Mr. Big Data cada 50 pisos, agarres, boons sin límite fijo y cinco personajes jugables. | Equipo                                                                   |
 
 ## Convención sugerida
 

@@ -12,7 +12,7 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivos secundarios: No se contemplan objetivos de recorrido o exploración dentro del piso**
 
-**Duración estimada: De 5 a 7 minutos**
+**Duración estimada: De 1 a 2 minutos**
 
 **Dificultad: Baja: es el piso más fácil de la partida, con 2 guardias y la IA en su nivel más bajo**
 
@@ -26,13 +26,13 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Puntos de guardado: No aplica: el juego no guarda la partida**
 
-**Condición de entrada: Iniciar una nueva partida con el personaje seleccionado. El personaje aparece directamente en la arena y comienza la cuenta regresiva de 3, 2, 1, ¡GO! mientras los enemigos saltan al escenario**
+**Condición de entrada: Iniciar una nueva partida con el personaje seleccionado. El personaje aparece directamente en la arena y comienza la cuenta regresiva de 3, 2, 1, MAKE 'EM FALL mientras los enemigos saltan al escenario**
 
 **Condición de salida: Derrotar a todos los enemigos de todas las rondas del piso y resolver la elección de boon. El personaje salta automáticamente, rompe el techo y sube al siguiente nivel**
 
-**Eventos narrativos: No aplica: la historia nunca interrumpe el combate y solo se presenta en las tiendas**
+**Eventos narrativos: No aplica: la historia nunca interrumpe el combate**
 
-**Mapa / diagrama: Arena de combate ambientada como recepción corporativa, sin recorrido entre zonas. Distribución concreta por definir**
+**Mapa / diagrama: Arena de combate ambientada como recepción corporativa, sin recorrido entre zonas. El piso mide 260 unidades de ancho y el techo está a 110 de altura. Tiene 2 plataformas flotantes y un mostrador rompible sobre el que se puede estar**
 
 ## Flujo del nivel
 

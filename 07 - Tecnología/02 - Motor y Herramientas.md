@@ -48,7 +48,7 @@ Control de versiones: GitHub.
 Nomenclatura: se sigue la sección Convenciones de nombres del Glosario.
 
 - **Estructura de carpetas:** `Assets/_Project/` con las carpetas `Scripts`, `Prefabs`, `Scenes`, `Art`, `Audio`, `UI` y `Data`.
-- **Formato de assets:** FBX para modelos, PNG para texturas y sprites, y WAV para audio.
+- **Formato de assets:** FBX para modelos, PNG para texturas y sprites, WAV para la música y OGG para los efectos y las voces.
 - **Convenciones de código (C#):** PascalCase para clases y métodos, camelCase para variables y `_camelCase` para campos privados. Un script por clase.
 
 

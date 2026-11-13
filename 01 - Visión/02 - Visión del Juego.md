@@ -6,9 +6,9 @@ Aquí se define la **idea central** del videojuego. Esta sección funciona como 
 
 ## Concepto central
 
-**El videojuego trata sobre:**  Un futuro, en donde grandes compañías como Nuddle, Bookworm, etc, tienen el control general del mundo, un sistema en donde se usa a gente de clase baja/media como herramientas para hacer crecer el bolsillo de gente clase alta.
+**El videojuego trata sobre:**  Un futuro cercano (año 2060), en donde grandes compañías como Nuddle, Bookworm, etc., tienen el control general del mundo, un sistema en donde se usa a gente de clase baja/media como herramientas para hacer crecer el bolsillo de gente clase alta.
 
-Nuestros protagonistas ya tuvieron suficiente, y su objetivo es tomar el control de las oficinas centrales de diferentes companias y destruirlas desde dentro para poder abrir puertas a un futuro mas prometedor para su gente.
+Nuestros protagonistas ya tuvieron suficiente, y su objetivo es tomar el control de las oficinas centrales de diferentes compañías y destruirlas desde dentro para poder abrir puertas a un futuro más prometedor para su gente.
 
 > Explica la fantasía principal que el jugador debe experimentar.
 
@@ -16,10 +16,10 @@ Nuestros protagonistas ya tuvieron suficiente, y su objetivo es tomar el control
 
 Completa:
 
-- **Quiero que el jugador se sienta:** Entretenido cuando este jugando el juego
-- **Quiero que el jugador piense:** Que es muy entretenido
-- **Quiero que el jugador haga:** Diferentes combinaciones de combate
-- **Quiero que el jugador recuerde:** La experiencia que se llevo al jugar
+- **Quiero que el jugador se sienta:** Como un rebelde que sube a golpes por el rascacielos de una corporación.
+- **Quiero que el jugador piense:** Que cada partida es distinta y que puede llegar más alto que la anterior.
+- **Quiero que el jugador haga:** Combinaciones de ataques y de boons para sacar a los enemigos por las ventanas.
+- **Quiero que el jugador recuerde:** Los KO por las ventanas del edificio y la sátira de las grandes corporaciones.
 
 ## Fantasía del jugador
 

@@ -32,7 +32,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 ### Ventanas rompibles
 
-**Dado que:** una ventana está intacta.
+**Dado que:** una ventana (o una pared de una sala cerrada) está intacta.
 
 **Cuando:** un personaje choca contra ella con un golpe muy fuerte.
 
@@ -44,7 +44,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 **Cuando:** recibe golpes hasta que el escudo se desgasta por completo.
 
-**Entonces:** el escudo se rompe y el personaje queda aturdido. Si bloquea justo a tiempo, se produce un parry y el atacante queda expuesto.
+**Entonces:** el escudo se rompe y el personaje queda aturdido. Si suelta el escudo justo cuando llega un golpe, se produce un parry y el atacante queda expuesto.
 
 ### Moveset
 

@@ -12,6 +12,7 @@ El juego se controla con **teclado y gamepad**, con un esquema inspirado en **Mu
 | ------------------------------ | ------------------------------------ | ----- | ---------------------------- | ------- |
 | Mover                          | W A S D                              | —    | Stick izquierdo              | —      |
 | Caminar lento                  | Shift + dirección                   | —    | Inclinar poco el stick       | —      |
+| Agacharse                      | S                                    | —    | Stick izquierdo abajo        | —      |
 | Ataque básico                 | J (+ dirección)                     | —    | B / ○ (+ dirección)        | —      |
 | Habilidad (especial)           | K (+ dirección)                     | —    | X / □ (+ dirección)        | —      |
 | Ataque fuerte (smash)          | Flechas                              | —    | Stick derecho                | —      |
@@ -26,7 +27,7 @@ El juego se controla con **teclado y gamepad**, con un esquema inspirado en **Mu
 | Resultados: reintentar o menú | Navegar y Enter                      | Clic  | Navegar y A / ✕             | —      |
 
 > [!warning] ⚠️ Diferencia con el prototipo
-> El diseño original no tenía agarres y usaba un ascensor (tecla E). En la versión final **sí hay agarres** (sirven para romper escudos) y **no hay ascensor**: el personaje pasa al siguiente piso saltando a través del techo de forma automática..
+> El diseño original no tenía agarres y usaba un ascensor (tecla E). En la versión final **sí hay agarres** (sirven para romper escudos) y **no hay ascensor**: el personaje pasa al siguiente piso saltando a través del techo de forma automática.
 
 ## Principios de control
 
@@ -42,10 +43,10 @@ El jugador **no puede reasignar** los controles.
 
 ## Entrada y retroalimentación
 
-* **Golpe conectado:** congelación breve (hitlag), destello rojo y vibración del personaje golpeado.
+* **Golpe conectado:** congelación breve (hitlag), destello blanco y vibración del personaje golpeado.
 * **Lanzamiento fuerte:** estela de color detrás del personaje.
 * **Carga de ataque fuerte:** el personaje parpadea en amarillo.
-* **Parry:** destello azul.
+* **Parry:** destello cian.
 * **Estado alterado:** el personaje parpadea con el color del efecto (naranja = quemadura, azul = hielo).
 * **Último KO del nivel:** cámara lenta.
 * **Indicaciones en pantalla:** los avisos (COMPRAR, SUBIR, AGARRAR) muestran el icono del botón según el dispositivo que se esté usando (teclado, Xbox, PlayStation o Switch).

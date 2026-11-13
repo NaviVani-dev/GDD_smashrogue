@@ -11,8 +11,8 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | **Nombre del proyecto**      | MAKE ’EM FALL                                                                                                                       |
 | **Nombre clave**             | RogueSmash (nombre del proyecto de Unity)                                                                                             |
 | **Versión del GDD**         | 1.0.0 (versión final de la entrega)                                                                                                 |
-| **Estado del proyecto**      | Prototipo                                                                                                                             |
-| **Equipo**                   | Anthony David Duarte NaalHernandez Mex Ariel RobertoMaldonado Tun Carlos DanielHector Ulises Barreda OjedaMendoza Sanchez Axel Gibran |
+| **Estado del proyecto**      | Versión final                                                                                                                         |
+| **Equipo**                   | Anthony David Duarte Naal, Hernandez Mex Ariel Roberto, Maldonado Tun Carlos Daniel, Hector Ulises Barreda Ojeda y Mendoza Sanchez Axel Gibran |
 | **Responsable del proyecto** | Anthony David Duarte Naal                                                                                                             |
 | **Fecha de inicio**          | 2026-09-25                                                                                                                            |
 | **Repositorio**              | [github.com/NaviVani-dev/GDD_smashrogue.git](https://github.com/NaviVani-dev/GDD_smashrogue.git)                                       |
@@ -23,13 +23,13 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 > Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
 
-**Subgéneros:**  Hack and Slash, Plataformas 2D
+**Subgéneros:**  Hack and Slash, Plataformas 2.5D
 
 > Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
-**Plataforma objetivo:**  PC con Windows para la entrega (itch.io). Xbox, PlayStation, Nintendo Switch y Steam Deck quedan como objetivo de un lanzamiento futuro.
+**Plataforma objetivo:**  PC con Windows o Linux para la entrega (itch.io). Xbox, PlayStation, Nintendo Switch y Steam Deck quedan como objetivo de un lanzamiento futuro.
 
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
@@ -40,8 +40,6 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 **Perspectiva:**  2.5D
 
 > Consulta [[04 - Perspectivas y Cámaras]].
-
-<!-- AAAA-MM-DD -->
 
 **Clasificaciones y etiquetas adicionales:** Roguelike, Combate, Jefes, Generación aleatoria (enemigos, élites, tipo de piso y boons), Personalización (boons), Permadeath (sin progreso permanente entre partidas), Un jugador
 

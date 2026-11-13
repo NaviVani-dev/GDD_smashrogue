@@ -55,8 +55,8 @@ Documenta estados normales, advertencias, daño, éxito, error y bloqueo.
 - **Normal:** HUD con el porcentaje de daño del jugador y de los enemigos, las vidas restantes, el contador de KO, el piso, los boons y el contador de monedas.
 - **Advertencia:** el porcentaje cambia de color según el daño (crema, amarillo, naranja, rojo y carmesí). Los enemigos élite muestran su porcentaje en color cian.
 - **Daño:** el indicador de porcentaje aumenta y tiembla al recibir golpes, y el personaje golpeado muestra un destello blanco.
-- **Éxito:** al completar el piso aparece el menú de boons y, al elegir uno, el personaje celebra y sube al siguiente piso. Al perder las 3 vidas aparece el letrero "GAME!".
-- **Error:** en la tienda, el tendero avisa con un diálogo cuando el saldo es insuficiente, el producto está agotado o el jugador ya tiene ese boon.
+- **Éxito:** al completar el piso aparece el menú de boons y, al elegir uno, el personaje celebra y sube al siguiente piso.
+- **Error:** en la tienda, la tendera avisa con un diálogo cuando el saldo es insuficiente o el producto está agotado.
 - **Bloqueo:** la compra queda bloqueada si el saldo no alcanza.
 ## Convenciones
 
@@ -91,14 +91,14 @@ CONTINUAR, OPCIONES (sin función por ahora) y VOLVER AL INICIO. Volver al inici
 - Configuración
 No aplica por ahora: el menú de Opciones todavía no tiene función.
 
-- Seleccion de boon
+- Selección de boon
 3 cartas. Cada una muestra el icono y el nombre del boon, si es "NUEVO" o una mejora ("NV 1 » 2"), su etiqueta (por ejemplo, la rareza) y la descripción del efecto.
 
 - Inventario
 No aplica: no hay un sistema de inventario. Los boons equipados se ven en el HUD.
 
 - Tienda
-Muestra las monedas disponibles, 4 productos y sus precios. El tendero indica cuándo el saldo es insuficiente y el saldo se actualiza después de cada compra.
+Muestra las monedas disponibles, 4 productos y sus precios. La tendera indica cuándo el saldo es insuficiente y el saldo se actualiza después de cada compra.
 
 - Mapa
 No aplica: cada piso es una sola arena, sin recorrido entre zonas.

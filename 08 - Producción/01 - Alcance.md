@@ -8,9 +8,9 @@ La primera versión de **MAKE ’EM FALL** transcurre en el edificio de **Nuddle
 
 - **Cinco personajes jugables desde el inicio:** Niko, Mateo Cruz, Atsuko, Mr. Wobbles y Craub. Cada uno tiene su propio repertorio de ataques.
 - **Pisos de Nuddle sin límite:** arenas de combate, tiendas cada 10 pisos y en el piso anterior a cada jefe, y Mr. Big Data cada 50 pisos.
-- **Combate y progresión:** daño por porcentaje, retroceso, agarres, KO fuera de la arena, vidas, ventanas y techo rompibles, rondas, boons, monedas, tienda y avance saltando al piso de arriba.
+- **Combate y progresión:** daño por porcentaje, retroceso, agarres, KO fuera de la arena, vidas, ventanas, paredes y techo rompibles, rondas, boons, monedas, tienda y avance saltando al piso de arriba.
 - **Interfaz de la partida:** pantalla de inicio, menú principal, selección de personaje, HUD, pausa, selección de boon, tienda y pantalla de resultados.
-- **Tutorial y mundo debug,** accesibles desde el menú principal.
+- **Tutorial,** accesible desde el menú principal.
 - **Plataforma de entrega:** PC, con teclado y mando.
 
 ### Fuera del alcance de la primera versión

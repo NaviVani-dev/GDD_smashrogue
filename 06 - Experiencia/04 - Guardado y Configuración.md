@@ -23,7 +23,7 @@ El menú principal y el menú de pausa tienen el botón "OPCIONES", pero todaví
 | Categoría     | Opciones |
 | ------------- | -------- |
 | Audio         | Ninguna por ahora |
-| Video         | Ninguna por ahora. El juego se abre en pantalla completa a la resolución nativa del monitor |
+| Video         | Ninguna por ahora. El juego se abre en pantalla completa a la resolución nativa del monitor, en 16:9 y con barras negras si el monitor tiene otra relación de aspecto |
 | Controles     | Ninguna por ahora. Los controles no se pueden reasignar, el mando no vibra y los avisos de botones cambian automáticamente según el control que se esté usando (teclado, Xbox, PlayStation o Switch) |
 | Accesibilidad | Ninguna por ahora |
 | Jugabilidad   | No aplica: la dificultad no es ajustable |

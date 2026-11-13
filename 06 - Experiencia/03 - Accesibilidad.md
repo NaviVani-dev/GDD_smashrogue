@@ -6,20 +6,7 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 
 ## Opciones previstas
 
-- [ ] Tamaño de texto
-- [ ] Subtítulos
-- [ ] Contraste
-- [ ] Modo para daltonismo
-- [ ] Reasignación de controles
-- [ ] Sensibilidad
-- [ ] Reducción de movimiento
-- [ ] Reducción de destellos
-- [ ] Asistencia de apuntado
-- [ ] Dificultad ajustable
-- [ ] Volumen independiente
-- [ ] Indicadores visuales para sonidos importantes
-
-Por ahora el juego no tiene ninguna opción de accesibilidad: el menú de Opciones todavía no tiene función.
+No aplica: el juego no tiene opciones de accesibilidad.
 
 ## Consideraciones
 

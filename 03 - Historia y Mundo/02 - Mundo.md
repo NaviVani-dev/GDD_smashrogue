@@ -14,7 +14,7 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 
 **Reglas especiales del mundo:**
 
-* Todos están obligados a trabajar para alguna de las grandes compañías.
+* Todos los adultos están obligados a trabajar para alguna de las grandes compañías.
 * Las compañías deciden a quién atender primero, y siempre favorecen a los ricos.
 * Los datos personales son la moneda más valiosa: las empresas lo saben todo de todos.
 
@@ -33,7 +33,7 @@ La vida común es triste:
 * **Anuncios por todas partes** , imposibles de evitar.
 * **Trabajo obligatorio** para las compañías gigantes.
 
-En los barrios de bajos recursos, el ambiente es deprimente. Los espectáculos de Mr. Wobbles ofrecen un respiro a la comunidad. Niko y Mateo comienzan a enfrentar al sistema por separado, hasta que se conocen durante la resistencia y deciden unir esfuerzos para infiltrarse en los rascacielos y derrocar a sus CEOs. Mr. Wobbles, el amigo más cercano de Niko desde antes de la rebelión, los acompaña como aliado para apoyar la lucha por su gente.
+En los barrios de bajos recursos, el ambiente es deprimente. Los espectáculos de Mr. Wobbles ofrecen un respiro a la comunidad. Niko y Mateo comienzan a enfrentar al sistema por separado, hasta que se conocen durante la resistencia y deciden unir esfuerzos para infiltrarse en los rascacielos y derrocar a sus CEOs. Mr. Wobbles, el amigo más cercano de Niko desde antes de la rebelión, los acompaña como aliado para apoyar la lucha por su gente. Atsuko y Craub también se unen a la resistencia.
 
 ### Después del juego
 
@@ -57,16 +57,16 @@ Las compañías son parodias de empresas reales conocidas por sus escándalos co
 | **Nuddle**                          | Google      | La información: todo lo que la gente busca, ve y sabe pasa por Nuddle, que lo registra todo y lo vende al mejor postor. Dirigida por  **Bernard "Big Data" Nuddleman** . **Es la compañía de la entrega.** | Enemiga: objetivo a derrocar          |
 | **Bookworm**                        | Facebook    | Las relaciones sociales: guarda cada conversación, amistad y foto, y manipula lo que la gente piensa.                                                                                                                    | Enemiga: objetivo a derrocar          |
 | **Nile**                            | Amazon      | El comercio: es la única tienda del mundo, fija los precios inflados y tiene bocinas "inteligentes" en cada casa que escuchan todo. Famosa por el trato inhumano a sus trabajadores.                                     | Enemiga: objetivo a derrocar          |
-| **Y** (se pronuncia "Why")          | X / Twitter | La conversación pública: decide qué se dice y quién lo dice, y usa todo lo que publica la gente como materia prima para sus máquinas. Dirigida por  **Melon Tusk** .                                           | Enemiga: objetivo a derrocar          |
-| **Niko, Mateo y Mr. Wobbles**       | —          | La resistencia                                                                                                                                                                                                            | Protagonistas                         |
+| **Y** (se pronuncia "Why")          | X / Twitter | La conversación pública: decide qué se dice y quién lo dice, y usa todo lo que publica la gente como materia prima para sus máquinas.                                           | Enemiga: objetivo a derrocar          |
+| **Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub** | —          | La resistencia                                                                                                                                                                                                            | Protagonistas                         |
 | **Trabajadores de las compañías** | —          | Programadores, marketing y demás empleados: víctimas del sistema, no culpables                                                                                                                                          | Aliados: apoyan la causa desde dentro |
 
 ## Coherencia del mundo
 
-* **Nadie muere al caer.** Cuando Niko, Mateo o Mr. Wobbles salen volando por una ventana, escapan en paracaídas y evitan ser arrestados. Las derrotas son retiradas, no muertes.
-* **Moderno, no futurista.** La tecnología se parece a la actual; lo exagerado es el poder de las empresas, no la ciencia ficción.
+* **Nadie muere al caer.** Cuando los protagonistas salen volando por una ventana, escapan en paracaídas y evitan ser arrestados. Las derrotas son retiradas, no muertes.
+* **Moderno, no futurista.** La tecnología cotidiana se parece a la actual; solo las corporaciones tienen tecnología avanzada (inteligencia artificial, drones y armaduras robóticas). Lo exagerado es el poder de las empresas, no la ciencia ficción.
 * **Heroico, pero no demasiado serio.** El mundo es triste, pero el humor nunca desaparece.
 * **El cambio es gradual.** Derrotar a una compañía no arregla el mundo de golpe.
-* **Subir a la fuerza.** La seguridad corporativa bloquea los ascensores, así que los protagonistas suben rompiendo el techo de cada piso después de derrotar a los guardias. El encargado de la cafetería lo comenta con resignación ("¡Cuidado con el techo! ...Ah, ya lo rompiste").
+* **Subir a la fuerza.** La seguridad corporativa bloquea los ascensores, así que los protagonistas suben rompiendo el techo de cada piso después de derrotar a los guardias. La tendera de la cafetería lo comenta con resignación ("¡Cuidado con el techo! ...Ah, ya lo rompiste").
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →

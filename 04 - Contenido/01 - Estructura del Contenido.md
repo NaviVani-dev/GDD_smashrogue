@@ -20,8 +20,8 @@ Un arquetipo de escenario puede utilizarse en muchos niveles. Por tanto, los pis
 | Oficina | Pisos de combate, al azar |
 | Sala de juntas | Pisos de combate, al azar |
 | Sala de descanso | Pisos de combate, al azar |
-| Mantenimiento | Pisos de combate, al azar (sin ventanas) |
-| Sala de servidores | Pisos de combate, al azar (sin ventanas) |
+| Mantenimiento | Pisos de combate, al azar (sin ventanas: sus paredes se rompen como ellas) |
+| Sala de servidores | Pisos de combate, al azar (sin ventanas: sus paredes se rompen como ellas) |
 | Café Corp (tienda) | Cada 10 pisos y en el piso anterior a cada jefe: 10, 20, 30, 40, 49, 60, 70, 80, 90, 99… |
 | Oficina ejecutiva | Pisos del jefe, cada 50 pisos: 50, 100, 150… |
 
@@ -46,7 +46,7 @@ Edificio de Nuddle — Subida sin límite de pisos
 | Misiones                  |      No aplica: el juego no tiene misiones |
 | Enemigos                  |                                      6 |
 | Jefes                     |                                      1 |
-| NPC                       |                         1 (el tendero) |
+| NPC                       |                         1 (la tendera) |
 | Objetos                   | 1: boons en el suelo (los sueltan los élites y, a veces, los muebles rotos) |
 ## Dependencias
 
@@ -56,4 +56,4 @@ Edificio de Nuddle — Subida sin límite de pisos
 * **Mecánicas Base:** El sistema de combate debe estar programado y pulido antes de balancear la dificultad de los niveles.
 * **Escenarios y progresión:** Los arquetipos de escenario deben ensamblarse y probarse para su reutilización en distintos pisos. La introducción de las mecánicas se organizará en los primeros niveles.
 
-Navegación:[[00 - Índice]] · ← [[04 - Diálogos y Narrativa]] · [[02 - Niveles]] →
+> **Navegación:** [[00 - Índice]] · ← [[04 - Diálogos y Narrativa]] · [[02 - Niveles]] →

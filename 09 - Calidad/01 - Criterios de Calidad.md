@@ -7,8 +7,8 @@ Define qué significa que una característica esté correctamente terminada.
 ## Calidad funcional
 
 - [ ]  **Combate:** cada golpe suma porcentaje a quien lo recibe, y el retroceso crece con el porcentaje. Un enemigo con mucho porcentaje sale volando visiblemente más lejos que uno con poco.
-- [ ]  **KO y vidas:** salir de los límites del escenario (lados, ventana rota o techo) siempre cuenta como KO. El jugador pierde una vida, reaparece cayendo desde arriba con 0 % e invulnerable unos instantes, y pierde la partida al perder la tercera vida.
-- [ ]  **Ventanas:** una ventana intacta funciona como pared, se rompe con un golpe muy fuerte, se regenera después de unos segundos y se repara al cambiar de piso.
+- [ ]  **KO y vidas:** salir de los límites del escenario (por una ventana o pared rota, o al caer por el borde de la plataforma) siempre cuenta como KO. El jugador pierde una vida, reaparece cayendo desde arriba con 0 % e invulnerable unos instantes, y pierde la partida al perder la tercera vida.
+- [ ]  **Ventanas:** una ventana intacta funciona como pared, se rompe con un golpe muy fuerte, se regenera después de unos segundos y se repara al cambiar de piso. Las paredes de las salas cerradas funcionan igual.
 - [ ]  **Defensa:** el escudo se desgasta y, al romperse, aturde al personaje. El parry y el esquive funcionan en el suelo y en el aire, según corresponda.
 - [ ]  **Moveset:** cada combinación de botón y dirección produce el ataque documentado para los cinco personajes iniciales. El agarre (I / RB) atrapa al rival y permite atacarlo y lanzarlo.
 - [ ]  **Boons:** se ofrecen 3 opciones, que pueden ser boons nuevos o mejoras; no hay límite de boons equipados; ningún boon pasa del nivel 5; si no hay opciones, el menú se omite.

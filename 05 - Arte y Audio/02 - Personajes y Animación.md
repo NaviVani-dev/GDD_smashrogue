@@ -8,9 +8,9 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 
 | Personaje   | Modelo/Sprite                                                                                                                                                                                                                                                                                                                 | Animaciones                                                                                      | VFX                                                                     | Estado                                                                                                  |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Mateo Cruz  | Personaje anime de identidad deportiva y urbana. Chamarra roja, pants negros, guantes y tenis de taekwondo; conservar emblema y amuleto.                                                                                                                                                                                      | Reposo, desplazamiento, salto, caída, ataques de taekwondo, agarre y lanzamientos, reacción al daño, derrota y victoria.          | Impactos blancos y efectos de los boons que correspondan a sus ataques. | Modelo 3D, moveset completo y animaciones integrados en el juego. |
+| Mateo Cruz  | Personaje anime de identidad deportiva y urbana. Chamarra roja, pants negros, guantes y tenis de taekwondo.                                                                                                                                                                                      | Reposo, desplazamiento, salto, caída, ataques de taekwondo, agarre y lanzamientos, reacción al daño, derrota y victoria.          | Impactos blancos y efectos de los boons que correspondan a sus ataques. | Modelo 3D, moveset completo y animaciones integrados en el juego. |
 | Niko        | Personaje anime de estilo urbano y rebelde. Piel morena clara, ojos dorados y cabello morado oscuro recogido en coleta, con flequillo y mechones laterales. Chaqueta blanca amplia y abierta, top negro corto, pantalones cargo gris oscuro, cinturón con estoperoles y botas negras. Gargantilla negra y accesorios dorados. | Reposo, desplazamiento, salto, caída, ataques con los puños, agarre y lanzamientos, reacción al daño, derrota y victoria.         | Impactos y efectos de los boons que correspondan a sus ataques.         | Modelo 3D, moveset completo y animaciones integrados en el juego.           |
-| Mr. Wobbles | Personaje jugable de apariencia de payaso. Cabello pelirrojo, sombrero de copa negro con bandas blancas y rombos azules, chaqueta de cola roja con detalles amarillos, azules y morados, corsé blanco y negro, pantalón blanco y botas café de cordones. Pelea con objetos de payaso, como una pelota de payaso que rebota y suelta confeti. | Reposo, desplazamiento, salto, caída, ataques con objetos de payaso, agarre y lanzamientos, reacción al daño, derrota y victoria. | Confeti de la pelota de payaso y efectos de los boons. | Modelo 3D, moveset completo y animaciones integrados en el juego. |
+| Mr. Wobbles | Personaje jugable de apariencia de payaso. Cabello pelirrojo, sombrero de copa negro con bandas blancas y rombos azules, chaqueta de cola roja con detalles amarillos, azules y morados, corsé blanco y negro, pantalón blanco y botas café de cordones. Pelea con objetos de payaso, como globos explosivos, un mazo de goma, pasteles y un cañón de confeti. | Reposo, desplazamiento, salto, caída, ataques con objetos de payaso, agarre y lanzamientos, reacción al daño, derrota y victoria. | Confeti del cañón de confeti y efectos de los boons. | Modelo 3D, moveset completo y animaciones integrados en el juego. |
 | Atsuko      | Estudiante de preparatoria de cabello morado corto, suéter rosa, falda gris de cuadros y calcetas blancas. Usa una motosierra como arma; conservar la motosierra y la venda como elementos de identidad. | Reposo, desplazamiento, salto, caída, ataques con motosierra, agarre y lanzamientos, reacción al daño, derrota y victoria. | Efectos de la motosierra y de los boons que correspondan a sus ataques. | Modelo 3D, moveset completo y animaciones integrados en el juego. |
 | Craub       | Cangrejo pixel art rojo, con ojos negros alargados y garras siempre visibles. Su cuerpo es semi-tangible. | Reposo, desplazamiento, salto, caída, ataques con garras, cohete, fuego y giro, agarre y lanzamientos, reacción al daño, derrota y victoria. | Efectos del cohete, del fuego y de los boons. | Personaje pixel art con moveset completo y animaciones integrados en el juego. |
 
@@ -41,25 +41,25 @@ La selección de boons se realiza mediante interfaz. Los boons que sueltan los �
 Al terminar la partida, la pantalla de resultados muestra al personaje con su animación de victoria.
 ### Combate
 
+Cada ataque debe permitir reconocer preparación, ejecución y recuperación. Las cadenas de golpes, los ataques aéreos y los especiales de cada personaje están definidos en el moveset de Personajes. Los tiempos de cada ataque están por definir.
+
 ***Niko***
 Utiliza principalmente los puños para combatir cuerpo a cuerpo. Sus animaciones deben permitir reconocer la dirección y el alcance de los golpes. Sus movimientos están definidos en el moveset de Personajes.
 
 ***Mateo*** 
 Utiliza principalmente patadas de taekwondo para controlar la distancia. Sus golpes con los puños cumplen una función de apoyo para desestabilizar o alejar al rival. Sus animaciones deben mostrar equilibrio, coordinación y una dirección clara del ataque.
 
-Cada ataque debe permitir reconocer preparación, ejecución y recuperación. Las cadenas de golpes, los ataques aéreos y los especiales de cada personaje están definidos en el moveset de Personajes. Los tiempos de cada ataque están por definir.
-
 ***Mr. Wobbles***
 
-Combate con objetos de payaso, como una pelota de payaso que rebota y suelta confeti al impactar. Sus animaciones deben comunicar con claridad el uso de cada objeto y distinguir su estilo del combate de Niko y Mateo. Sus movimientos están definidos en el moveset de Personajes.
+Combate con objetos de payaso, como globos explosivos, un mazo de goma, pasteles y un cañón de confeti. Sus animaciones deben comunicar con claridad el uso de cada objeto y distinguir su estilo del combate de Niko y Mateo. Sus movimientos están definidos en el moveset de Personajes.
 
 ***Atsuko***
 
-Combate con su motosierra. Sus habilidades son: acelerar la motosierra para dar varios golpes seguidos (neutral), una embestida con la motosierra (lado), un ataque que la eleva (arriba) y un barrido pesado (abajo). Sus animaciones deben dejar claro el alcance de la motosierra. Sus movimientos están definidos en el moveset de Personajes.
+Combate con su motosierra. Sus habilidades son: acelerar la motosierra para dar varios golpes seguidos (neutral), una embestida con la motosierra (lado), un ataque que la eleva (arriba) y un barrido pesado (abajo). Sus animaciones deben dejar claro el alcance de la motosierra. Sus habilidades están definidas en Personajes.
 
 ***Craub***
 
-Combate con sus garras. Sus habilidades son: un golpe cercano (neutral), un cohete que lanza hacia adelante (lado), un ataque de fuego hacia arriba (arriba) y un giro tipo ciclón (abajo). Como personaje pixel art, sus animaciones avanzan cuadro por cuadro, sin interpolación. Sus movimientos están definidos en el moveset de Personajes.
+Combate con sus garras. Sus habilidades son: un golpe cercano (neutral), un cohete que lanza hacia adelante (lado), un ataque de fuego hacia arriba (arriba) y un giro tipo ciclón (abajo). Como personaje pixel art, sus animaciones avanzan cuadro por cuadro, sin interpolación. Sus habilidades están definidas en Personajes.
 ### Daño
 
 Las reacciones al daño deben indicar que un golpe ha conectado, manteniendo la identidad corporal de cada personaje.
@@ -81,6 +81,8 @@ Al cruzar el límite de eliminación, el personaje desaparece y se genera un **d
 
 Define nombres de archivos, tamaños, esqueletos, rigging, frames o formatos cuando sea necesario.
 
-**Por definir**
+- Cada personaje tiene su propia carpeta con sus archivos `.fbx`, `.fbm` y `.asset`.
+- Los materiales empiezan con `MT_`.
+- Los modelos se hacen en Blender y se importan con rig Legacy (no Humanoid).
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Dirección de Arte]] · [[03 - Entornos]] →

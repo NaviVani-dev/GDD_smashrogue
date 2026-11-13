@@ -7,18 +7,16 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 ## Identidad visual
 
 **Estilo:**
-Estética de anime y animacion de accion indie, con personajes expresivos y un acabado visual limpio y sombreado plano tipo cel-shading. 
+Estética de anime y animación de acción indie, con personajes expresivos y un acabado visual limpio y sombreado plano tipo cel-shading. 
 
 El juego se presenta en **2.5D**, con desplazamiento lateral y escenarios que muestran profundidad. Su mundo corresponde a un futuro cercano de apariencia moderna, compuesto por oficinas, vestíbulos, pasillos y otros espacios empresariales reconocibles.
-
-El mundo utiliza espacios corporativos modernos: oficinias, pasillos, vestibulos y salas de juntas. La ambientacion en el futuro cercano no implica una apariencia excesivamente futurista.
 
 **Referencias:**
 ![[WhatsApp Image 2026-10-16 at 12.29.57 PM.jpeg|366]]
 ![[20261016_070750.jpg.jpeg]]
 
 **Sensación buscada:**
-Acción enérgica, rebeldía y determinación. Los protagonistas deben ser el foco de las escenas de combate, los enemigos deben comunicar oposicion y amenaza mediante su silueta, equipo y diferencia de tamaño.
+Acción enérgica, rebeldía y determinación. Los protagonistas deben ser el foco de las escenas de combate, los enemigos deben comunicar oposición y amenaza mediante su silueta, equipo y diferencia de tamaño.
 
 **Nivel de realismo:**
 Caricaturesco y estilizado, con anatomía simplificada y expresiva.
@@ -34,22 +32,23 @@ El juego usa shaders propios de sombreado plano tipo cel-shading (por ejemplo, `
 ## Paleta de color
 
 **Colores principales:**
-**Por definir**
+Azul noche y morados (violeta y morado grafiti) para fondos y menús, con crema y amarillo para el texto.
 
 **Colores secundarios:**
-**Por definir**
+Naranja, rojo y carmesí.
 
 **Colores para información jugable:**
 - **Blanco:** destello del personaje golpeado y destellos localizados en el contacto de los golpes.
 - **Rojo:** pulso del personaje con 100 %, 125 % y 150 % o más de daño, y escudo del jugador.
-- **Amarillo:** parpadeo al cargar un ataque fuerte.
+- **Amarillo:** parpadeo al cargar un ataque fuerte y parpadeo del estado de electricidad.
 - **Cian:** destello del parry y número de porcentaje de los enemigos élite.
 - **Azul claro:** estado de congelación (el personaje queda teñido por completo) y escudo de los enemigos.
-- **Morado:** parpadeo del estado de frío (lentitud).
+- **Morado:** parpadeo del estado de lentitud.
 - **Naranja:** parpadeo del estado de quemadura y estela de los lanzamientos fuertes.
 - **Verde:** parpadeo del estado de veneno.
-- **Rosa:** parpadeo del estado de encanto.
+- **Rosa:** parpadeo del estado de enamorado.
 - **Dorado:** borde de los enemigos élite.
+- **Rareza de los boons:** gris lila (común), azul (rara), morado (épica) y ámbar (legendaria).
 - **Porcentaje de daño:** el número cambia de color según el daño: crema en 0 %, amarillo en 50 %, naranja en 100 %, rojo en 150 % y carmesí en 300 %.
 
 El color se acompaña de formas, símbolos o texto para comunicar estados.

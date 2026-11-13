@@ -6,15 +6,15 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Requisitos mínimos
 
-**Sistema operativo:** windows 10 de 64 bits
+**Sistema operativo:** Windows 10 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior)
 
 **CPU:**   Intel Core i3 o equivalente
 
-**GPU:**  Compatible con DirectX 11
+**GPU:**  Compatible con DirectX 11 (Windows) o con Vulkan / OpenGL 3.2 (Linux)
 
-**RAM:** 8GB
+**RAM:** 8 GB
 
-**Almacenamiento:**   5GB DISPONIBLES 
+**Almacenamiento:**   5 GB disponibles
 
 **Resolución:**  1280 × 720 píxeles
 
@@ -22,15 +22,15 @@ Define las condiciones técnicas necesarias para ejecutar y desarrollar el video
 
 ## Requisitos recomendados
 
-**Sistema operativo:**  Windows 10 u 11 de 64 bits
+**Sistema operativo:**  Windows 10 u 11 de 64 bits o Linux de 64 bits (Ubuntu 22.04 o posterior)
 
 **CPU:**    Intel Core i5 o equivalente
 
-**GPU:** Tarjeta gráfica compatible con DirectX 11
+**GPU:** Tarjeta gráfica compatible con DirectX 11 (Windows) o con Vulkan / OpenGL 3.2 (Linux)
 
-**RAM:**  16GB
+**RAM:**  16 GB
 
-**Almacenamiento:** 10GB DISPONIBLES , preferentemente en sdd
+**Almacenamiento:** 10 GB disponibles, preferentemente en SSD
 
 ## Objetivos de rendimiento
 

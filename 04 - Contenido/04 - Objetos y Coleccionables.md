@@ -16,7 +16,7 @@ En el juego no hay objetos consumibles ni comida. Lo único que el jugador puede
 
 **Función: Agrega ese boon al jugador o, si ya lo tiene, lo mejora**
 
-**Cómo se obtiene: Al eliminar a un enemigo élite, cae el boon que llevaba equipado (de nivel 1 al principio y más alto en pisos avanzados). También hay un 5 % de probabilidad de que caiga un boon al romper un mueble**
+**Cómo se obtiene: Al eliminar a un enemigo élite, cae el boon que llevaba equipado (de nivel 1 hasta el piso 24 y un nivel más cada 25 pisos, hasta el 5). También hay un 5 % de probabilidad de que caiga un boon al romper un mueble**
 
 **Cómo se utiliza: El jugador se acerca, aparece el aviso "AGARRAR" y lo recoge con el botón de ataque**
 
@@ -31,9 +31,5 @@ En el juego no hay objetos consumibles ni comida. Lo único que el jugador puede
 **Interacciones: Funciona igual que elegir ese boon en el menú de boons**
 
 **Representación visual: El icono del boon sobre un destello giratorio, con una flecha que lo señala**
-
-### Nota: Bebida energética
-
-"Bebida energética" no es un objeto que se recoja: es un boon común que hace que el personaje se mueva y ataque más rápido.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →

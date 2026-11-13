@@ -8,10 +8,11 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 - **Porcentaje de daño:** comienza en 0 % y aumenta al recibir golpes. Cuanto mayor sea, mayor será el retroceso recibido.
 - **Vidas:** 1. Quedan eliminados al salir de los límites del escenario.
+- **Daño:** no sube con los pisos; lo que mejora es la IA.
 - **Susceptibilidad al daño:** ×2.0 en los primeros pisos y baja 0.1 cada 4 pisos, hasta ×1.4. Los élites empiezan en ×1.2 y bajan 0.05 cada 4 pisos, hasta ×0.8.
 - **Recompensa:** de 0 a 10 monedas por enemigo (las cantidades bajas son las más probables). Los élites dan el doble y sueltan el boon que llevan equipado, que el jugador puede recoger.
-- **Élites:** se distinguen por un borde dorado y su porcentaje en color cian. Llevan un boon equipado y tienen una IA más hábil. Pueden aparecer a partir del piso 3, excepto en los pisos del jefe.
-- **IA:** no patrullan. Desde que entran al escenario van hacia el jugador, atacan, usan habilidades, se cubren con el escudo y, si pueden, agarran. Su nivel de habilidad (1 a 9) sube con los pisos: reaccionan más rápido, se quedan quietos menos veces y se defienden más.
+- **Élites:** siempre son Guardias pesados. Se distinguen por un borde dorado y su porcentaje en color cian. Llevan un boon equipado y tienen una IA más hábil. Pueden aparecer a partir del piso 3. En los pisos del jefe, los guardias pesados de las oleadas que invoca Mr. Big Data también son élites.
+- **IA:** no patrullan. Desde que entran al escenario van hacia el jugador, atacan, usan habilidades, se cubren con el escudo y, si pueden, agarran. Su nivel de habilidad (de 1 a 8; los élites y el jefe llegan a 9) sube con los pisos: reaccionan más rápido, se quedan quietos menos veces y se defienden más.
 
 **Estados de IA (enemigos de a pie):**
 
@@ -33,11 +34,11 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Vidas: 1. Queda eliminado al salir de los límites del escenario**
 
-**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4 (×1.2 a ×0.8 si es élite)**
+**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4**
 
 **Resistencia al lanzamiento: Peso medio (85)**
 
-**Daño: Bajo**
+**Daño: Bajo: de 0.8 a 15.3 % por golpe; el disparo hace 5 %**
 
 **Defensas: Escudo**
 
@@ -49,7 +50,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Debilidades: Poca resistencia física y no puede agarrar**
 
-**Recompensa: De 0 a 10 monedas (el doble si es élite)**
+**Recompensa: De 0 a 10 monedas**
 
 **Aparición: Desde el piso 1**
 
@@ -65,11 +66,11 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Vidas: 1. Queda eliminado al salir de los límites del escenario**
 
-**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4 (×1.2 a ×0.8 si es élite)**
+**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4**
 
 **Resistencia al lanzamiento: Peso alto (98)**
 
-**Daño: Por definir durante el balance**
+**Daño: De 1 a 18 % por golpe. La patada explosiva hace 25 %, pero tarda en salir**
 
 **Defensas: Escudo y un contraataque que agarra al atacante**
 
@@ -81,7 +82,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Debilidades: No tiene ataques a distancia**
 
-**Recompensa: De 0 a 10 monedas (el doble si es élite)**
+**Recompensa: De 0 a 10 monedas**
 
 **Aparición: Desde el piso 2, cada vez con más frecuencia**
 
@@ -97,11 +98,11 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Vidas: 1. Queda eliminado al salir de los límites del escenario**
 
-**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4 (×1.2 a ×0.8 si es élite)**
+**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4**
 
 **Resistencia al lanzamiento: Peso alto (100)**
 
-**Daño: Por definir durante el balance**
+**Daño: De 3 a 16 % por golpe**
 
 **Defensas: Escudo y contraataque con la porra**
 
@@ -113,7 +114,7 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Debilidades: Es más lento que el guardia y el antidisturbios**
 
-**Recompensa: De 0 a 10 monedas (el doble si es élite)**
+**Recompensa: De 0 a 10 monedas**
 
 **Aparición: Desde el piso 2, cada vez con más frecuencia**
 
@@ -129,11 +130,11 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Vidas: 1. Queda eliminado al salir de los límites del escenario**
 
-**Susceptibilidad al daño: ×1.2 en los primeros pisos, hasta ×0.8 (siempre es élite)**
+**Susceptibilidad al daño: ×1.2 en los primeros pisos, hasta ×0.8 (como élite)**
 
 **Resistencia al lanzamiento: Es el enemigo más pesado (116)**
 
-**Daño: Alto**
+**Daño: Alto: de 2 a 22 % por golpe**
 
 **Defensas: Escudo y un contraataque ("venganza") que devuelve el golpe recibido**
 
@@ -161,11 +162,11 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Vidas: 1. Queda eliminado al romperse o al salir de los límites del escenario**
 
-**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4**
+**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4; además, todo el daño que recibe se multiplica por 1.6**
 
 **Resistencia al lanzamiento: Peso bajo (80)**
 
-**Daño: Por definir durante el balance**
+**Daño: 5 % por disparo. Carga el láser durante 0.8 s y espera de 1.2 a 2.3 s entre disparos**
 
 **Defensas: Ninguna**
 
@@ -193,11 +194,11 @@ Entrada al escenario → Acercarse al jugador → Atacar / Habilidad / Agarrar
 
 **Vidas: 1. Queda eliminado al romperse, al explotar o al salir de los límites del escenario**
 
-**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4**
+**Susceptibilidad al daño: ×2.0 en los primeros pisos, hasta ×1.4; además, todo el daño que recibe se multiplica por 1.6**
 
 **Resistencia al lanzamiento: Peso bajo (80)**
 
-**Daño: Por definir durante el balance**
+**Daño: 14 % por explosión, con mucho retroceso**
 
 **Defensas: Ninguna**
 
@@ -231,13 +232,13 @@ Los enemigos cambian según la compañía. Pueden ser humanos o robots, según l
 
 ## Plantilla de NPC
 
-**Nombre:** Tendero de Café Corp (siempre es el mismo personaje)
+**Nombre:** Tendera de Café Corp (siempre es el mismo personaje)
 
 **Función:** Atiende la tienda Café Corp, donde se venden boons nuevos y mejoras de boons.
 
 **Ubicación:** Tiendas cada 10 pisos y en el piso anterior a cada jefe: 10, 20, 30, 40, 49, 60, 70, 80, 90, 99…
 
-**Interacción:** Habla solo, con globos de texto, cuando el jugador se acerca al mostrador. Al usar el mostrador ("COMPRAR") se abre la tienda.
+**Interacción:** Habla sola, con globos de texto, cuando el jugador se acerca al mostrador. Al usar el mostrador ("COMPRAR") se abre la tienda.
 
 **Diálogos:** Frases cortas y humorísticas sobre su trabajo, su cansancio y su jefe. Tiene frases para saludar, abrir la tienda, ver un producto, agradecer una compra, avisar que no alcanza el dinero, que un producto está agotado o que ya no queda nada, despedirse y cuando el jugador se va rompiendo el techo.
 

@@ -12,9 +12,9 @@ Define la estética y necesidades visuales de escenarios, fondos, objetos y elem
 | Oficina | Área de trabajo con escritorios. | Divisiones de cubículos, libreros, impresoras, plantas, garrafón de agua, pizarrón, ventanas y plataformas flotantes. | Encuentros contra grupos de enemigos. |
 | Sala de juntas | Sala de reuniones. | Mesa de juntas, sillas, pantalla de proyector, pizarrones, sofá, ventanas y plataformas flotantes. | Encuentros contra grupos de enemigos. |
 | Sala de descanso | Zona de convivencia. | Sofás, puffs, futbolito, mesa de ping-pong, máquina arcade, televisión, máquina expendedora, ventanas y plataformas flotantes. | Encuentros contra grupos de enemigos. |
-| Mantenimiento | Cuarto de servicio con muros de ladrillo y piso de concreto. | Generador, casilleros, escaleras, extintores y plataformas flotantes. Sin ventanas. | Encuentros contra grupos de enemigos. |
-| Sala de servidores | Espacio oscuro con iluminación azul. | Racks de servidores con luces azules y rojas y plataformas flotantes. Sin ventanas. | Encuentros contra grupos de enemigos. |
-| Café Corp | Cafetería dentro del edificio. | Mostrador del tendero, letrero "CAFÉ CORP" y salida. | Tienda. |
+| Mantenimiento | Cuarto de servicio con muros de ladrillo y piso de concreto. | Generador, casilleros, escaleras, extintores y plataformas flotantes. Sin ventanas: las paredes se rompen y se regeneran como ellas. | Encuentros contra grupos de enemigos. |
+| Sala de servidores | Espacio oscuro con iluminación azul. | Racks de servidores con luces azules y rojas y plataformas flotantes. Sin ventanas: las paredes se rompen y se regeneran como ellas. | Encuentros contra grupos de enemigos. |
+| Café Corp | Cafetería dentro del edificio. | Mostrador de la tendera, letrero "CAFÉ CORP" y salida. | Tienda. |
 | Oficina ejecutiva | Espacio de autoridad corporativa con iluminación cálida. | Libreros, logotipo y letrero "NUDDLE". | Enfrentamiento con Mr. Big Data, cada 50 pisos. |
 
 No hay secciones de ambientación: el escenario de los pisos de combate se elige al azar y se mantiene en bloques de 3 pisos (ver [[01 - Estructura del Contenido]]). Durante los primeros 12 pisos, la iluminación se vuelve poco a poco más tenue.
@@ -65,10 +65,10 @@ Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 
 - Plataformas flotantes con lámpara (de 1 a 3 por sala).
 - Ventanas rompibles con estado intacto y roto, que se distingan con claridad.
-- Techo rompible, que se rompe al subir de piso y al lanzar a alguien contra él.
+- Techo rompible, que se rompe al subir de piso.
 - Fachada y calle visibles desde La Recepción.
 - Piezas modulares de paredes, suelos, techos, ventanas, puertas y mobiliario de oficina (escritorios, sillas, luminarias, libreros, sofás, racks y más), muchas de ellas rompibles.
-- Mostrador y tendero de Café Corp.
+- Mostrador y tendera de Café Corp.
 - Efectos de impacto, estela de lanzamiento, destello de salida del escenario, polvo, humo, cristales, escombros y efectos de los boons.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Personajes y Animación]] · [[04 - Interfaz Visual]] →

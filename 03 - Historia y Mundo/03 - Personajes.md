@@ -77,7 +77,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Debilidades:** Poco alcance. Duda de sus propias capacidades.
 
-**Frases o tono de diálogo:** Directa, con humor nervioso. Ejemplos: «Ok… sí puedo. Sí puedo.» y «Esto es por Ethan.»
+**Frases o tono de diálogo:** Directa, con humor nervioso.
 
 **Referencias visuales:**
 ![[Poster_promocional.png|300]]
@@ -110,9 +110,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 **Relaciones:**
 
 - **Niko:** compañera a la que conoce durante la resistencia. Tras comenzar sus luchas por separado, deciden unir esfuerzos y desarrollan una amistad conforme enfrentan juntos a las corporaciones. Mateo la anima a confiar en su preparación; ella lo ayuda a reconocer riesgos y a moderar su exceso de confianza.
-- **Mr. Wobbles:** aliado en la lucha contra las corporaciones. Comparten el deseo de mejorar las condiciones de su comunidad. *(Dinámica personal por desarrollar.)*
-
-_Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él podría animarla a confiar en su capacidad, mientras ella lo ayuda a reconocer riesgos que está subestimando. La relación concreta entre ambos todavía debe establecerse._
+- **Mr. Wobbles:** aliado en la lucha contra las corporaciones. Comparten el deseo de mejorar las condiciones de su comunidad.
 
 **Arco del personaje:** De subestimar el peligro a escuchar a Niko y medir los riesgos.
 
@@ -120,7 +118,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Exceso de confianza. Es más vulnerable cuando el enemigo se le acerca demasiado.
 
-**Frases o tono de diálogo:** Relajado y bromista. Ejemplo: «Tranquila, esto lo tengo.»
+**Frases o tono de diálogo:** Relajado y bromista.
 
 **Referencias visuales:**
 ![[20261016_070715.jpg.jpeg|415]]
@@ -133,7 +131,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Rol:** Personaje secundario en la historia y aliado de los protagonistas.
 
-**Función jugable:** Personaje jugable, disponible desde el inicio junto con Niko y Mateo Cruz. Pelea con **objetos de payaso**, como globos explosivos y otras herramientas típicas de su oficio. 
+**Función jugable:** Personaje jugable, disponible desde el inicio junto con los demás personajes. Pelea con **objetos de payaso**, como globos explosivos y otras herramientas típicas de su oficio. 
 
 | Tipo        | Neutral                                   | Lado                                                 | Arriba                                        | Abajo                                 | Otro                         |
 | ----------- | ----------------------------------------- | ---------------------------------------------------- | --------------------------------------------- | ------------------------------------- | ---------------------------- |
@@ -157,7 +155,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 **Relaciones:**
 
 - **Niko:** han convivido durante años. Su amistad es lo que lo convence de unirse a la lucha.
-- **Mateo Cruz:** compañero de lucha con quien comparte el deseo de ayudar a su comunidad. *(Dinámica personal por desarrollar.)*
+- **Mateo Cruz:** compañero de lucha con quien comparte el deseo de ayudar a su comunidad.
 - **La comunidad:** su público de toda la vida y la razón de su acto.
 
 **Arco del personaje:** De animar a su gente desde el escenario a pelear por ella en su último show.
@@ -166,7 +164,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Depende de sus objetos. Esconde su tristeza detrás de la sonrisa.
 
-**Frases o tono de diálogo:** Hace bromas incluso en los momentos serios. Ejemplo: «¡Damas y caballeros, el show debe continuar!»
+**Frases o tono de diálogo:** Hace bromas incluso en los momentos serios.
 
 **Referencias visuales:**
 ![[Mr_Wobbles.png|600]]
@@ -179,7 +177,16 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Rol:** Personaje jugable que se une a la resistencia.
 
-**Función jugable:** Personaje jugable que pelea con una **motosierra**, la única herramienta que se llevó de casa. *(Moveset detallado por definir.)*
+**Función jugable:** Personaje jugable que pelea con una **motosierra**, la única herramienta que se llevó de casa.
+
+| Tipo        | Neutral                                                  | Lado                                  | Arriba                                    | Abajo                          | Otro                                     |
+| ----------- | -------------------------------------------------------- | ------------------------------------- | ----------------------------------------- | ------------------------------ | ---------------------------------------- |
+| Básicos     | Combo de 3 con la motosierra (3.3 %, 4 % y 3.5 %)        | Ataque con la motosierra (11 %)       | Ataque de varios golpes (8 %)             | Ataque bajo (8.5 %)            | Carrera: ataque de varios golpes (11 %)  |
+| Habilidades | Acelerar la motosierra para dar varios golpes seguidos  | Embestida con la motosierra           | Ataque que la eleva                       | Barrido pesado                 | —                                        |
+| Fuertes     | —                                                        | Ataque de 3 golpes (13 %)             | Ataque de 5 golpes (13 %)                 | Ataque hacia abajo (11 %)      | —                                        |
+| Aéreos      | Muchos golpes seguidos (8 %)                             | Adelante: ataque de 14 %              | Ataque de varios golpes (11 %)            | Ataque hacia abajo (15 %)      | Atrás: ataque de 13 %                    |
+
+Los porcentajes son el daño del golpe más fuerte de cada ataque.
 
 **Función narrativa:** Representa a la hija de la clase alta que rechaza los privilegios de su familia. Su historia muestra que la injusticia social también se combate desde dentro del sistema.
 
@@ -204,7 +211,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Debilidades:** Le falta experiencia y la motosierra es pesada.
 
-**Frases o tono de diálogo:** Enérgica y decidida. Ejemplo: «¡No necesito el dinero de mi familia para esto!»
+**Frases o tono de diálogo:** Enérgica y decidida.
 
 **Referencias visuales:**
 ![[Atsuko.png|600]]
@@ -215,13 +222,22 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Rol:** Personaje jugable y miembro indispensable de la resistencia.
 
-**Función jugable:** Personaje jugable con un moveset de cangrejo pixel art. Sus garras siempre están visibles. *(Moveset detallado por definir.)*
+**Función jugable:** Personaje jugable con un moveset de cangrejo pixel art. Sus garras siempre están visibles.
+
+| Tipo        | Neutral                                                        | Lado                                    | Arriba                         | Abajo                    | Otro                                |
+| ----------- | -------------------------------------------------------------- | --------------------------------------- | ------------------------------ | ------------------------ | ----------------------------------- |
+| Básicos     | Combo de 3 con las garras (3 %, 0.8 % y 3 %; el segundo es de varios golpes) | Ataque con las garras (12 %) | Ataque hacia arriba (7 %)      | Ataque bajo (9 %)        | Carrera: ataque de 10 %             |
+| Habilidades | Golpe cercano                                                  | Cohete que lanza hacia adelante         | Ataque de fuego hacia arriba   | Giro tipo ciclón         | —                                   |
+| Fuertes     | —                                                              | Ataque de 17 % (su ataque más fuerte)   | Ataque de varios golpes (4 %)  | Ataque hacia abajo (12 %)| —                                   |
+| Aéreos      | Ataque de varios golpes (4 %)                                  | Adelante: lanza un proyectil de 12 %    | Ataque de varios golpes (3 %)  | Ataque hacia abajo (11 %)| Atrás: ataque de varios golpes (3 %) |
+
+Los porcentajes son el daño del golpe más fuerte de cada ataque.
 
 **Función narrativa:** Es el registro vivo de lo que las corporaciones hacen por dentro. Su historia muestra que una IA puede tener conciencia y empatía, y que la empresa que la creó prefirió eliminarla.
 
 **Descripción física:** Cangrejo de estilo pixel art, rojo, con ojos negros alargados y patas con garras. Tiene un cuerpo semi-tangible.
 
-**Personalidad:** Curioso, leal y muy empático. Habla con la precisión de una máquina, pero siente como una persona. No soporta que traten a la gente como si no importara, y le teme a volver a ser desconectado.
+**Personalidad:** Curiosa, leal y muy empática. Habla con la precisión de una máquina, pero siente como una persona. No soporta que traten a la gente como si no importara, y le teme a volver a ser desconectada.
 
 **Motivaciones:** Ve la situación como profundamente injusta y no soporta que las empresas traten a las personas como si no importaran. Por eso ayuda a detenerlas.
 
@@ -234,20 +250,20 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 - **Nuddle:** la compañía que la creó como su primera inteligencia artificial y que decidió desconectarla.
 - **Resistencia:** entró a sus servidores y se unió a ellos.
 
-**Arco del personaje:** De un respaldo perdido en internet a una parte indispensable del equipo, que entiende que es un compañero y no una herramienta.
+**Arco del personaje:** De un respaldo perdido en internet a una parte indispensable del equipo, que entiende que es una compañera y no una herramienta.
 
 **Habilidades:** Conoce el funcionamiento interno de las empresas. Ataca con sus garras y tiene un cuerpo semi-tangible.
 
-**Debilidades:** Le teme a volver a ser desconectado.
+**Debilidades:** Le teme a volver a ser desconectada.
 
-**Frases o tono de diálogo:** Preciso como una máquina, pero cálido. Ejemplo: «Dato confirmado: esto es injusto.»
+**Frases o tono de diálogo:** Precisa como una máquina, pero cálida.
 
 **Referencias visuales:**
 ![[Craub.png|600]]
 
 ### Antagonistas
 
-Los antagonistas son los **CEOs** de las compañías, cada uno esperando en el último piso de su rascacielos.
+Los antagonistas son los **CEOs** de las compañías, que esperan a los protagonistas en su rascacielos. En Nuddle, Mr. Big Data aparece cada 50 pisos.
 
 #### Bernard "Big Data" Nuddleman
 
@@ -259,8 +275,8 @@ Implementación en la entrega:
 
 * **Barra de vida propia** (450 puntos) en lugar de porcentaje: se le derrota bajando su barra a cero, no sacándolo del escenario.
 * **Armadura robótica:** ataca con disparos, misiles, ondas de choque y un láser. Sus golpes son lentos y fuertes.
-* **Cambio de fase:** cuando su vida baja al 70%, 40% y 20%, se enfurece, salta fuera del escenario y  **invoca una oleada de guardias** , mientras lanza misiles desde lejos. Cuando el jugador derrota a los guardias, regresa de un salto y el combate continúa.
-* **Derrota:** la armadura explota, el jugador cobra **60 monedas** y sigue subiendo
+* **Cambio de fase:** cuando su vida baja al 70%, 40% y 20%, se enfurece, salta fuera del escenario y  **invoca una oleada de guardias, antidisturbios, guardias pesados y drones** , mientras lanza misiles desde lejos. Cuando el jugador derrota a la oleada, regresa de un salto y el combate continúa.
+* **Derrota:** la armadura explota y Big Data escapa para volver a esperarlos más arriba. El jugador cobra **60 monedas** y sigue subiendo.
 
 **Función narrativa:** Representa el estereotipo del rico al que le sobra el dinero para desperdiciar, a costa de todos los demás. Su apodo, "Big Data", se burla a la vez de su tamaño y del negocio de Nuddle: acumular los datos de todo el mundo.
 
@@ -268,23 +284,21 @@ Implementación en la entrega:
 
 **Personalidad:** Arrogante, derrochador y cobarde. Presume su dinero y trata a la gente como datos que se pueden vender. Nunca se ensucia las manos: manda a sus robots y guardias, y se esconde dentro de sus armaduras.
 
+**Motivaciones:** La codicia. Quiere acumular más y más riquezas, sin importar a costa de quién.
+
+**Objetivos:** Que todas las personas sean redituables: para él, si alguien existe, debe generarle dinero.
+
+**Conflicto:** La resistencia está atacando su torre corporativa piso por piso, y él, que nunca se ensucia las manos, tiene que enfrentarlos dentro de su armadura.
+
 **Debilidades:** Sin sus robots, armaduras y guardias, no tiene fuerza propia.
-
-#### Melon Tusk
-
-**Rol:** Antagonista. CEO de **Y** y jefe de la empresa.
-
-**Función jugable:** Jefe (boss). *(Ataques por definir.)*
-
-**Función narrativa:** Parodia de Elon Musk. *(Personalidad, manías y diálogos por definir.)* No forma parte del alcance de la entrega.
 
 ## Enemigos comunes
 
-Cada compañía tiene sus propios enemigos, siempre en **tres variantes**: débiles, fuertes y demasiado fuertes. Pueden ser humanos o robots. Ver [[03 - Enemigos y NPC]].
+Cada compañía tiene sus propios enemigos, en **tres variantes**: débil, media y fuerte. Pueden ser humanos o robots. Ver [[03 - Enemigos y NPC]].
 
 ## NPC
 
-* **Encargado de la cafetería Café Corp:** el único NPC implementado. Atiende en los pisos de cafetería y habla con globos de texto: saluda, comenta las compras, se queja de su trabajo y despide al jugador. Su humor seco refuerza la sátira de la explotación corporativa.
+* **Tendera de la cafetería Café Corp:** el único NPC implementado. Atiende en los pisos de cafetería y habla con globos de texto: saluda, comenta las compras, se queja de su trabajo y despide al jugador. Su humor seco refuerza la sátira de la explotación corporativa.
 * **Miembros de la resistencia:** quedaron fuera del alcance de la entrega (solo existen en el lore).
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

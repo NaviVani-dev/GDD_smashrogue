@@ -10,9 +10,9 @@ Define cómo se comprobará que el videojuego funciona como fue diseñado.
 
 Comprueban que una característica haga lo que debe.
 
-- Daño por porcentaje, retroceso y KO al salir de los límites del escenario (lados, ventana rota o techo).
+- Daño por porcentaje, retroceso y KO al salir de los límites del escenario (por una ventana o pared rota, o al caer por el borde de la plataforma).
 - Vidas y reaparición cayendo desde arriba con 0 % e invulnerabilidad.
-- Ventanas rompibles: pared intacta, ruptura con un golpe muy fuerte, regeneración y reparación al cambiar de piso.
+- Ventanas y paredes rompibles: pared intacta, ruptura con un golpe muy fuerte, regeneración y reparación al cambiar de piso.
 - Escudo, parry y esquive en el suelo y en el aire.
 - Moveset de Niko, Mateo Cruz, Atsuko, Mr. Wobbles y Craub, incluido el agarre.
 - Menú de boons: 3 opciones (boons nuevos o mejoras), sin límite de boons equipados, hasta nivel 5 y omisión del menú cuando no hay opciones.
@@ -117,11 +117,11 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 **Pasos:**
 
 1. Mantener el escudo arriba mientras el enemigo ataca hasta que el escudo se rompa.
-2. Bloquear justo a tiempo un ataque del enemigo.
+2. Soltar el escudo justo cuando llega un ataque del enemigo.
 3. Esquivar hacia un lado en el suelo.
 4. Esquivar en el aire.
 
-**Resultado esperado:** El escudo bloquea los golpes y se desgasta. Al romperse, el personaje queda aturdido. Bloquear justo a tiempo provoca un parry con destello azul y el atacante queda expuesto. El esquive en el suelo y en el aire da un momento de invulnerabilidad.
+**Resultado esperado:** El escudo bloquea los golpes y se desgasta. Al romperse, el personaje queda aturdido. Soltar el escudo justo a tiempo provoca un parry con destello cian y el atacante queda expuesto. El esquive en el suelo y en el aire da un momento de invulnerabilidad.
 
 **Resultado obtenido:**
 
@@ -200,7 +200,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 5. Intentar comprar un producto con saldo insuficiente.
 6. Cerrar la tienda y salir por la salida ("SUBIR").
 
-**Resultado esperado:** La tienda ofrece 4 productos. El boon nuevo se agrega a los boons del jugador. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada y el tendero lo avisa. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al usar la salida, el personaje sube al siguiente piso.
+**Resultado esperado:** La tienda ofrece 4 productos. El boon nuevo se agrega a los boons del jugador. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada y la tendera lo avisa. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al usar la salida, el personaje sube al siguiente piso.
 
 **Resultado obtenido:**
 

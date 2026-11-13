@@ -80,7 +80,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Objetivo:** Ofrecer y aplicar mejoras durante la partida.
 
-**Procesamiento / reglas:** Al limpiar un nivel se ofrecen 3 opciones al azar entre boons nuevos y mejoras de los que ya tiene, ponderadas por rareza. No hay límite fijo de boons; cada uno llega hasta el nivel 5. Los élites también sueltan un boon y la cafetería los vende.
+**Procesamiento / reglas:** Al limpiar un nivel se ofrecen 3 opciones al azar entre boons nuevos y mejoras de los que ya tiene, ponderadas por rareza. No hay límite fijo de boons; cada uno llega hasta el nivel 5. Los élites también sueltan un boon, al romper un mueble hay un 5 % de probabilidad de que caiga uno y la cafetería los vende.
 
 **Interacciones:** Los boons de golpe (Encendedor, Extintor, Café, Chocolates) se activan al conectar un ataque; los de estadística (Bebida energética, Zapatillas, Mancuerna, Casco) cambian los atributos del personaje; otros reaccionan a eventos (KO, esquive, limpiar la sala).
 

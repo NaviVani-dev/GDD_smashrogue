@@ -36,7 +36,6 @@ Sensación de impacto: congelación breve del golpe (hitlag), destellos y estela
 **Qué NO queremos copiar:**
 
 Personajes, escenarios, música, efectos de sonido ni nombres de Nintendo o de otras franquicias.
-Los agarres: en nuestro diseño no hay agarres.
 El enfoque de combate entre jugadores: el nuestro es un roguelike de un jugador contra oleadas de enemigos.
 
 ### Hades
@@ -51,12 +50,11 @@ El enfoque de combate entre jugadores: el nuestro es un roguelike de un jugador 
 
 Los boons como mejoras elegidas entre varias opciones al terminar cada encuentro (de ahí tomamos el término).
 Partidas que se pueden repetir sin límite, donde cada intento se siente distinto por las combinaciones de mejoras.
-La pantalla de ¡Victoria! al derrotar al jefe final.
 
 **Qué NO queremos copiar:**
 
 La mitología griega, los personajes, el arte pintado a mano ni la música.
-La narrativa que avanza en cada intento: en nuestro juego la historia nunca interrumpe el combate (solo aparece en tiendas y en el almanaque).
+La narrativa que avanza en cada intento: en nuestro juego la historia nunca interrumpe el combate (solo aparece en el ambiente de las oficinas y en la presentación del jefe).
 La perspectiva isométrica: nuestro juego es 2.5D con desplazamiento lateral.
 
 ### MultiVersus
@@ -65,12 +63,12 @@ La perspectiva isométrica: nuestro juego es 2.5D con desplazamiento lateral.
 
 **Tipo:** Videojuego, peleas de plataformas.
 
-**Enlace:** Ya no existe, cerraron sus servidodres el 30 de mayo de 2025
+**Enlace:** Ya no existe, cerraron sus servidores el 30 de mayo de 2025
 
 **Qué nos interesa:**
 
 El esquema de controles para teclado y gamepad, en el que un mismo botón cambia de ataque según la dirección (ver [[04 - Controles]]).
-Que cada luchador tenga movimientos y estilo propios, igual que Niko, Mateo y Mr. Wobbles.
+Que cada luchador tenga movimientos y estilo propios, igual que Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub.
 
 **Qué NO queremos copiar:**
 
@@ -93,11 +91,12 @@ Un sistema de puntaje que motive a repetir partidas para superar la marca anteri
 
 Su mecánica de póker y cartas.
 Estado: el sistema de puntaje inspirado en Balatro queda descartado por ahora (ver [[06 - Economía y Recursos]]). Se conserva aquí como idea para una versión futura.
-Referencias de ambientación
+
+## Referencias de ambientación
 
 ### Empresas reales parodiadas
 
-**Nombre:** Google, Facebook, Amazon y X (Twitter), y la figura pública de Elon Musk.
+**Nombre:** Google, Facebook, Amazon y X (Twitter).
 
 **Tipo:** Sátira, inspiración para el mundo y los antagonistas.
 
@@ -106,12 +105,12 @@ Referencias de ambientación
 **Qué nos interesa:**
 
 La crítica al poder de las grandes corporaciones y al manejo de los datos personales, base del conflicto del juego.
-Las parodias: Nuddle (Google), Bookworm (Facebook), Nile (Amazon), Y (X) y Melon Tusk (Elon Musk). Ver [[02 - Mundo]] y [[03 - Personajes]].
+Las parodias: Nuddle (Google), Bookworm (Facebook), Nile (Amazon) e Y (X). Ver [[02 - Mundo]] y [[03 - Personajes]].
 
 **Qué NO queremos copiar:**
 
 Logotipos, nombres, colores ni identidad visual de las marcas reales: todas las compañías son inventadas.
-Declaraciones o hechos atribuidos a personas reales: Melon Tusk es un personaje ficticio y no forma parte del alcance de la entrega.
+Declaraciones o hechos atribuidos a personas reales.
 
 
 

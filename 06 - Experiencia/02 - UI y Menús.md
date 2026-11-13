@@ -1,4 +1,4 @@
-	# UI y Menús
+# UI y Menús
 
 ## Descripción de la sección
 
@@ -55,7 +55,6 @@ Jugar → Selección de personaje.
 Tutorial → Escena de tutorial.
 Mundo debug → Escena de pruebas.
 Salir → Cierra el juego, sin confirmación.
-Derrota → GAME! → Resultados → Reintentar o Menú principal.
 
 
 **Selección de personaje**
@@ -91,11 +90,11 @@ Sin opciones disponibles → Salto al siguiente piso.
 
 Propósito: Permitir comprar boons nuevos y mejoras de boons con las monedas de la partida.
 
-Elementos: Tendero con diálogos, mostrador con el aviso "COMPRAR", salida con el aviso "SUBIR", saldo disponible, 4 productos y sus precios.
+Elementos: Tendera con diálogos, mostrador con el aviso "COMPRAR", salida con el aviso "SUBIR", saldo disponible, 4 productos y sus precios.
 
 Acciones disponibles: Acercarse al mostrador y abrir la tienda, consultar productos, comprar, cerrar la tienda y salir por la salida.
 
-Estados: Compra disponible si el saldo alcanza; compra bloqueada por saldo insuficiente, por producto agotado o porque el jugador ya tiene ese boon. Si ya no queda nada que comprar, el tendero lo avisa y no abre la tienda. Después de una compra, el saldo se actualiza tanto en la tienda como en el HUD.
+Estados: Compra disponible si el saldo alcanza; compra bloqueada por saldo insuficiente o por producto agotado. Si ya no queda nada que comprar, la tendera lo avisa y no abre la tienda. Después de una compra, el saldo se actualiza tanto en la tienda como en el HUD.
 
 Transiciones: Salida ("SUBIR") → Salto al siguiente piso.
 
@@ -105,9 +104,9 @@ Propósito: Detener la partida temporalmente.
 
 Elementos: CONTINUAR, OPCIONES y VOLVER AL INICIO.
 
-Acciones disponibles: Continuar y volver al inicio. Opciones todavía no tiene función. No se puede pausar con el menú de boons o la tienda abiertos.
+Acciones disponibles: Continuar y volver al inicio. Opciones todavía no tiene función. Se puede pausar en los pisos de combate, durante el combate contra Mr. Big Data y en el tutorial. No se puede pausar con el menú de boons o la tienda abiertos. Desde el tutorial, Volver al inicio permite salir sin terminarlo.
 
-Transiciones: Esc / Start → Jugando. Volver al inicio → Menú principal, sin confirmación.
+Transiciones: Esc / Start → vuelve a donde estaba el jugador. Volver al inicio → Menú principal, sin confirmación.
 
 **Resultados**
 

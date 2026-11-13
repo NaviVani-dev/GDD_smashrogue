@@ -28,41 +28,40 @@ Cada **nivel** es un piso del rascacielos. Al completar todas sus rondas, el jug
 | Escudo y esquive                                                      | Evitar el daño propio                       | Mantener tu porcentaje bajo para no salir volando |
 | Moverse y saltar (doble salto)                                        | Posicionarse y volver al escenario           | Sobrevivir y alcanzar a los enemigos              |
 | Elegir boons                                                          | Personalizar el estilo de pelea              | Cada partida se juega diferente                   |
-| Comprar en la tienda                                                  | Curarse o mejorar boons                      | Llegar más lejos en la partida                   |
+| Comprar en la tienda                                                  | Comprar boons nuevos o mejorar los que ya tiene | Llegar más lejos en la partida                   |
 
 ## Experiencia segundo a segundo
 
-La partida comienza con la entrada del personaje seleccionado a la primera arena (la recepción). Después aparece la cuenta regresiva **3, 2, 1, MAKE 'EM FALL** y los enemigos entran al escenario (los guardias caen; los drones llegan volando). El jugador se mueve, combina ataques básicos, habilidades y ataques fuertes, se cubre con el escudo o esquiva, y busca subir el porcentaje de los enemigos hasta lanzarlos por las ventanas del edificio.
+La partida comienza con la entrada del personaje seleccionado a la primera arena (la recepción). Después aparece la cuenta regresiva **3, 2, 1, MAKE 'EM FALL** y los enemigos entran al escenario (los guardias entran saltando desde el fondo; los drones llegan volando). El jugador se mueve, combina ataques básicos, habilidades y ataques fuertes, se cubre con el escudo o esquiva, y busca subir el porcentaje de los enemigos hasta lanzarlos por las ventanas del edificio.
 
 ## Experiencia minuto a minuto
 
-1. Limpiar las rondas de enemigos del nivel (de 1 a 3 rondas, según la altura).
-2. Limpiar las rondas de enemigos del piso. Cada ronda tiene hasta 4 enemigos; al subir, hay más enemigos y, por lo tanto, más rondas.
-3. Recoger el boon que suelta un **enemigo élite** al ser derrotado (se toma con el botón de ataque).
-4. Elegir uno de los 3 boons o mejoras ofrecidos. Si no quedan opciones, se omite esta elección.
-5. Saltar automáticamente al siguiente piso atravesando el techo.
-6. Visitar la **cafetería (Café Corp)** para comprar boons nuevos o mejoras con las monedas obtenidas. Aparece **cada 10 pisos** y **un piso antes de cada jefe**. En la cafetería no se pelea.
-7. Cada **50 pisos,** enfrentar a  **Mr. Big Data** , el CEO de Nuddle. Al vencerlo, el jugador cobra una recompensa de 60 monedas y sigue subiendo.
+1. Limpiar las rondas de enemigos del piso. Cada ronda tiene hasta 4 enemigos; al subir, hay más enemigos y, por lo tanto, más rondas.
+2. Recoger el boon que suelta un **enemigo élite** al ser derrotado (se toma con el botón de ataque).
+3. Elegir uno de los 3 boons o mejoras ofrecidos. Si no quedan opciones, se omite esta elección.
+4. Saltar automáticamente al siguiente piso atravesando el techo.
+5. Visitar la **cafetería (Café Corp)** para comprar boons nuevos o mejoras con las monedas obtenidas. Aparece **cada 10 pisos** y **un piso antes de cada jefe**. En la cafetería no se pelea.
+6. Cada **50 pisos,** enfrentar a  **Mr. Big Data** , el CEO de Nuddle. Al vencerlo, el jugador cobra una recompensa de 60 monedas y sigue subiendo.
 
 ## Experiencia a largo plazo
 
-Cada partida es diferente gracias a las combinaciones de boons, la aparición aleatoria de enemigos, élites y tipos de piso, y la elección entre Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub. El jugador quiere volver para probar otras combinaciones, dominar el combate, superar su piso máximo y mejorar su calificación.
+Cada partida es diferente gracias a las combinaciones de boons, la aparición aleatoria de enemigos, élites y tipos de piso, y la elección entre Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub. El jugador quiere volver para probar otras combinaciones, dominar el combate, llegar más alto y mejorar su calificación.
 
 ## Condición de victoria
 
-**No hay una condición de victoria final**: el juego es un ascenso sin fin. El objetivo es llegar lo más alto posible y derrotar a Mr. Big Data cada vez que aparece (cada 50 pisos). Al terminar la partida, la pantalla de **Resultados** muestra el piso alcanzado, los KO, las monedas, los boons y el tiempo, junto con una calificación de **S** a  **D** .
+**No hay una condición de victoria final**: el juego es un ascenso sin fin. El objetivo es llegar lo más alto posible y derrotar a Mr. Big Data cada vez que aparece (cada 50 pisos). Al terminar la partida, la pantalla de **Resultados** muestra el piso alcanzado, los KO, las monedas, los boons y el tiempo, junto con una calificación de **S** a **D**. La calificación sale de un puntaje: piso × 10 + KO × 2 + monedas ÷ 5. Se obtiene S con 160 puntos o más, A con 100 o más, B con 55 o más, C con 25 o más y D con menos de 25.
 
 ## Condición de derrota
 
-Perder las **3 vidas**. Se pierde una vida al salir disparado del escenario (por una ventana rota o por los límites del escenario). Aparece el aviso **GAME!**, la acción se ralentiza y se pasa a la pantalla de Resultados, donde el jugador puede **Reintentar** o volver al **Menú**. En la historia, el personaje escapa en paracaídas y regresa a La Coladera. **La Coladera no es un lugar jugable:** solo existe en el lore. Lo único jugable son las oficinas; todo lo demás es interfaz (UI).
+Perder las **3 vidas**. Se pierde una vida al salir disparado del escenario (por una ventana o pared rota, o al caer por el borde de la plataforma). Aparece el aviso **GAME!**, la acción se ralentiza y se pasa a la pantalla de Resultados, donde el jugador puede **Reintentar** o volver al **Menú**. En la historia, el personaje escapa en paracaídas y regresa a La Coladera. **La Coladera no es un lugar jugable:** solo existe en el lore. Lo único jugable son las oficinas; todo lo demás es interfaz (UI).
 
 ## Ritmo
 
 * **Acción:** la mayor parte del tiempo. Peleas cortas e intensas en cada piso.
 * **Desafío:** sube de forma gradual: más enemigos y rondas por piso, enemigos más fuertes, nuevos tipos y más élites. Hay un pico con Mr. Big Data cada 50 pisos.
-* **Recompensa:** después de cada piso (boon), al derrotar élites (boon que sueltan) y en cada cafetería.
+* **Recompensa:** después de cada piso (boon), al derrotar élites (boon que sueltan), a veces al romper muebles y en cada cafetería.
 * **Descanso:** breve, en el menú de boons, durante el salto entre pisos y en la cafetería.
-* **Historia:** en los diálogos del encargado de la cafetería y en la presentación del jefe. Nunca interrumpe el combate.
+* **Historia:** en el ambiente de las oficinas y en la presentación del jefe. Nunca interrumpe el combate.
 * **Exploración:** no hay.
 
 ## Principios de interacción

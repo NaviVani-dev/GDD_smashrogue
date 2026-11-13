@@ -40,11 +40,11 @@ El roadmap organiza el desarrollo en etapas y entregables.
 
 | Hito | Entregable | Criterio de finalización | Estado |
 |---|---|---|---|
-| Alcance de Nuddle | Alcance de la primera versión | Quedan documentados los cinco jugables iniciales, la subida sin límite y el jefe cada 50 pisos. | Definido en el GDD |
-| MVP de combate | Arena de prueba | Se puede completar una oleada y comprobar el daño, el lanzamiento, el KO y la pérdida de vidas. | Por validar |
-| Vertical slice | Secuencia de La Recepción | Se completa el flujo de oleada, boon y salto al siguiente piso con el acabado de referencia. | Por validar |
-| Primera versión jugable | Subida por Nuddle | Se puede elegir a cualquiera de los cinco personajes iniciales, subir piso por piso y enfrentar a Mr. Big Data en el piso 50. | Pendiente de validar |
-| Entrega para PC | Compilación y GDD | La compilación ejecuta la subida con teclado y mando y cumple los criterios de prueba acordados. | Pendiente de validar |
+| Alcance de Nuddle | Alcance de la primera versión | Quedan documentados los cinco jugables iniciales, la subida sin límite y el jefe cada 50 pisos. | Completado |
+| MVP de combate | Arena de prueba | Se puede completar una oleada y comprobar el daño, el lanzamiento, el KO y la pérdida de vidas. | Completado |
+| Vertical slice | Secuencia de La Recepción | Se completa el flujo de oleada, boon y salto al siguiente piso con el acabado de referencia. | Completado |
+| Primera versión jugable | Subida por Nuddle | Se puede elegir a cualquiera de los cinco personajes iniciales, subir piso por piso y enfrentar a Mr. Big Data en el piso 50. | Completado |
+| Entrega para PC | Compilación y GDD | La compilación ejecuta la subida con teclado y mando y cumple los criterios de prueba acordados. | Completado |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

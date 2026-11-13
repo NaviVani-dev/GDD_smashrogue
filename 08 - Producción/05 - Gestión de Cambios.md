@@ -18,7 +18,7 @@ El diseño de un videojuego cambia. Esta sección evita que las modificaciones i
 
 **Impacto en otros sistemas:** Estructura de niveles, oleadas, progresión, jefe final, roadmap y pruebas de recorrido completo.
 
-**Decisión:** Aprobado como alcance de la primera versión.
+**Decisión:** Aprobado y después reemplazado por la subida sin límite de pisos, con Mr. Big Data cada 50 pisos.
 
 **Responsable:** Anthony David Duarte Naal.
 
