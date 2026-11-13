@@ -61,9 +61,10 @@ No tener puntaje por ahora.
 | 2026-10-16 | Arte                  | Estética anime con sombreado plano tipo cel-shading.                                  | Anthony Duarte |
 | 2026-10-16 | Personajes            | Mateo Cruz se agrega como personaje jugable junto a Niko.                              | Hector Ulises  |
 | 2026-11-09 | Personajes            | Se contemplan dos personajes jugables adicionales: Atsuko y Craub.                     | Equipo         |
-| Por confirmar | Personajes         | Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub están disponibles desde el inicio.       | Equipo         |
-| Por confirmar | Combate            | Se mantiene el agarre (I / RB) como parte del moveset.                                 | Equipo         |
-| Por confirmar | Progresión         | Se pasa al siguiente piso saltando y rompiendo el techo, sin ascensor.                 | Equipo         |
-| Por confirmar | Estructura         | Subida sin límite de pisos, con Mr. Big Data cada 50 pisos y sin mini-jefes ni pantalla de victoria. | Equipo |
+| 2026-11-10 | Combate               | Se mantiene el agarre (I / RB) como parte del moveset.                                 | Equipo         |
+| 2026-11-10 | Progresión            | Se pasa al siguiente piso saltando y rompiendo el techo, sin ascensor.                 | Equipo         |
+| 2026-11-11 | Personajes            | Niko, Mateo Cruz, Mr. Wobbles, Atsuko y Craub están disponibles desde el inicio.       | Equipo         |
+| 2026-11-11 | Sistemas              | 16 boons con 4 rarezas y 5 niveles, sin límite de boons equipados; la tienda solo vende boons. | Equipo |
+| 2026-11-12 | Estructura            | Subida sin límite de pisos, con Mr. Big Data cada 50 pisos y sin mini-jefes ni pantalla de victoria. Ver [[05 - Gestión de Cambios]]. | Anthony Duarte |
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →
