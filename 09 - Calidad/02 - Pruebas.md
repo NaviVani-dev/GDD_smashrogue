@@ -10,13 +10,13 @@ Define cómo se comprobará que el videojuego funciona como fue diseñado.
 
 Comprueban que una característica haga lo que debe.
 
-- Daño por porcentaje, retroceso y KO al salir de los límites del escenario.
-- Vidas y reaparición en una plataforma temporal con 0% e invulnerabilidad.
+- Daño por porcentaje, retroceso y KO al salir de los límites del escenario (lados, ventana rota o techo).
+- Vidas y reaparición cayendo desde arriba con 0 % e invulnerabilidad.
 - Ventanas rompibles: pared intacta, ruptura con un golpe muy fuerte, regeneración y reparación al cambiar de piso.
 - Escudo, parry y esquive en el suelo y en el aire.
-- Moveset de Niko, Mateo Cruz y Mr. Wobbles, sin agarres.
-- Menú de boons: 3 opciones, máximo 3 boons, hasta nivel 5 y omisión del menú cuando no hay opciones.
-- Tienda: compra de comida y mejoras de boons, y compra bloqueada por saldo insuficiente.
+- Moveset de Niko, Mateo Cruz, Atsuko, Mr. Wobbles y Craub, incluido el agarre.
+- Menú de boons: 3 opciones (boons nuevos o mejoras), sin límite de boons equipados, hasta nivel 5 y omisión del menú cuando no hay opciones.
+- Tienda: compra de boons nuevos y mejoras de boons, y compra bloqueada por saldo insuficiente.
 
 ### Pruebas de integración
 
@@ -25,19 +25,19 @@ Comprueban que varios sistemas funcionen correctamente juntos.
 - **Entrada → Personajes → Combate:** el botón presionado ejecuta el ataque correcto y Combate resuelve el golpe.
 - **Combate → Escenario:** un lanzamiento fuerte rompe una ventana y la salida de los límites se registra como KO.
 - **KO → Niveles → Boons:** al quedar fuera todos los enemigos, el nivel termina y se abre el menú de boons.
-- **KO → Economía:** cada enemigo derrotado da monedas y el saldo se actualiza en el HUD.
-- **Boons → Ascensor → Niveles:** el ascensor se habilita después de limpiar todas las rondas y resolver la elección de boon.
-- **Estructura de la partida:** tiendas en los pisos 10, 19, 30, 39, 50, 59, 70, 79, 90 y 99; mini-jefes en los pisos 20, 40, 60 y 80; Big Data en el piso 100.
+- **KO → Economía:** cada enemigo derrotado puede dar monedas y el saldo se actualiza en el HUD.
+- **Boons → Niveles:** el personaje sube al siguiente piso después de limpiar todas las rondas y resolver la elección de boon.
+- **Estructura de la partida:** tiendas cada 10 pisos y en el piso anterior a cada jefe (10, 20, 30, 40, 49, 60, 70, 80, 90, 99…); Mr. Big Data cada 50 pisos (50, 100, 150…).
 
 ### Pruebas de usabilidad
 
 Comprueban si los jugadores entienden y pueden utilizar el sistema.
 
 - Un jugador nuevo puede moverse, saltar y atacar en el primer piso sin leer instrucciones externas.
-- El jugador sabe en todo momento si debe pelear, elegir un boon o ir al ascensor.
-- El porcentaje de todos los personajes en pantalla es visible en todo momento.
-- Una ventana rota se distingue de una intacta y el estado del ascensor se entiende sin depender solo del color.
-- En la tienda, el jugador duda entre curarse y mejorar un boon.
+- El jugador sabe en todo momento si debe pelear, elegir un boon, recoger un boon o comprar en la tienda.
+- El porcentaje del jugador y de los enemigos es visible en todo momento.
+- Una ventana rota se distingue de una intacta sin depender solo del color.
+- En la tienda, el jugador duda entre comprar un boon nuevo y mejorar uno que ya tiene.
 
 ### Pruebas de rendimiento
 
@@ -47,7 +47,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 - Sin caídas sostenidas por debajo de 30 FPS a 1280×720 en un equipo con los requisitos mínimos.
 - Menos de 10 segundos para entrar a la partida en condiciones normales.
 - Hasta 4 GB de RAM durante la ejecución, sin crecimiento sostenido entre el piso 1 y el piso 100.
-- Recorrido del piso 1 al 100 sin cierres inesperados ni bloqueos.
+- Subida del piso 1 al 100 sin cierres inesperados ni bloqueos.
 
 ## Casos de prueba
 
@@ -55,7 +55,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Objetivo:** Comprobar que el retroceso crece con el porcentaje de quien recibe el golpe.
 
-**Precondiciones:** Partida iniciada en el piso 1 con cualquiera de los tres personajes. Hay al menos dos enemigos en el escenario.
+**Precondiciones:** Partida iniciada en el piso 1 con cualquiera de los cinco personajes. Hay al menos dos enemigos en el escenario.
 
 **Pasos:**
 
@@ -82,7 +82,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 3. Observar la reaparición y el contador de vidas.
 4. Repetir hasta perder la tercera vida.
 
-**Resultado esperado:** Cada salida del escenario cuenta como KO. El jugador pierde una vida, reaparece en una plataforma temporal con 0% e invulnerable unos instantes. Al perder la tercera vida, se muestra la pantalla de derrota.
+**Resultado esperado:** Cada salida del escenario cuenta como KO. El jugador pierde una vida y, tras unos instantes, reaparece cayendo desde arriba con 0 % e invulnerable unos 2 segundos (parpadea mientras dura). Al perder la tercera vida, aparece el letrero "GAME!" y después la pantalla de resultados.
 
 **Resultado obtenido:**
 
@@ -131,7 +131,7 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Objetivo:** Comprobar que cada combinación de botón y dirección produce el ataque documentado.
 
-**Precondiciones:** Partida iniciada con Niko. Se repite con Mateo Cruz y con Mr. Wobbles.
+**Precondiciones:** Partida iniciada con Niko. Se repite con Mateo Cruz, Atsuko, Mr. Wobbles y Craub.
 
 **Pasos:**
 
@@ -139,9 +139,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 2. Ejecutar las habilidades neutral, lado, arriba y abajo.
 3. Cargar y soltar los ataques fuertes hacia el lado, arriba y abajo.
 4. Ejecutar los ataques aéreos neutral, adelante, atrás, arriba y abajo.
-5. Presionar el botón de agarre del prototipo (I / RB).
+5. Presionar el botón de agarre (I / RB) cerca de un enemigo, atacarlo mientras está atrapado y lanzarlo.
 
-**Resultado esperado:** Cada combinación produce el ataque documentado para el personaje. El ataque neutral básico es un combo de 3 golpes. El personaje parpadea en amarillo al cargar un ataque fuerte. No existe ningún agarre.
+**Resultado esperado:** Cada combinación produce el ataque documentado para el personaje. El ataque neutral básico es un combo de 3 golpes. El personaje parpadea en amarillo al cargar un ataque fuerte. El agarre atrapa al enemigo, permite golpearlo y lanzarlo.
 
 **Resultado obtenido:**
 
@@ -156,30 +156,30 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 **Pasos:**
 
 1. Limpiar el primer piso y revisar las opciones del menú de boons.
-2. Continuar hasta tener 3 boons equipados y revisar las opciones ofrecidas.
+2. Continuar hasta tener más de 3 boons equipados y revisar las opciones ofrecidas.
 3. Mejorar un boon hasta el nivel 5.
 4. Llegar a un piso en el que no haya boons ni mejoras disponibles.
 
-**Resultado esperado:** Se ofrecen 3 opciones al azar. Con 3 boons equipados, solo se ofrecen mejoras de los boons que ya tiene el jugador. Ningún boon pasa del nivel 5. Si no hay opciones, el menú se omite y se habilita el ascensor.
+**Resultado esperado:** Se ofrecen 3 opciones al azar, que pueden ser boons nuevos o mejoras de los boons que ya tiene el jugador. No hay límite de boons equipados: se siguen ofreciendo boons nuevos mientras queden. Ningún boon pasa del nivel 5. Si no hay opciones, el menú se omite y el personaje sube al siguiente piso.
 
 **Resultado obtenido:**
 
 **Estado:**
 
-### CP-07 · Avance por ascensor
+### CP-07 · Avance al siguiente piso
 
-**Objetivo:** Comprobar que el ascensor solo se habilita al completar el piso.
+**Objetivo:** Comprobar que el personaje solo sube al siguiente piso al completarlo.
 
 **Precondiciones:** Partida iniciada en un piso con más de una ronda de enemigos.
 
 **Pasos:**
 
-1. Acercarse al ascensor e intentar interactuar con él durante el combate.
+1. Limpiar la primera ronda y comprobar que llega la siguiente ronda en lugar de subir de piso.
 2. Limpiar todas las rondas del piso.
-3. Intentar interactuar con el ascensor con el menú de boons abierto.
-4. Elegir un boon, acercarse al ascensor e interactuar con él.
+3. Comprobar que el personaje no sube con el menú de boons abierto.
+4. Elegir un boon y observar la transición.
 
-**Resultado esperado:** Durante el combate, el ascensor tiene las puertas cerradas y luz roja, y no se puede activar. Después de limpiar todas las rondas y resolver la elección de boon, muestra luz verde y el aviso del botón de interacción al acercarse. Al activarlo, las puertas se cierran, cambia el indicador de piso y se abren en el siguiente nivel.
+**Resultado esperado:** Mientras queden rondas o enemigos, el personaje permanece en el piso. Después de limpiar todas las rondas y resolver la elección de boon, el personaje celebra unos instantes, salta, rompe el techo y llega al siguiente piso, sin necesidad de interactuar con nada. El número de piso del HUD aumenta.
 
 **Resultado obtenido:**
 
@@ -187,37 +187,38 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 ### CP-08 · Tienda
 
-**Objetivo:** Comprobar la compra de comida y mejoras de boons con las monedas de la partida.
+**Objetivo:** Comprobar la compra de boons nuevos y mejoras de boons con las monedas de la partida.
 
 **Precondiciones:** Partida en el piso 10 con monedas y al menos un boon equipado.
 
 **Pasos:**
 
-1. Consultar los productos y sus precios.
-2. Comprar comida con porcentaje acumulado.
-3. Comprar una mejora de boon.
-4. Intentar comprar un producto con saldo insuficiente.
-5. Salir de la tienda.
+1. Acercarse al mostrador ("COMPRAR") y abrir la tienda.
+2. Consultar los productos y sus precios.
+3. Comprar un boon nuevo.
+4. Comprar una mejora de boon.
+5. Intentar comprar un producto con saldo insuficiente.
+6. Cerrar la tienda y salir por la salida ("SUBIR").
 
-**Resultado esperado:** La comida reduce el porcentaje. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al salir, continúa el flujo del piso correspondiente.
+**Resultado esperado:** La tienda ofrece 4 productos. El boon nuevo se agrega a los boons del jugador. La mejora de boon sube el nivel del boon. La compra con saldo insuficiente queda bloqueada y el tendero lo avisa. Después de cada compra, el saldo se actualiza en la tienda y en el HUD. Al usar la salida, el personaje sube al siguiente piso.
 
 **Resultado obtenido:**
 
 **Estado:**
 
-### CP-09 · Estructura de la partida y victoria
+### CP-09 · Estructura de la partida
 
-**Objetivo:** Comprobar la ubicación de tiendas, mini-jefes y jefe final, y la condición de victoria.
+**Objetivo:** Comprobar la ubicación de las tiendas y del jefe.
 
-**Precondiciones:** Compilación de PC. Partida nueva con cualquiera de los tres personajes.
+**Precondiciones:** Compilación de PC. Partida nueva con cualquiera de los cinco personajes.
 
 **Pasos:**
 
 1. Subir piso por piso y registrar en qué pisos aparece la tienda.
-2. Registrar en qué pisos aparece un mini-jefe.
-3. Llegar al piso 100 y derrotar a Big Data.
+2. Llegar al piso 50 y derrotar a Mr. Big Data.
+3. Continuar la subida después del jefe.
 
-**Resultado esperado:** Las tiendas aparecen solo en los pisos 10, 19, 30, 39, 50, 59, 70, 79, 90 y 99. Los mini-jefes aparecen en los pisos 20, 40, 60 y 80. Al derrotar a Big Data en el piso 100, aparece la pantalla de ¡Victoria! sin otro ascenso ni elección de boon. Al continuar, se muestran los créditos y después el menú principal.
+**Resultado esperado:** Las tiendas aparecen cada 10 pisos y en el piso anterior a cada jefe (10, 20, 30, 40, 49, 60, 70, 80, 90, 99…). Mr. Big Data aparece en el piso 50 y después cada 50 pisos. Al derrotarlo, el jugador recibe monedas, se abre el menú de boons y la subida continúa. No hay pantalla de victoria.
 
 **Resultado obtenido:**
 
@@ -227,15 +228,14 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Objetivo:** Comprobar que cada partida empieza desde cero.
 
-**Precondiciones:** Haber terminado una partida, por victoria o por derrota, con monedas y boons.
+**Precondiciones:** Haber terminado una partida por derrota, con monedas y boons.
 
 **Pasos:**
 
-1. Continuar desde la pantalla de victoria, pasando por los créditos, o desde la pantalla de derrota hasta el menú principal.
-2. Iniciar una partida nueva.
-3. Revisar el HUD.
+1. En la pantalla de resultados, elegir "REINTENTAR". Repetir después eligiendo "MENÚ" e iniciando una partida nueva desde el menú principal.
+2. Revisar el HUD en cada caso.
 
-**Resultado esperado:** La partida nueva empieza con 0 monedas, sin boons, con 3 vidas y en el piso 1.
+**Resultado esperado:** La partida nueva empieza con 0 monedas, sin boons, con 3 vidas y en el piso 1. "REINTENTAR" empieza con el mismo personaje.
 
 **Resultado obtenido:**
 
@@ -269,9 +269,9 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 1. Pedir al jugador que inicie una partida sin darle instrucciones.
 2. Observar cómo juega el primer piso.
-3. Observar si identifica el menú de boons y el ascensor habilitado.
+3. Observar si identifica el menú de boons y entiende la subida al siguiente piso.
 
-**Resultado esperado:** El jugador se mueve, salta y ataca en el primer piso sin leer instrucciones externas. Sabe cuándo debe pelear, elegir un boon o ir al ascensor. Distingue las ventanas rotas de las intactas y el estado del ascensor.
+**Resultado esperado:** El jugador se mueve, salta y ataca en el primer piso sin leer instrucciones externas. Sabe cuándo debe pelear o elegir un boon. Distingue las ventanas rotas de las intactas.
 
 **Resultado obtenido:**
 
@@ -312,19 +312,18 @@ Comprueban FPS, memoria, tiempos de carga y estabilidad.
 
 **Estado:**
 
-### CP-15 · Estabilidad del recorrido completo
+### CP-15 · Estabilidad de la subida
 
-**Objetivo:** Comprobar que se puede completar la partida sin fallos.
+**Objetivo:** Comprobar que se puede jugar una partida larga sin fallos.
 
 **Precondiciones:** Compilación de PC.
 
 **Pasos:**
 
-1. Jugar una partida completa del piso 1 al 100.
+1. Jugar una partida del piso 1 al piso 100.
 2. Revisar la consola durante la partida.
-3. Cerrar el juego, volver a abrirlo y revisar la configuración.
 
-**Resultado esperado:** El recorrido se completa sin cierres inesperados ni bloqueos. No aparecen errores en consola, referencias perdidas ni assets faltantes. La configuración se conserva al cerrar y abrir el juego.
+**Resultado esperado:** La subida se completa sin cierres inesperados ni bloqueos. No aparecen errores en consola, referencias perdidas ni assets faltantes.
 
 **Resultado obtenido:**
 

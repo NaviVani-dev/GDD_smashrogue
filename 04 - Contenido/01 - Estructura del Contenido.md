@@ -6,58 +6,54 @@ Organiza el contenido del videojuego en unidades manejables: mundos, capítulos,
 
 ## Estructura
 
-Cada **nivel** corresponde a un **piso del edificio**. La partida comienza en el piso 1 y puede avanzar hasta el piso 100, donde se encuentra el jefe final.
+Cada **nivel** corresponde a un **piso del edificio**. La partida comienza en el piso 1 y la subida no tiene fin: termina cuando el jugador pierde sus 3 vidas.
 
-Cada piso de combate funciona como una **arena** en la que se desarrollan las rondas de enemigos. El jugador se desplaza dentro de ella para combatir, posicionarse y recuperarse de los lanzamientos, sin recorrer distintas zonas para completar el nivel. Las plataformas y los obstáculos que se incorporen forman parte del espacio de combate.
+Cada piso de combate funciona como una **arena** en la que se desarrollan las rondas de enemigos. El jugador se desplaza dentro de ella para combatir, posicionarse y recuperarse de los lanzamientos, sin recorrer distintas zonas para completar el nivel. Las plataformas flotantes y el mobiliario forman parte del espacio de combate.
 
-Las **secciones** agrupan pisos según su ambientación dentro del edificio. Cada sección puede utilizar distintos **arquetipos de escenario**: diseños reutilizables que representan tipos de espacios corporativos y pueden presentar pequeñas variaciones entre pisos.
+Cada piso utiliza un **arquetipo de escenario**: un diseño reutilizable que representa un tipo de espacio corporativo y presenta pequeñas variaciones entre pisos. No hay secciones de ambientación: el arquetipo de los pisos de combate se elige al azar y se mantiene en bloques de 3 pisos.
 
-Un arquetipo de escenario puede utilizarse en varios niveles. Por tanto, los 100 niveles no requieren 100 escenarios únicos.
+Un arquetipo de escenario puede utilizarse en muchos niveles. Por tanto, los pisos no requieren escenarios únicos.
 
-El edificio de Nuddle se divide en **5 secciones de 20 pisos**. Cada sección termina con un mini-jefe (pisos 20, 40, 60 y 80) y la última, con Big Data, de modo que la ambientación cambia junto con los picos de dificultad. Cada sección tiene dos tiendas.
+| Arquetipo de escenario | Dónde aparece |
+|---|---|
+| La Recepción | Solo en el piso 1. Se ve la calle afuera del edificio |
+| Oficina | Pisos de combate, al azar |
+| Sala de juntas | Pisos de combate, al azar |
+| Sala de descanso | Pisos de combate, al azar |
+| Mantenimiento | Pisos de combate, al azar (sin ventanas) |
+| Sala de servidores | Pisos de combate, al azar (sin ventanas) |
+| Café Corp (tienda) | Cada 10 pisos y en el piso anterior a cada jefe: 10, 20, 30, 40, 49, 60, 70, 80, 90, 99… |
+| Oficina ejecutiva | Pisos del jefe, cada 50 pisos: 50, 100, 150… |
 
-| Sección | Pisos | Arquetipos de escenario | Tiendas | Cierre |
-|---|---|---|---|---|
-| Planta baja | 1–20 | La Recepción (piso 1), sala de espera y vestíbulo de ascensores | 10 y 19 | Mini-jefe en el piso 20 |
-| Oficinas abiertas | 21–40 | Oficina de cubículos y sala de impresoras y archivo | 30 y 39 | Mini-jefe en el piso 40 |
-| Centro de datos | 41–60 | Sala de servidores y pasillo de cableado | 50 y 59 | Mini-jefe en el piso 60 |
-| Marketing y publicidad | 61–80 | Estudio de publicidad y sala de pantallas con anuncios | 70 y 79 | Mini-jefe en el piso 80 |
-| Pisos ejecutivos | 81–100 | Oficina ejecutiva, sala de juntas y Oficina del CEO (piso 100) | 90 y 99 | Big Data en el piso 100 |
-
-La Recepción y la Oficina del CEO son arquetipos únicos. Los demás se reutilizan entre los pisos de su sección.
+La Recepción es el único arquetipo que aparece en un solo piso. Los demás se reutilizan durante toda la subida.
 
 ```text
-Edificio de Nuddle — Hasta 100 niveles por partida
-├── Secciones de ambientación
-│   ├── Planta baja (pisos 1–20)
-│   ├── Oficinas abiertas (pisos 21–40)
-│   ├── Centro de datos (pisos 41–60)
-│   ├── Marketing y publicidad (pisos 61–80)
-│   └── Pisos ejecutivos (pisos 81–100)
-├── Niveles o pisos
-│   ├── Encuentros con rondas de enemigos
-│   └── Mini-jefes en los pisos 20, 40, 60 y 80
-└── Nivel 100: Oficina del CEO — Jefe final
+Edificio de Nuddle — Subida sin límite de pisos
+├── Piso 1: La Recepción
+├── Pisos de combate (arquetipos al azar en bloques de 3 pisos)
+│   └── Encuentros con rondas de enemigos
+├── Tiendas: Café Corp (cada 10 pisos y antes de cada jefe)
+└── Cada 50 pisos: Oficina ejecutiva — Mr. Big Data
 ```
 ## Cantidad estimada
 
 | Tipo                      |                               Cantidad |
 | ------------------------- | -------------------------------------: |
 | Edificios                 |              1 para la entrega: Nuddle |
-| Secciones de ambientación |                                      5 |
-| Arquetipos de escenario   |     12; 10 reutilizables entre pisos y 2 únicos |
-| Niveles / pisos           |                  Hasta 100 por partida |
+| Secciones de ambientación |        No aplica: no hay secciones |
+| Arquetipos de escenario   |     8; 7 reutilizables entre pisos y 1 único (La Recepción) |
+| Niveles / pisos           |                  Sin límite por partida |
 | Misiones                  |      No aplica: el juego no tiene misiones |
-| Enemigos                  |                                      5 |
-| Jefes                     |                                  1 o 2 |
-| NPC                       |                                  1 o 2 |
-| Objetos                   |                                      2 |
+| Enemigos                  |                                      6 |
+| Jefes                     |                                      1 |
+| NPC                       |                         1 (el tendero) |
+| Objetos                   | 1: boons en el suelo (los sueltan los élites y, a veces, los muebles rotos) |
 ## Dependencias
 
 ¿Qué contenido debe existir antes de otro?
 
 * **Dirección de Arte y Modelado:** Los assets principales (personajes y enemigos) deben estar modelados y texturizados antes de su integración final en los escenarios reutilizables.
 * **Mecánicas Base:** El sistema de combate debe estar programado y pulido antes de balancear la dificultad de los niveles.
-* **Escenarios y progresión:** Los arquetipos de escenario deben ensamblarse y probarse para su reutilización en distintos pisos. La introducción de las mecánicas se organizará en los primeros niveles. Las secciones y sus arquetipos se distribuyen en bloques de 20 pisos, de la Planta baja a los Pisos ejecutivos.
+* **Escenarios y progresión:** Los arquetipos de escenario deben ensamblarse y probarse para su reutilización en distintos pisos. La introducción de las mecánicas se organizará en los primeros niveles.
 
 Navegación:[[00 - Índice]] · ← [[04 - Diálogos y Narrativa]] · [[02 - Niveles]] →

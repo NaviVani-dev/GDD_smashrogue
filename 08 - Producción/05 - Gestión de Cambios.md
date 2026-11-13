@@ -26,10 +26,14 @@ El diseño de un videojuego cambia. Esta sección evita que las modificaciones i
 
 | Fecha | Cambio | Motivo | Impacto | Estado |
 |---|---|---|---|---|
-| Por confirmar | Avanzar por ascensor tras completar el encuentro y resolver la recompensa. | Integrar el avance a la estructura del edificio. | Mecánicas, Controles, Niveles y UX. | Acordado |
-| 2026-11-09 | Incluir a Niko, Mateo Cruz y Mr. Wobbles desde el inicio. | Ofrecer tres estilos de combate en la selección inicial. | Personajes, Progresión, UI y Alcance. | Acordado |
-| 2026-11-09 | Incluir 100 pisos de Nuddle y a Big Data como jefe del piso 100. | Completar el recorrido de Nuddle en la primera versión. | Niveles, Alcance, Roadmap y Pruebas. | Acordado |
-| 2026-11-09 | Contemplar dos personajes jugables adicionales. | Ampliar las opciones de combate. | Personajes, Alcance y Backlog. | Versión por definir |
+| Por confirmar | Avanzar por ascensor tras completar el encuentro y resolver la recompensa. | Integrar el avance a la estructura del edificio. | Mecánicas, Controles, Niveles y UX. | Reemplazado por el salto al piso de arriba |
+| 2026-11-09 | Incluir a Niko, Mateo Cruz y Mr. Wobbles desde el inicio. | Ofrecer tres estilos de combate en la selección inicial. | Personajes, Progresión, UI y Alcance. | Ampliado a cinco personajes |
+| 2026-11-09 | Incluir 100 pisos de Nuddle y a Big Data como jefe del piso 100. | Completar el recorrido de Nuddle en la primera versión. | Niveles, Alcance, Roadmap y Pruebas. | Reemplazado por la subida sin límite |
+| 2026-11-09 | Contemplar dos personajes jugables adicionales. | Ampliar las opciones de combate. | Personajes, Alcance y Backlog. | Integrados: Atsuko y Craub |
+| Por confirmar | Avanzar saltando y rompiendo el techo al terminar el piso, sin ascensor. | Por confirmar. | Mecánicas, Niveles, UX y Pruebas. | Implementado en el juego |
+| Por confirmar | Incluir a Atsuko y Craub desde el inicio, para un total de cinco personajes. | Por confirmar. | Personajes, UI, Alcance y Backlog. | Implementado en el juego |
+| Por confirmar | Subida sin límite de pisos, con Mr. Big Data cada 50 pisos y sin mini-jefes ni pantalla de victoria. | Por confirmar. | Niveles, Alcance, Roadmap, UI y Pruebas. | Implementado en el juego |
+| Por confirmar | Mantener el agarre (I / RB) como parte del moveset. | Por confirmar. | Mecánicas, Controles y Pruebas. | Implementado en el juego |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Backlog del Proyecto]] · [[01 - Criterios de Calidad]] →

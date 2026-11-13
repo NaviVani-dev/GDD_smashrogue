@@ -20,23 +20,23 @@ Registra problemas encontrados durante las pruebas y permite darles seguimiento.
 2. Durante el combate, presionar I en el teclado o RB en el mando.
 3. Observar la acción del personaje.
 
-**Resultado esperado:** No ocurre ningún agarre. En el diseño no hay agarres y cada combinación de botón y dirección produce solo los ataques documentados.
+**Resultado esperado:** El personaje agarra al rival, puede golpearlo mientras lo sujeta y lanzarlo.
 
-**Resultado actual:** El prototipo tiene un botón de agarre asignado a I / RB.
+**Resultado actual:** El agarre (I / RB) funciona en todos los personajes, con golpes y lanzamientos. Ya no se considera un bug: el agarre forma parte del moveset (ver [[05 - Gestión de Cambios]]).
 
 **Frecuencia:** Siempre
 
-**Severidad:** Media
+**Severidad:** Ninguna
 
 **Evidencia:** 
 
-**Estado:** Abierto
+**Estado:** Cerrado (no es un bug)
 
 ## Registro
 
 | ID | Bug | Severidad | Responsable | Estado |
 |---|---|---|---|---|
-| B01 | El prototipo conserva el botón de agarre (I / RB) | Media | Por asignar | Abierto |
+| B01 | El prototipo conserva el botón de agarre (I / RB) | Ninguna | Por asignar | Cerrado: el agarre forma parte del juego |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Pruebas]] · [[04 - Criterios de Aceptación]] →

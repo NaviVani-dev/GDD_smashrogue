@@ -2,19 +2,16 @@
 
 ## Alcance de la versión objetivo
 
-La primera versión de **MAKE ’EM FALL** transcurre en el edificio de **Nuddle**. La partida comienza en el piso 1 y culmina en el piso 100 con el enfrentamiento contra **Bernard “Big Data” Nuddleman**. Las arenas se construyen a partir de arquetipos reutilizables, con variaciones de oleadas, plataformas y distribución según el piso.
+La primera versión de **MAKE ’EM FALL** transcurre en el edificio de **Nuddle**. La partida comienza en el piso 1 y la subida no tiene fin: cada 50 pisos el jugador se enfrenta a **Mr. Big Data**, CEO de Nuddle. La partida termina cuando el jugador pierde sus 3 vidas. Las arenas se construyen a partir de arquetipos reutilizables, con variaciones de rondas, plataformas y distribución según el piso.
 
 ### Incluido
 
-- **Tres personajes jugables desde el inicio:** Niko, Mateo Cruz y Mr. Wobbles. Cada uno tiene su propio repertorio de ataques.
-- **100 pisos en Nuddle:** arenas de combate, tiendas, encuentros con mini-jefes en los pisos 20, 40, 60 y 80, y Big Data como jefe final en el piso 100.
-- **Combate y progresión:** daño por porcentaje, retroceso, KO fuera de la arena, vidas, ventanas rompibles, oleadas, boons, monedas, tienda y avance por ascensor.
-- **Interfaz de la partida:** menú principal, selección de personaje, HUD, pausa, selección de boon, tienda y pantallas de victoria y derrota.
+- **Cinco personajes jugables desde el inicio:** Niko, Mateo Cruz, Atsuko, Mr. Wobbles y Craub. Cada uno tiene su propio repertorio de ataques.
+- **Pisos de Nuddle sin límite:** arenas de combate, tiendas cada 10 pisos y en el piso anterior a cada jefe, y Mr. Big Data cada 50 pisos.
+- **Combate y progresión:** daño por porcentaje, retroceso, agarres, KO fuera de la arena, vidas, ventanas y techo rompibles, rondas, boons, monedas, tienda y avance saltando al piso de arriba.
+- **Interfaz de la partida:** pantalla de inicio, menú principal, selección de personaje, HUD, pausa, selección de boon, tienda y pantalla de resultados.
+- **Tutorial y mundo debug,** accesibles desde el menú principal.
 - **Plataforma de entrega:** PC, con teclado y mando.
-
-### Contenido contemplado
-
-Se contemplan **dos personajes jugables adicionales**. Quedan por definir su identidad, su repertorio de ataques y si formarán parte de la primera versión.
 
 ### Fuera del alcance de la primera versión
 
@@ -22,7 +19,7 @@ Se contemplan **dos personajes jugables adicionales**. Quedan por definir su ide
 - Versiones para consolas.
 - Cinemáticas narrativas y mejoras permanentes entre partidas.
 
-La primera versión no permite guardar una partida en curso para retomarla más tarde: solo se guarda la configuración (ver [[04 - Guardado y Configuración]]).
+La primera versión no permite guardar una partida en curso para retomarla más tarde, y por ahora no guarda ningún dato (ver [[04 - Guardado y Configuración]]).
 
 ## MVP
 
@@ -30,10 +27,10 @@ Una arena de prueba, un personaje jugable y un tipo de guardia. El jugador debe 
 
 ## Vertical Slice
 
-Una secuencia corta en **La Recepción** que represente el acabado del juego. El personaje llega en ascensor, supera una oleada, elige un boon y activa el ascensor para llegar al siguiente encuentro. La muestra integra el escenario, las ventanas rompibles, las animaciones, el HUD y los efectos de sonido necesarios para entender el combate y la transición.
+Una secuencia corta en **La Recepción** que represente el acabado del juego. El personaje empieza en la arena, supera una oleada, elige un boon y salta al siguiente piso. La muestra integra el escenario, las ventanas rompibles, las animaciones, el HUD y los efectos de sonido necesarios para entender el combate y la transición.
 
 ## Criterios de recorte
 
-Si el calendario se ajusta, se reducen primero las decoraciones únicas, las variantes visuales y la cantidad de boons. Después se puede reducir el número de arquetipos de arena y reutilizar sus elementos para cubrir los 100 pisos. Los personajes adicionales se evalúan después de completar el contenido comprometido para la primera versión.
+Si el calendario se ajusta, se reducen primero las decoraciones únicas, las variantes visuales y la cantidad de boons. Después se puede reducir el número de arquetipos de arena y reutilizar sus elementos para cubrir todos los pisos.
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Seguridad y Riesgos Técnicos]] · [[02 - Roles y Responsabilidades]] →

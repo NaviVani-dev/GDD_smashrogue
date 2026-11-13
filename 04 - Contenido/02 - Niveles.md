@@ -14,30 +14,30 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Duración estimada: De 5 a 7 minutos**
 
-**Dificultad: Media**
+**Dificultad: Baja: es el piso más fácil de la partida, con 2 guardias y la IA en su nivel más bajo**
 
-**Mecánicas introducidas: Movimiento básico, ataques a distancia o cuerpo a cuerpo, romper escudos**
+**Mecánicas introducidas: Movimiento básico, ataques a distancia o cuerpo a cuerpo, agarres y lanzamientos, romper escudos**
 
 **Mecánicas utilizadas: De salto, doble salto y boons**
 
-**Enemigos / obstáculos: Guardias débiles en las primeras rondas. La distribución de plataformas y obstáculos de la arena está por definir. El mobiliario de recepción forma parte de la ambientación; su función decorativa o como obstáculo se definirá en el diseño del escenario**
+**Enemigos / obstáculos: Una sola ronda de 2 guardias. La arena tiene plataformas flotantes con lámpara. Parte del mobiliario se puede tirar o romper y algunos muebles sirven como plataformas. Afuera del edificio se ve la calle**
 
 **Recompensas: Elección de un boon o mejora, si hay opciones disponibles**
 
-**Puntos de guardado: 1 o 2**
+**Puntos de guardado: No aplica: el juego no guarda la partida**
 
-**Condición de entrada: Iniciar una nueva partida con el personaje seleccionado. Las puertas del ascensor se abren y el personaje sale a la primera arena mediante una animación breve. Después comienza la cuenta regresiva de 3, 2, 1, ¡GO! y se inicia el combate**
+**Condición de entrada: Iniciar una nueva partida con el personaje seleccionado. El personaje aparece directamente en la arena y comienza la cuenta regresiva de 3, 2, 1, ¡GO! mientras los enemigos saltan al escenario**
 
-**Condición de salida: Derrotar a todos los enemigos de todas las rondas del piso e interactuar con el ascensor habilitado para subir al siguiente nivel
+**Condición de salida: Derrotar a todos los enemigos de todas las rondas del piso y resolver la elección de boon. El personaje salta automáticamente, rompe el techo y sube al siguiente nivel**
 
-**Eventos narrativos: No aplica: la historia nunca interrumpe el combate y solo se presenta en las tiendas y en el almanaque**
+**Eventos narrativos: No aplica: la historia nunca interrumpe el combate y solo se presenta en las tiendas**
 
 **Mapa / diagrama: Arena de combate ambientada como recepción corporativa, sin recorrido entre zonas. Distribución concreta por definir**
 
 ## Flujo del nivel
 
 ```text
-Entrada a la arena → Rondas de enemigos → Piso completado → Elección de boon o mejora, si hay opciones → Ascensor habilitado → Interacción del jugador → Viaje al siguiente piso
+Entrada a la arena → Cuenta regresiva → Rondas de enemigos → Piso completado → Elección de boon o mejora, si hay opciones → Celebración breve → Salto y ruptura del techo → Siguiente piso
 ```
 ## Criterios de calidad
 

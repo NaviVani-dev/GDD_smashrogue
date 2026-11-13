@@ -23,15 +23,15 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 ## Backlog
 
 - [ ] P01 · Validar el combate base con un guardia.
-- [ ] P02 · Completar el flujo de La Recepción con oleada, recompensa y ascensor.
-- [ ] P03 · Completar los repertorios de ataques de Niko, Mateo Cruz y Mr. Wobbles, disponibles desde el inicio.
-- [ ] P04 · Distribuir los 100 pisos por arquetipos, oleadas y encuentros.
-- [ ] P05 · Integrar los guardias y los mini-jefes de los pisos 20, 40, 60 y 80.
-- [ ] P06 · Integrar a Big Data en el piso 100 y conectar su derrota con la pantalla de victoria.
-- [ ] P07 · Integrar boons, monedas, tienda y HUD.
+- [ ] P02 · Completar el flujo de La Recepción con oleada, recompensa y salto al siguiente piso.
+- [x] P03 · Completar los repertorios de ataques de Niko, Mateo Cruz, Atsuko, Mr. Wobbles y Craub, disponibles desde el inicio.
+- [ ] P04 · Distribuir los pisos por arquetipos, rondas y encuentros.
+- [x] P05 · Integrar los guardias, antidisturbios, guardias pesados, drones y élites.
+- [x] P06 · Integrar a Mr. Big Data cada 50 pisos.
+- [x] P07 · Integrar boons, monedas, tienda y HUD.
 - [ ] P08 · Definir qué guarda la primera versión y si permite reanudar una partida.
-- [ ] P09 · Probar la compilación de PC con teclado y mando y verificar el recorrido completo.
-- [ ] P10 · Definir los dos personajes adicionales y decidir en qué versión entran.
+- [ ] P09 · Probar la compilación de PC con teclado y mando y verificar la subida.
+- [x] P10 · Integrar a los dos personajes adicionales: Atsuko y Craub.
 
 ## Priorización
 

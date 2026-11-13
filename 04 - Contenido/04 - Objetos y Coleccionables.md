@@ -4,30 +4,36 @@
 
 Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercambiar o descubrir.
 
+En el juego no hay objetos consumibles ni comida. Lo único que el jugador puede recoger del suelo son boons. Los boons también se obtienen en el menú de boons y en la tienda (ver [[03 - Sistemas]]).
+
 ## Plantilla
 
-### Nombre: Bebida Energética
+### Nombre: Boon en el suelo
 
-**Tipo: Objeto Consumible / Curación**
+**Tipo: Mejora (boon)**
 
-**Descripción: Una lata de bebida ultra azucarada que la corporación da a sus Guardias Débiles para que aguanten los turnos dobles**
+**Descripción: Un boon que cae al escenario. Se muestra con su icono sobre un destello giratorio y una flecha encima; si queda fuera de la pantalla, una flecha en el borde indica dónde está**
 
-**Función: Reduce un 30% del porcentaje de daño acumulado del personaje al consumirla. 
+**Función: Agrega ese boon al jugador o, si ya lo tiene, lo mejora**
 
-**Cómo se obtiene: Al derrotar Guardias Débiles**
+**Cómo se obtiene: Al eliminar a un enemigo élite, cae el boon que llevaba equipado (de nivel 1 al principio y más alto en pisos avanzados). También hay un 5 % de probabilidad de que caiga un boon al romper un mueble**
 
-**Cómo se utiliza: Se consume automáticamente al recogerla del suelo pasando por encima de ella**
+**Cómo se utiliza: El jugador se acerca, aparece el aviso "AGARRAR" y lo recoge con el botón de ataque**
 
-**Cantidad máxima: No acumulable en inventario**
+**Cantidad máxima: No aplica: se aplica en cuanto se recoge. No aparece el aviso si el jugador ya tiene ese boon al nivel máximo**
 
 **Valor: N/A (no se vende)**
 
-**Rareza: Común**
+**Rareza: La del boon (común, rara, épica o legendaria)**
 
-**Restricciones: No se vende en la tienda. No se puede guardar en un inventario: se consume en cuanto el personaje pasa por encima de ella**
+**Restricciones: Desaparece si no se recoge en 10 segundos (se va desvaneciendo antes de desaparecer). El piso no se da por terminado mientras queden boons en el suelo**
 
-**Interacciones: Reduce el porcentaje de daño, igual que la comida de la tienda y el boon de curación. Porcentaje restante = porcentaje actual × 0.70**
+**Interacciones: Funciona igual que elegir ese boon en el menú de boons**
 
-**Representación visual: Una lata de aluminio abollada con colores neón brillantes**
+**Representación visual: El icono del boon sobre un destello giratorio, con una flecha que lo señala**
+
+### Nota: Bebida energética
+
+"Bebida energética" no es un objeto que se recoja: es un boon común que hace que el personaje se mueva y ataque más rápido.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →

@@ -30,7 +30,7 @@ Combinación de curvas y ángulos. Las curvas se usan en rostros, anatomía, cab
 El acabado gráfico utiliza sombras sólidas de bordes nítidos. Se evitan degradados como recursos de sombreado.
 
 **Materiales:**
-**Por definir:** El cel-shading define el acabado visual buscado, pero todavía no una implementación técnica concreta.
+El juego usa shaders propios de sombreado plano tipo cel-shading (por ejemplo, `SpriteToon` y el material "toon"). Además, tiene activo un filtro de render llamado "Pixel Art": la imagen se dibuja a baja resolución (270 píxeles de alto) y después se agranda, con los colores reducidos a 11 niveles y contornos automáticos en los bordes de los modelos, lo que da un aspecto de pixel art.
 ## Paleta de color
 
 **Colores principales:**
@@ -40,13 +40,17 @@ El acabado gráfico utiliza sombras sólidas de bordes nítidos. Se evitan degra
 **Por definir**
 
 **Colores para información jugable:**
-- **Rojo:** destello del personaje golpeado y luz del ascensor bloqueado.
-- **Verde:** luz del ascensor disponible.
+- **Blanco:** destello del personaje golpeado y destellos localizados en el contacto de los golpes.
+- **Rojo:** pulso del personaje con 100 %, 125 % y 150 % o más de daño, y escudo del jugador.
 - **Amarillo:** parpadeo al cargar un ataque fuerte.
-- **Azul:** destello del parry y parpadeo del estado de hielo.
-- **Naranja:** parpadeo del estado de quemadura.
-- **Dorado:** porcentaje de los enemigos élite.
-- **Blanco:** destellos localizados en el contacto de los golpes.
+- **Cian:** destello del parry y número de porcentaje de los enemigos élite.
+- **Azul claro:** estado de congelación (el personaje queda teñido por completo) y escudo de los enemigos.
+- **Morado:** parpadeo del estado de frío (lentitud).
+- **Naranja:** parpadeo del estado de quemadura y estela de los lanzamientos fuertes.
+- **Verde:** parpadeo del estado de veneno.
+- **Rosa:** parpadeo del estado de encanto.
+- **Dorado:** borde de los enemigos élite.
+- **Porcentaje de daño:** el número cambia de color según el daño: crema en 0 %, amarillo en 50 %, naranja en 100 %, rojo en 150 % y carmesí en 300 %.
 
 El color se acompaña de formas, símbolos o texto para comunicar estados.
 

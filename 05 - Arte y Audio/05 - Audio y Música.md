@@ -14,37 +14,41 @@ Por definir.
 
 **Temas principales:**
 - Menú principal.
-- Exploración o transición, si esos momentos tienen duración suficiente.
 - Combate en Nuddle.
-- Enfrentamiento con el jefe.
-- Cierre de victoria y derrota.
-Estas necesidades pueden cubrirse con temas independientes o variaciones de una misma composición.
+- Tienda (Café Corp).
+- Tutorial.
 
-**Música dinámica:** Sí / No
-Por definir
+Cada tema tiene una introducción y una parte que se repite en bucle. No hay temas propios para el jefe, la victoria, la derrota ni las transiciones: el enfrentamiento con el jefe usa la música de combate y, al perder, la música se apaga y suena un golpe fuerte.
+
+**Música dinámica:** Sí
+La música cambia a la de la tienda en los pisos con tienda y vuelve a la de combate al salir. Mientras está abierto el menú de boons, la música se escucha apagada, como "bajo el agua". Al cambiar de pantalla o terminar la partida, la música se desvanece.
 ## Efectos de sonido
 
 | Evento              | Sonido                                                              | Propósito                                    |
 | ------------------- | ------------------------------------------------------------------- | -------------------------------------------- |
-| Desplazamiento      | Pasos acordes con el calzado y la superficie.                       | Dar presencia física al personaje.           |
+| Desplazamiento      | Pasos acordes con el personaje.                                     | Dar presencia física al personaje.           |
 | Salto y aterrizaje  | Sonidos breves de movimiento y contacto.                            | Reforzar la lectura del desplazamiento.      |
-| Daño recibido       | Respuesta sonora diferenciada.                                      | Confirmar que el personaje fue golpeado.     |
+| Daño recibido       | Respuesta sonora diferenciada según el tipo de golpe (puñetazo, patada, corte, golpe pesado). | Confirmar que el personaje fue golpeado.     |
+| Lanzamiento         | Sonido de lanzamiento según la fuerza del golpe.                    | Reforzar la fuerza del impacto.              |
+| Escudo              | Sonidos al activar, bloquear, hacer parry y romper el escudo.       | Comunicar el estado de la defensa.           |
 | Enemigo derrotado   | Señal breve asociada a su caída o salida del combate.               | Confirmar la derrota.                        |
 | Boons               | Sonidos diferenciados para hielo, electricidad, fuego, veneno, etc. | Identificar la activación de efectos.        |
-| Selección de mejora | Navegación y confirmación.                                          | Comunicar la elección del jugador.           |
-| Fin de encuentro    | Señal de finalización.                                              | Indicar que la ronda terminó.                |
-| Ambiente de oficina | Ventilación y otros sonidos discretos del edificio.                 | Situar al jugador en el entorno corporativo. |
-| Interfaz            | Selección, confirmación, regreso y error.                           | Dar respuesta a las acciones en menús.       |
-|                     |                                                                     |                                              |
+| Selección de mejora | Navegación, confirmación y un sonido de subida de nivel al elegir el boon. | Comunicar la elección del jugador.           |
+| Monedas y compras   | Sonido al ganar monedas y al comprar en la tienda.                  | Confirmar la economía de la partida.         |
+| Ventanas y techo    | Sonidos de cristal y escombros al romperse.                         | Confirmar la ruptura del escenario.          |
+| Público             | Ovación, aplausos y decepción que reaccionan al combate.            | Dar ambiente y energía al combate.           |
+| Interfaz            | Movimiento del cursor, confirmación, regreso e inicio.              | Dar respuesta a las acciones en menús.       |
+
+No hay sonidos de ambiente de oficina.
 
 ## Audio espacial
 
-¿Se utilizará audio posicional?
+Sí, de forma sencilla: los sonidos del combate se escuchan más a la izquierda o a la derecha según dónde ocurran en la pantalla.
 
 ## Voz
 
 **Narración:**
-No hay narrador.
+No hay narrador durante la partida. En la selección de personaje, una voz de anunciador dice el nombre del personaje elegido.
 
 **Diálogos hablados:**
 No hay diálogos hablados. Los personajes solo tienen sonidos de esfuerzo y de golpe. Los diálogos de las tiendas se presentan como texto.
@@ -57,6 +61,6 @@ Define prioridades, volumen relativo y comportamiento de la música ante eventos
 
 Priorizar las señales que afectan al jugador, seguidas de los impactos y acciones principales. La música debe acompañar el ritmo del combate y el ambiente debe dar contexto sin ocultar información importante.
 
-Se deberá controlar la acumulación de sonidos cuando varios enemigos ataquen o reciban daño al mismo tiempo. Los volúmenes, límites de reproducción simultánea y ajustes separados de música, efectos y voces quedan por definir.
+Se deberá controlar la acumulación de sonidos cuando varios enemigos ataquen o reciban daño al mismo tiempo. Los volúmenes y los límites de reproducción simultánea quedan por definir. Por ahora no hay ajustes separados de volumen para música, efectos y voces.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[01 - UX y Flujo del Jugador]] →

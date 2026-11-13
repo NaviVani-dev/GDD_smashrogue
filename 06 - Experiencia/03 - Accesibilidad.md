@@ -10,22 +10,25 @@ La accesibilidad busca que el mayor número posible de jugadores pueda comprende
 - [ ] Subtítulos
 - [ ] Contraste
 - [ ] Modo para daltonismo
-- [x] Reasignación de controles
+- [ ] Reasignación de controles
 - [ ] Sensibilidad
 - [ ] Reducción de movimiento
-- [x] Reducción de destellos
+- [ ] Reducción de destellos
 - [ ] Asistencia de apuntado
 - [ ] Dificultad ajustable
-- [x] Volumen independiente
+- [ ] Volumen independiente
 - [ ] Indicadores visuales para sonidos importantes
+
+Por ahora el juego no tiene ninguna opción de accesibilidad: el menú de Opciones todavía no tiene función.
 
 ## Consideraciones
 
-- El color se acompaña de formas, símbolos o texto para comunicar estados. Las ventanas rotas y el estado del ascensor se entienden sin depender solo del color.
+- El color se acompaña de formas, símbolos o texto para comunicar estados. Las ventanas rotas se entienden sin depender solo del color.
 - Los textos e indicadores deben distinguirse sobre fondos claros y oscuros.
-- El porcentaje de todos los personajes en pantalla es visible en todo momento.
+- El porcentaje del jugador y de los enemigos es visible en todo momento; el jefe muestra una barra de vida.
 - Los golpes, los estados alterados y las acciones importantes tienen respuesta visual y sonora.
-- No se necesitan conocimientos previos: un jugador nuevo debe poder moverse, saltar y atacar en el primer piso sin leer instrucciones externas.
+- Los avisos de botones cambian automáticamente según el control que se esté usando (teclado, Xbox, PlayStation o Switch).
+- No se necesitan conocimientos previos: un jugador nuevo debe poder moverse, saltar y atacar en el primer piso sin leer instrucciones externas. Además, el menú principal ofrece un tutorial.
 - El juego se controla con teclado o mando, con pocas teclas y muchos movimientos según la dirección.
 
 

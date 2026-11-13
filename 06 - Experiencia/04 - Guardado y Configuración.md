@@ -6,37 +6,39 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
-**Tipo:** Automático
+**Tipo:** No hay guardado.
 
-**Cuándo se guarda:** Al salir del menú de Configuración después de cambiar alguna opción.
+**Cuándo se guarda:** No aplica.
 
-**Qué datos se guardan:** Solo la configuración. La partida en curso no se guarda: si el jugador cierra el juego a mitad de partida, la partida se pierde.
+**Qué datos se guardan:** Ninguno. La partida en curso no se guarda: si el jugador cierra el juego a mitad de partida, la partida se pierde.
 
-**Cantidad de ranuras:** No aplica: no hay ranuras de partida, solo se conserva la configuración.
+**Cantidad de ranuras:** No aplica: no hay ranuras de partida.
 
-**Qué ocurre si el guardado falla:** Se usan los valores predeterminados de la configuración y se muestra un aviso breve.
+**Qué ocurre si el guardado falla:** No aplica.
 
 ## Configuración
 
+El menú principal y el menú de pausa tienen el botón "OPCIONES", pero todavía no tiene función: por ahora el jugador no puede modificar ninguna opción.
+
 | Categoría     | Opciones |
 | ------------- | -------- |
-| Audio         | Volumen general, volumen de música y volumen de efectos |
-| Video         | Resolución (1280 × 720 o 1920 × 1080), pantalla completa o ventana, sincronización vertical y límite de FPS (30 o 60) |
-| Controles     | Vibración del mando (activada o desactivada) y botones que muestran los avisos (teclado o mando). Los controles no se pueden reasignar |
-| Accesibilidad | Reducción de destellos |
+| Audio         | Ninguna por ahora |
+| Video         | Ninguna por ahora. El juego se abre en pantalla completa a la resolución nativa del monitor |
+| Controles     | Ninguna por ahora. Los controles no se pueden reasignar, el mando no vibra y los avisos de botones cambian automáticamente según el control que se esté usando (teclado, Xbox, PlayStation o Switch) |
+| Accesibilidad | Ninguna por ahora |
 | Jugabilidad   | No aplica: la dificultad no es ajustable |
 
 ## Menú de pausa
 
-Continuar, Configuración y Abandonar partida (regresa al menú principal).
+Continuar, Opciones (sin función por ahora) y Volver al inicio (regresa al menú principal).
 
 ## Confirmaciones
 
-Se pide confirmación al abandonar la partida (la partida se pierde porque no se guarda), al restablecer la configuración y al salir del juego.
+Por ahora no se pide confirmación al volver al inicio desde la pausa ni al salir del juego.
 
 ## Restablecimiento
 
-El menú de Configuración tiene la opción "Restablecer valores predeterminados", que pide confirmación antes de aplicarse.
+No aplica: no hay opciones de configuración que restablecer.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Accesibilidad]] · [[01 - Arquitectura Técnica]] →
