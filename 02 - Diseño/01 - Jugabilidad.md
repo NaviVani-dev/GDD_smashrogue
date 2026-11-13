@@ -54,7 +54,7 @@ Cada partida es diferente gracias a las combinaciones de boons, la aparición al
 
 ## Condición de derrota
 
-Perder las **3 vidas**. Se pierde una vida al salir disparado del escenario (por una ventana rota o por los límites del escenario). Aparece el aviso **GAME OVER**, la acción se ralentiza y se pasa a la pantalla de Resultados, donde el jugador puede **Reintentar** o volver al **Menú**. En la historia, el personaje escapa en paracaídas y regresa a La Coladera. **La Coladera no es un lugar jugable:** solo existe en el lore. Lo único jugable son las oficinas; todo lo demás es interfaz (UI).
+Perder las **3 vidas**. Se pierde una vida al salir disparado del escenario (por una ventana rota o por los límites del escenario). Aparece el aviso **GAME!**, la acción se ralentiza y se pasa a la pantalla de Resultados, donde el jugador puede **Reintentar** o volver al **Menú**. En la historia, el personaje escapa en paracaídas y regresa a La Coladera. **La Coladera no es un lugar jugable:** solo existe en el lore. Lo único jugable son las oficinas; todo lo demás es interfaz (UI).
 
 ## Ritmo
 
