@@ -30,7 +30,7 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Condición de salida: Derrotar a todos los enemigos de todas las rondas del piso e interactuar con el ascensor habilitado para subir al siguiente nivel
 
-**Eventos narrativos: Aun sin definir**
+**Eventos narrativos: No aplica: la historia nunca interrumpe el combate y solo se presenta en las tiendas y en el almanaque**
 
 **Mapa / diagrama: Arena de combate ambientada como recepción corporativa, sin recorrido entre zonas. Distribución concreta por definir**
 

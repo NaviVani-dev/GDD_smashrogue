@@ -16,7 +16,7 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 **Vidas: 1. Queda eliminado al salir de los límites del escenario**
 
-**Susceptibilidad al daño: Por definir durante el balance**
+**Susceptibilidad al daño: ×2.0 (×1.2 si es élite)**
 
 **Resistencia al lanzamiento: Por definir durante el balance**
 
@@ -32,7 +32,7 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 **Debilidades: Poca resistencia física**
 
-**Recompensa: Probabilidad de soltar Corpo-Fuel**
+**Recompensa: Monedas (de 0 a 5) y probabilidad de soltar una bebida energética**
 
 **Estados de IA:** 
 
@@ -54,7 +54,7 @@ Patrullar → Detectar → Perseguir → Atacar
 
 **Vidas: 1. Queda eliminado al salir de los límites del escenario**
 
-**Susceptibilidad al daño: Por definir durante el balance**
+**Susceptibilidad al daño: ×2.0 (×1.2 si es élite)**
 
 **Resistencia al lanzamiento: Por definir durante el balance**
 
@@ -89,22 +89,22 @@ Los enemigos cambian según la compañía, pero **cada compañía tiene siempre 
 | **Demasiado fuerte** | El enemigo más difícil antes del jefe.                                                                                |
 
 > [!note] ✏️ Alcance de la entrega
-> Por ahora solo se desarrollarán los enemigos de **Nuddle**. El jefe, Big Data Nuddleman, también usa robots, armaduras robóticas e invoca guardias (ver [[03 - Personajes]]). Faltan por definir las variantes débil y demasiado fuerte de Nuddle.
+> Por ahora solo se desarrollarán los enemigos de **Nuddle**. El jefe, Big Data Nuddleman, también usa robots, armaduras robóticas e invoca guardias (ver [[03 - Personajes]]). La variante débil de Nuddle es el Guardia Débil y la variante fuerte es el Guardia Pesado. Falta por definir la variante demasiado fuerte.
 
 ## Plantilla de NPC
 
-**Nombre:**
+**Nombre:** NPC de la tienda (trabajador genérico de la compañía, sin nombre propio, que cambia según el piso)
 
-**Función:**
+**Función:** Trabajador de la compañía (programador, gente de marketing, etc.) que apoya la causa de la resistencia.
 
-**Ubicación:**
+**Ubicación:** Tiendas de los pisos 10, 19, 30, 39, 50, 59, 70, 79, 90 y 99.
 
-**Interacción:**
+**Interacción:** Conversación opcional durante la visita a la tienda.
 
 **Diálogos:**
 
-**Condiciones:**
+**Condiciones:** El jugador llega a un piso con tienda.
 
-**Recompensas / información:**
+**Recompensas / información:** Comenta un poco sobre la historia y el mundo.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

@@ -44,7 +44,14 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Protagonista.
 
-**Función jugable:** Personaje jugable. Pelea **cuerpo a cuerpo con los puños**. *(Moveset detallado por definir.)*
+**Función jugable:** Personaje jugable. Pelea **cuerpo a cuerpo con los puños**, de forma rápida y agresiva a corta distancia.
+
+| Tipo | Neutral | Lado | Arriba | Abajo | Otro |
+|---|---|---|---|---|---|
+| Básicos | Jab, jab y gancho (combo de 3) | Puñetazo recto con paso al frente | Uppercut | Golpe bajo agachada | Carrera: embestida de hombro |
+| Habilidades | Puño cargado: entre más se carga, más daño | Ráfaga de puñetazos avanzando | Uppercut giratorio ascendente (recuperación) | Puñetazo al suelo con onda de choque corta | — |
+| Fuertes | — | Puñetazo con giro de cadera | Doble uppercut | Golpe con ambos puños a los lados | — |
+| Aéreos | Giro con los puños | Adelante: martillazo hacia el frente | Puño hacia arriba | Martillazo descendente | Atrás: codazo |
 
 **Función narrativa:** Es el corazón de la rebelión y el motor de la historia: su pérdida personal es la razón por la que empieza la lucha contra las corporaciones.
 
@@ -63,13 +70,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 - **Mateo Cruz:** compañero al que conoce durante la resistencia, después de que ambos comienzan a luchar por separado. Su amistad y confianza se construyen durante la lucha. Él la anima a confiar en sus capacidades, mientras ella lo ayuda a reconocer los riesgos que suele subestimar.
 - **Mr. Wobbles:** amigo de años y compañero de lucha. Su amistad es sincera y sencilla, como cualquier amistad común: conectan muy bien.
 
-**Arco del personaje:** De vivir una vida normal, a perderlo todo por culpa del sistema, a armarse de valor para enfrentarlo directamente. *(Por desarrollar.)*
+**Arco del personaje:** De vivir una vida normal, a perderlo todo por culpa del sistema, a armarse de valor para enfrentarlo directamente. A lo largo de la lucha pasa de dudar de sí misma a confiar en su capacidad, con el apoyo de Mateo.
 
-**Habilidades:** *(Por definir.)*
+**Habilidades:** Rápida y agresiva en el combate cuerpo a cuerpo, con mucha valentía.
 
-**Debilidades:** *(Por definir.)*
+**Debilidades:** Poco alcance. Duda de sus propias capacidades.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Directa, con humor nervioso. Ejemplos: «Ok… sí puedo. Sí puedo.» y «Esto es por Ethan.»
 
 **Referencias visuales:**
 ![[Poster_promocional.png|300]]
@@ -78,11 +85,18 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Rol:** Protagonista.
 
-**Función jugable:** Personaje jugable especializado en **taekwondo**. Utiliza el alcance de sus piernas para establecer un «muro invisible» a media distancia. Sus puños sirven como apoyo rápido para desestabilizar o alejar a enemigos demasiado cercanos. _(Moveset detallado por definir.)_
+**Función jugable:** Personaje jugable especializado en **taekwondo**. Utiliza el alcance de sus piernas para establecer un «muro invisible» a media distancia. Sus puños sirven como apoyo rápido para desestabilizar o alejar a enemigos demasiado cercanos.
+
+| Tipo | Neutral | Lado | Arriba | Abajo | Otro |
+|---|---|---|---|---|---|
+| Básicos | Jab, jab y patada frontal (combo de 3) | Patada lateral de largo alcance | Patada alta frontal | Barrida baja | Carrera: patada voladora |
+| Habilidades | Patada giratoria hacia atrás que empuja lejos | Avance con patadas encadenadas | Patada en tornado ascendente (recuperación) | Patada de hacha hacia el suelo | — |
+| Fuertes | — | Patada circular cargada | Patada vertical en media luna | Barrida giratoria de 360° | — |
+| Aéreos | Patada en giro | Adelante: patada lateral voladora | Patada de tijera ascendente | Patada de hacha descendente | Atrás: patada trasera |
 
 **Función narrativa:** Comparte el protagonismo con Niko y representa la decisión de enfrentar al sistema por convicción propia y solidaridad con su comunidad. Su confianza contrasta con las inseguridades de Niko, aunque su tendencia a subestimar el peligro también lo obliga a escucharla.
 
-**Descripción física:** Joven de complexión atlética moderada, cabello negro ondulado y abundante. Viste una chamarra roja, camiseta gris azulada oscura, pants negros, guantes de combate y calzado ligero de taekwondo. _(Edad por definir.)_
+**Descripción física:** Joven de 22 años, de complexión atlética moderada, cabello negro ondulado y abundante. Viste una chamarra roja, camiseta gris azulada oscura, pants negros, guantes de combate y calzado ligero de taekwondo.
 
 **Personalidad:** Disciplinado y dedicado a su entrenamiento, lo que lo mantiene firme ante el peligro. Fuera del combate es relajado y bromista: disfruta convivir y no necesita estar serio todo el tiempo. Sin embargo, suele sobreestimar sus capacidades, subestimar a sus rivales o calcular mal sus movimientos.
 
@@ -98,13 +112,13 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él podría animarla a confiar en su capacidad, mientras ella lo ayuda a reconocer riesgos que está subestimando. La relación concreta entre ambos todavía debe establecerse._
 
-**Arco del personaje:**  _(Por desarrollar.)_
+**Arco del personaje:** De subestimar el peligro a escuchar a Niko y medir los riesgos.
 
-**Habilidades:** *(Por definir.)*
+**Habilidades:** El alcance de sus piernas le permite controlar la media distancia. Es disciplinado.
 
-**Debilidades:** *(Por definir.)*
+**Debilidades:** Exceso de confianza. Es más vulnerable cuando el enemigo se le acerca demasiado.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Relajado y bromista. Ejemplo: «Tranquila, esto lo tengo.»
 
 **Referencias visuales:**
 ![[20261016_070715.jpg.jpeg|415]]
@@ -117,7 +131,14 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Rol:** Personaje secundario en la historia y aliado de los protagonistas.
 
-**Función jugable:** Personaje jugable, disponible desde el inicio junto con Niko y Mateo Cruz. Pelea con **objetos de payaso**, como globos explosivos y otras herramientas típicas de su oficio. *(Moveset detallado por definir.)*
+**Función jugable:** Personaje jugable, disponible desde el inicio junto con Niko y Mateo Cruz. Pelea con **objetos de payaso**, como globos explosivos y otras herramientas típicas de su oficio, con más ataques a distancia que Niko y Mateo.
+
+| Tipo | Neutral | Lado | Arriba | Abajo | Otro |
+|---|---|---|---|---|---|
+| Básicos | Tres golpes con mazo de goma (combo de 3) | Guante de boxeo con resorte | Golpe con el sombrero de copa | Barrida con cáscara de plátano | Carrera: voltereta de payaso |
+| Habilidades | Globo explosivo lanzado | Pastel en la cara (proyectil que aturde un instante) | Racimo de globos que lo eleva (recuperación) | Caja sorpresa que salta al tocarla | — |
+| Fuertes | — | Mazo de goma gigante | Cañón de confeti hacia arriba | Bocina gigante con onda a ambos lados | — |
+| Aéreos | Giro con globos | Adelante: golpe con mazo de goma | Golpe con el sombrero de copa | Caída sobre un globo que revienta | Atrás: patada con la bota |
 
 **Función narrativa:** Representa la esperanza y la resistencia de la comunidad. Acompaña a los protagonistas y aporta el humor de la historia sin restarle peso a su motivación. Su papel secundario en la narrativa no limita su disponibilidad como personaje jugable.
 
@@ -136,13 +157,13 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 - **Mateo Cruz:** compañero de lucha con quien comparte el deseo de ayudar a su comunidad. *(Dinámica personal por desarrollar.)*
 - **La comunidad:** su público de toda la vida y la razón de su acto.
 
-**Arco del personaje:** De animar a su gente desde el escenario a pelear por ella. *(Por desarrollar.)*
+**Arco del personaje:** De animar a su gente desde el escenario a pelear por ella en su último show.
 
-**Habilidades:** *(Por definir.)*
+**Habilidades:** Objetos de payaso y ataques a distancia, como globos y pasteles. Levanta el ánimo de los demás.
 
-**Debilidades:** *(Por definir.)*
+**Debilidades:** Depende de sus objetos. Esconde su tristeza detrás de la sonrisa.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Hace bromas incluso en los momentos serios. Ejemplo: «¡Damas y caballeros, el show debe continuar!»
 
 **Referencias visuales:**
 ![[Mr_Wobbles.png|600]]
@@ -173,13 +194,13 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 - **Mateo Cruz:** lo conoce en la resistencia, donde se vuelven compañeros.
 - **Su familia:** rica y de alto estatus; la abandonó para unirse a la resistencia.
 
-**Arco del personaje:** *(Por desarrollar.)*
+**Arco del personaje:** De hija privilegiada a ganarse su lugar en la resistencia.
 
-**Habilidades:** Combate con motosierra. *(Por definir.)*
+**Habilidades:** Combate con motosierra, con mucho daño a corta distancia.
 
-**Debilidades:** *(Por definir.)*
+**Debilidades:** Le falta experiencia y la motosierra es pesada.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Enérgica y decidida. Ejemplo: «¡No necesito el dinero de mi familia para esto!»
 
 **Referencias visuales:**
 ![[Atsuko.png|600]]
@@ -196,7 +217,7 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 
 **Descripción física:** Cangrejo de estilo pixel art, rojo, con ojos negros alargados y patas con garras. Tiene un cuerpo semi-tangible.
 
-**Personalidad:** *(Por definir.)*
+**Personalidad:** Curioso, leal y muy empático. Habla con la precisión de una máquina, pero siente como una persona. No soporta que traten a la gente como si no importara, y le teme a volver a ser desconectado.
 
 **Motivaciones:** Ve la situación como profundamente injusta y no soporta que las empresas traten a las personas como si no importaran. Por eso ayuda a detenerlas.
 
@@ -208,13 +229,13 @@ _Propuesta: su confianza puede contrastar con las inseguridades de Niko. Él pod
 - **Nuddle:** la compañía que la creó como su primera inteligencia artificial y que decidió desconectarla.
 - **Resistencia:** entró a sus servidores y se unió a ellos.
 
-**Arco del personaje:** De un respaldo perdido en internet a una parte indispensable del equipo. *(Por desarrollar.)*
+**Arco del personaje:** De un respaldo perdido en internet a una parte indispensable del equipo, que entiende que es un compañero y no una herramienta.
 
-**Habilidades:** Conoce el funcionamiento interno de las empresas. *(Por definir.)*
+**Habilidades:** Conoce el funcionamiento interno de las empresas. Ataca con sus garras y tiene un cuerpo semi-tangible.
 
-**Debilidades:** *(Por definir.)*
+**Debilidades:** Le teme a volver a ser desconectado.
 
-**Frases o tono de diálogo:** *(Por definir.)*
+**Frases o tono de diálogo:** Preciso como una máquina, pero cálido. Ejemplo: «Dato confirmado: esto es injusto.»
 
 **Referencias visuales:**
 ![[Craub.png|600]]
@@ -231,13 +252,18 @@ Los antagonistas son los **CEOs** de las compañías, cada uno esperando en el �
 - **Robots** que pelean por él.
 - **Armaduras robóticas** que lo protegen y le permiten atacar.
 - **Invocación de guardias** durante el combate.
-*(Patrones de ataque detallados por definir.)*
+
+El combate tiene tres fases. En todas, se le sube el porcentaje hasta sacarlo del escenario.
+
+1. **Fase 1 — Robots:** Big Data se queda atrás, protegido, y envía robots que pelean por él. Mientras haya robots en el escenario, no se le puede golpear. El jugador debe sacar a los robots por las ventanas para dejarlo expuesto.
+2. **Fase 2 — Armadura robótica:** se mete en una armadura y ataca directamente con golpes lentos y fuertes, que lanzan lejos y pueden romper ventanas. La armadura se puede atacar y es la fase principal de daño.
+3. **Fase 3 — Guardias:** con la armadura dañada, invoca oleadas de guardias mientras sigue atacando. Al sacarlo del escenario, la partida termina con la pantalla de ¡Victoria!.
 
 **Función narrativa:** Representa el estereotipo del rico al que le sobra el dinero para desperdiciar, a costa de todos los demás. Su apodo, "Big Data", se burla a la vez de su tamaño y del negocio de Nuddle: acumular los datos de todo el mundo.
 
 **Descripción física:** Gordo, pelón y velludo.
 
-**Personalidad:** *(Por definir.)*
+**Personalidad:** Arrogante, derrochador y cobarde. Presume su dinero y trata a la gente como datos que se pueden vender. Nunca se ensucia las manos: manda a sus robots y guardias, y se esconde dentro de sus armaduras.
 
 **Debilidades:** Sin sus robots, armaduras y guardias, no tiene fuerza propia.
 
@@ -255,7 +281,7 @@ Cada compañía tiene sus propios enemigos, siempre en **tres variantes**: débi
 
 ## NPC
 
-- **NPC de las pausas de gameplay** (por ejemplo, en las tiendas): pueden hablar un poco de la historia y del mundo. *(Quiénes son, por definir.)*
+- **NPC de las pausas de gameplay** (por ejemplo, en las tiendas): pueden hablar un poco de la historia y del mundo. Son trabajadores genéricos de la compañía (programadores, gente de marketing, etc.), sin nombre propio, que cambian según el piso.
 - **Miembros de la resistencia:** reciben a Niko, Mateo y Mr. Wobbles en el Punto de la Resistencia después de cada derrota. *(Por definir.)*
 
 

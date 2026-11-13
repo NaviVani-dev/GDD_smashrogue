@@ -23,7 +23,7 @@ No aplica. Es un juego de un jugador y no requiere conexión a internet, por lo 
 
 ## Recuperación
 
-Por definir, junto con lo que ocurre si el guardado falla. Al no requerir conexión, no existe el caso de pérdida de conexión.
+Si el guardado de la configuración falla o el archivo no se puede leer, el juego usa los valores predeterminados y muestra un aviso breve. Al no requerir conexión, no existe el caso de pérdida de conexión.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Datos y Persistencia]] · [[01 - Alcance]] →

@@ -18,10 +18,10 @@ A ellos se une Mr. Wobbles, un payaso y viejo amigo de Niko que lleva años leva
 
 El plan es directo: entrar a cada rascacielos corporativo, abrirse paso a golpes contra guardias de seguridad y demás defensas, subir hasta el último piso y derrotar al CEO para acabar con su reinado.
 
-Las compañías a derrocar son **Nuddle**, **Bookworm**, **Nile** e **Y** (ver [[02 - Mundo]]).
+Las compañías a derrocar son, en este orden, **Nuddle**, **Bookworm**, **Nile** e **Y** (ver [[02 - Mundo]]).
 
 > [!note] Pendiente
-> La entrega se centra en **Nuddle** y su CEO, Bernard "Big Data" Nuddleman. Falta definir el orden de las demás compañías y los CEOs de Bookworm y Nile.
+> La entrega se centra en **Nuddle** y su CEO, Bernard "Big Data" Nuddleman. Faltan por definir los CEOs de Bookworm y Nile.
 
 ## La derrota dentro del lore
 
@@ -30,14 +30,17 @@ Niko, Mateo Cruz y Mr. Wobbles llevan paracaídas para escapar cuando son expuls
 
 ## Estructura narrativa
 
-### Acto / Etapa 1
-<!-- Pendiente -->
+### Acto / Etapa 1 — La herida
 
-### Acto / Etapa 2
-<!-- Pendiente -->
+Niko pierde a su hermano Ethan cuando el sistema prioriza a los ricos en la atención médica. Mateo comienza su propia lucha para liberar a su comunidad. Ambos se conocen en la resistencia y deciden unir esfuerzos, y Mr. Wobbles se une a ellos como su último show.
 
-### Acto / Etapa 3
-<!-- Pendiente -->
+### Acto / Etapa 2 — El ascenso por Nuddle
+
+Los protagonistas se infiltran en el rascacielos de Nuddle y suben piso por piso, desde La Recepción hasta la cima, contra los guardias y los mini-jefes. Los trabajadores de la compañía los apoyan desde dentro en las tiendas. Cada derrota es una retirada en paracaídas a La Coladera para volver a intentarlo. En el piso 100 derrotan a Bernard "Big Data" Nuddleman.
+
+### Acto / Etapa 3 — La caída de las compañías
+
+Tras la caída de Nuddle, la resistencia va por Bookworm, Nile e Y, en ese orden, hasta derrotar a Melon Tusk. Las ciudades se liberan poco a poco: desaparecen los anuncios y el control regresa al pueblo, en un final esperanzador pero abierto.
 
 ## Eventos principales
 

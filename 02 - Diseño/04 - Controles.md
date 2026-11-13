@@ -21,7 +21,7 @@ El juego se controla con **teclado y gamepad**, con un esquema inspirado en **Mu
 | Elegir boon                 | Navegar y confirmar | Clic  | Navegar y confirmar    | —      |
 | Menú / pausa                | Esc                 | —     | Start                  | —      |
 | Reiniciar tras derrota      | Enter               | —     | Start                  | —      |
-| Interactuar con el ascensor | Por definir         | —     | Por definir            | —      |
+| Interactuar con el ascensor | E                   | —     | LB / L1                | —      |
 > [!warning] Diferencia con el prototipo
 > El prototipo todavía tiene un botón de **agarre** (I / RB). En el diseño **no hay agarres**, así que debe eliminarse.
 

@@ -21,7 +21,6 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 | Lenguaje | Uso                                                                                  |
 | -------- | ------------------------------------------------------------------------------------ |
 | C#       | Scripts del juego: combate, mejoras (boons), comportamiento de enemigos y progresión |
-|          |                                                                                      |
 
 ## Herramientas
 
@@ -41,9 +40,16 @@ Input System de Unity.
 
 ## Convenciones del proyecto
 
-Control de versiones: GitHub. Estrategia de ramas y mensajes de commit por definir.
+Control de versiones: GitHub.
+
+- **Ramas:** `main` solo contiene versiones estables; `develop` integra el trabajo del equipo; cada tarea tiene su propia rama, `feature/nombre-de-la-tarea` o `fix/nombre-del-bug`.
+- **Commits:** en español y en imperativo, describiendo el cambio. Ejemplos: "Agrega el menú de pausa" o "Corrige la regeneración de ventanas".
+
 Nomenclatura: se sigue la sección Convenciones de nombres del Glosario.
-Estructura de carpetas, formato de assets y convenciones de código: Por definir.
+
+- **Estructura de carpetas:** `Assets/_Project/` con las carpetas `Scripts`, `Prefabs`, `Scenes`, `Art`, `Audio`, `UI` y `Data`.
+- **Formato de assets:** FBX para modelos, PNG para texturas y sprites, y WAV para audio.
+- **Convenciones de código (C#):** PascalCase para clases y métodos, camelCase para variables y `_camelCase` para campos privados. Un script por clase.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Arquitectura Técnica]] · [[03 - Requisitos Técnicos]] →

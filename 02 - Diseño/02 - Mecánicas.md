@@ -69,7 +69,7 @@ Documenta cada mecánica con suficiente detalle para que otro integrante pueda i
 
 **Interacciones con otras mecánicas:** Ventanas rompibles, boons (fuego, hielo, curación), comida de la tienda (reduce el porcentaje).
 
-**Casos límite:** Si el último enemigo y el jugador salen al mismo tiempo *(por definir)*.
+**Casos límite:** Si el último enemigo y el jugador salen al mismo tiempo, gana el jugador: el piso se completa, el jugador no pierde vida y reaparece para continuar.
 
 ### Mecánica 02 — Moveset estilo Smash
 

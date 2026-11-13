@@ -45,9 +45,11 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 | Transición de nivel             | Llega al nuevo piso                  | Jugando                             | En cualquier otro caso                        |
 | Tienda                          | Salir                                | Jugando                             | —                                             |
 | Combate contra mini-jefe        | Derrotar al mini-jefe                | Menú de boons                       | Hay boons o mejoras disponibles               |
-| Combate contra jefe final       | Derrotar al jefe final               | Ascensor disponible                 | No quedan boons o mejoras disponibles         |
+| Combate contra jefe final       | Derrotar al jefe final               | Victoria                            | Nivel 100                                     |
 | Jugando                         | Pierde la última vida                | Derrota / Game Over                 | —                                             |
-| Victoria / Derrota              | Continuar                            | Menú principal                      | —                                             |
+| Victoria                        | Continuar                            | Créditos                            | —                                             |
+| Créditos                        | Terminan los créditos                | Menú principal                      | —                                             |
+| Derrota / Game Over             | Continuar                            | Menú principal                      | —                                             |
 | Jugando                         | Esc / Start                          | Pausa                               | —                                             |
 | Pausa                           | Esc / Start                          | Jugando                             | —                                             |
 ## Reglas globales
@@ -61,7 +63,7 @@ Define las reglas globales y los estados que puede atravesar el videojuego.
 7. Las monedas y los boons solo duran una partida. No hay progreso permanente.
 8. Mini-jefe (enemigo élite) cada 20 niveles; jefe final en el nivel 100. Vencer al jefe final termina la partida.
 9. El ascensor se habilita después de completar todas las rondas del piso y elegir el boon o la mejora, si hay opciones disponibles.
-10. Derrotar al jefe final del piso 100 conduce a la victoria, sin otro ascenso.
+10. Derrotar al jefe final del piso 100 conduce a la pantalla de ¡Victoria!, sin otro ascenso ni elección de boon. Después se muestran los créditos y se regresa al menú principal.
 
 ## Casos especiales
 

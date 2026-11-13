@@ -24,9 +24,9 @@ Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercam
 
 **Rareza: Común**
 
-**Restricciones:**
+**Restricciones: No se vende en la tienda. No se puede guardar en un inventario: se consume en cuanto el personaje pasa por encima de ella**
 
-**Interacciones:**
+**Interacciones: Reduce el porcentaje de daño, igual que la comida de la tienda y el boon de curación. Porcentaje restante = porcentaje actual × 0.70**
 
 **Representación visual: Una lata de aluminio abollada con colores neón brillantes**
 
